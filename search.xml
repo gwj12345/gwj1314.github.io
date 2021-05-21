@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>「bzoj1001」A+B Problem</title>
+    <url>/bzoj1001/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>Test</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> a, b;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;a+b;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>bzoj</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello-world</title>
+    <url>/hello-world/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="Welcome-to-葛伟杰’Blog"><a href="#Welcome-to-葛伟杰’Blog" class="headerlink" title="Welcome to 葛伟杰’Blog"></a>Welcome to 葛伟杰’Blog</h2><blockquote>
+<p>博客说明</p>
+</blockquote>
+<p><strong>2017.9.2 Test</strong><br>hexo搭建的静态页面，网站资料托管在Github上<br>从本周起开始搬运<br>原博客地址：<a href="https://user.qzone.qq.com/2403668241/main" target="_blank" rel="noopener">qq空间</a>, <a href="http://blog.csdn.net/qq_33957603" target="_blank" rel="noopener">CSDN</a>, <a href="http://www.cnblogs.com/gwj1314/" target="_blank" rel="noopener">博客园</a>, <a href="http://gwj1314.azurewebsites.net/" target="_blank" rel="noopener">唯</a></p>
+<p><strong>2017.9.3</strong><br>因为时间原因只占了个坑尚未完成搭建<br>美化及部署还待更新。</p>
+<p><strong>2017.9.10</strong><br>看完了官方的说明文档，修改了博客界面<br>搬运了以前的部分文章，不过考虑到实际情况<br>旧版的时间和内容都不大可靠，甚至可以说，没法看，目前只用来凑数</p>
+<p><strong>2017.12.4</strong><br>这段时间发生好多事情，初赛翻车，月考爆炸，OI卡瓶颈等等。<br>总之，今天开始恢复更新。</p>
+<hr>
+
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=510952005&auto=1&height=66"></iframe>
+
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Notepad</title>
+    <url>/notepad/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h4 id="Word1"><a href="#Word1" class="headerlink" title="Word1"></a>Word1</h4><p>学生端：<code>ntsd /pn studentmain.exe</code></p>
+<h4 id="Word2"><a href="#Word2" class="headerlink" title="Word2"></a>Word2</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function">Sub <span class="title">button1_Click</span><span class="params">()</span></span></span><br><span class="line"><span class="function">Dim a As Integer</span></span><br><span class="line"><span class="function">Randomize</span></span><br><span class="line"><span class="function">a </span>= Int(Rnd() * <span class="number">49</span> + <span class="number">1</span>)</span><br><span class="line">Range(<span class="string">"a14"</span>) = a</span><br><span class="line">End Sub</span><br><span class="line"></span><br><span class="line">Sub button2_Click()</span><br><span class="line">Dim x, y As Integer</span><br><span class="line">Randomize</span><br><span class="line">x = Int(Rnd() * <span class="number">8</span> + <span class="number">1</span>)</span><br><span class="line">y = Int(Rnd() * <span class="number">6</span> + <span class="number">1</span>)</span><br><span class="line">Range(<span class="string">"a1:f8"</span>).Interior.ColorIndex = xlNone</span><br><span class="line">Cells(x, y).Interior.ColorIndex = <span class="number">3</span></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
+<h4 id="Word3"><a href="#Word3" class="headerlink" title="Word3"></a>Word3</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//https://vijos.org/p/1755</span></span><br><span class="line"><span class="comment">//https://www.luogu.org/problemnew/solution/P1074</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> s[<span class="number">10</span>][<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">//分值我们打标</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> score[<span class="number">10</span>][<span class="number">10</span>]=&#123;</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//计算分值</span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">calc</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> t=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            t += score[i][j]*s[i][j];</span><br><span class="line">    <span class="keyword">return</span> t;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//是否满足行列不相等</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">check</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//search</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//main</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">9</span>; i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= <span class="number">9</span>; j++)</span><br><span class="line">            <span class="built_in">cin</span>&gt;&gt;s[i][j];</span><br><span class="line">    dfs();</span><br><span class="line">    <span class="comment">//cout&lt;&lt;cacl()&lt;&lt;"\n";</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb push_back</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">getint</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x=<span class="number">0</span>,f=<span class="number">1</span>; <span class="keyword">char</span> ch=getchar();</span><br><span class="line">    <span class="keyword">while</span>(ch&gt;<span class="string">'9'</span>||ch&lt;<span class="string">'0'</span>)&#123;<span class="keyword">if</span>(ch==<span class="string">'-'</span>)f=-f; ch=getchar();&#125;</span><br><span class="line">    <span class="keyword">while</span>(ch&gt;=<span class="string">'0'</span>&amp;&amp;ch&lt;=<span class="string">'9'</span>)&#123;x=x*<span class="number">10</span>+ch-<span class="string">'0'</span>; ch=getchar();&#125;</span><br><span class="line">    <span class="keyword">return</span> f*x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXN=<span class="number">12</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> score[<span class="number">10</span>][<span class="number">10</span>]=</span><br><span class="line">&#123;&#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;&#125;;</span><br><span class="line"><span class="keyword">int</span> row[MAXN][MAXN],col[MAXN][MAXN],area[MAXN][MAXN],sdk[MAXN][MAXN];</span><br><span class="line"><span class="keyword">int</span> row_cnt[MAXN],col_cnt[MAXN],cnt,ans=<span class="number">-1</span>;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">id</span><span class="params">(<span class="keyword">int</span> i,<span class="keyword">int</span> j)</span></span>&#123;<span class="keyword">return</span> (i<span class="number">-1</span>)/<span class="number">3</span>*<span class="number">3</span>+<span class="number">1</span>+(j<span class="number">-1</span>)/<span class="number">3</span>;&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">calc</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> tmp=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            tmp+=score[i][j]*sdk[i][j];</span><br><span class="line">    <span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> r,<span class="keyword">int</span> c,<span class="keyword">int</span> cpl)</span></span>&#123;    </span><br><span class="line">    <span class="keyword">if</span>(cpl==<span class="number">81</span>)&#123;</span><br><span class="line">        ans=max(ans,calc());</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">1</span>;k&lt;=<span class="number">9</span>;++k)&#123;</span><br><span class="line">        <span class="keyword">if</span>(row[r][k]||col[c][k]||area[id(r,c)][k]) <span class="keyword">continue</span>;</span><br><span class="line">        row[r][k]=<span class="literal">true</span>;</span><br><span class="line">        col[c][k]=<span class="literal">true</span>;</span><br><span class="line">        area[id(r,c)][k]=<span class="literal">true</span>;</span><br><span class="line">        row_cnt[r]++,col_cnt[c]++;</span><br><span class="line">        sdk[r][c]=k;</span><br><span class="line">        <span class="keyword">int</span> tmpr=<span class="number">-1</span>,nxt_r=<span class="number">0</span>,tmpc=<span class="number">-1</span>,nxt_c=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">            <span class="keyword">if</span>(row_cnt[i]&gt;tmpr&amp;&amp;row_cnt[i]&lt;<span class="number">9</span>)</span><br><span class="line">                tmpr=row_cnt[i],nxt_r=i;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            <span class="keyword">if</span>(col_cnt[j]&gt;tmpc&amp;&amp;(!sdk[nxt_r][j]))</span><br><span class="line">                tmpc=col_cnt[j],nxt_c=j;</span><br><span class="line">        dfs(nxt_r,nxt_c,cpl+<span class="number">1</span>);</span><br><span class="line">        row[r][k]=<span class="literal">false</span>;</span><br><span class="line">        col[c][k]=<span class="literal">false</span>;</span><br><span class="line">        area[id(r,c)][k]=<span class="literal">false</span>;</span><br><span class="line">        row_cnt[r]--,col_cnt[c]--;</span><br><span class="line">        sdk[r][c]=<span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;    </span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)&#123;</span><br><span class="line">            sdk[i][j]=getint();</span><br><span class="line">            <span class="keyword">if</span>(sdk[i][j]!=<span class="number">0</span>)&#123;</span><br><span class="line">                row[i][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                col[j][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                area[id(i,j)][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                row_cnt[i]++,col_cnt[j]++;</span><br><span class="line">                cnt++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> tmpr=<span class="number">-1</span>,r,tmpc=<span class="number">-1</span>,c;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">if</span>(row_cnt[i]&gt;tmpr&amp;&amp;row_cnt[i]&lt;<span class="number">9</span>)</span><br><span class="line">            tmpr=row_cnt[i],r=i;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">        <span class="keyword">if</span>(col_cnt[j]&gt;tmpc&amp;&amp;(!sdk[r][j]))</span><br><span class="line">            tmpc=col_cnt[j],c=j;</span><br><span class="line">    dfs(r,c,cnt);</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;ans&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//八数码</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作者:gwj233</span></span><br><span class="line"><span class="comment">题目:p1225 八数码难题</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>  maxn = <span class="number">1000000</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line">State st[maxn], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[maxn];</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;vis;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span>&#123; vis.clear();&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)t = t*<span class="number">10</span>+st[x][i];</span><br><span class="line">	<span class="keyword">if</span>(vis.count(t))<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	vis.insert(t);</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">bool</span> vis2[<span class="number">362880</span>]; <span class="keyword">int</span> fact[<span class="number">9</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init2</span><span class="params">()</span></span>&#123;</span><br><span class="line">	fact[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; <span class="number">9</span>; i++)fact[i] = fact[i<span class="number">-1</span>]*i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert2</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> code = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = i+<span class="number">1</span>; j &lt; <span class="number">9</span>; j++)<span class="keyword">if</span>(st[x][j] &lt; st[x][i])cnt++;</span><br><span class="line">		code += fact[<span class="number">8</span>-i]*cnt;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(vis2[code])<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	<span class="keyword">return</span> vis2[code]=<span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXHASHSIZE = <span class="number">1000003</span>;</span><br><span class="line"><span class="keyword">int</span> head[MAXHASHSIZE], next[MAXHASHSIZE];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init3</span><span class="params">()</span></span>&#123; <span class="built_in">memset</span>(head, <span class="number">0</span>, <span class="keyword">sizeof</span>(head));&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hash</span><span class="params">(State&amp; s)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> v = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)v = v*<span class="number">10</span>+s[i];</span><br><span class="line">	<span class="keyword">return</span> v % MAXHASHSIZE;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert3</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> h = hash(st[x]);</span><br><span class="line">	<span class="keyword">int</span> u = head[h];</span><br><span class="line">	<span class="keyword">while</span>(u)&#123;</span><br><span class="line">		<span class="keyword">bool</span> ok = <span class="literal">true</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)</span><br><span class="line">			<span class="keyword">if</span>(st[u][i] != st[x][i])ok = <span class="literal">false</span>;</span><br><span class="line">		<span class="keyword">if</span>(ok) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		u = next[u];</span><br><span class="line">	&#125;</span><br><span class="line">	next[x] = head[h];</span><br><span class="line">	next[h] = x;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">-1</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">	init2();</span><br><span class="line">	<span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">while</span>(front &lt; rear)&#123;</span><br><span class="line">		<span class="keyword">bool</span> ok = <span class="literal">true</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)</span><br><span class="line">			<span class="keyword">if</span>(st[front][i] != goal[i])ok = <span class="literal">false</span>;</span><br><span class="line">		<span class="keyword">if</span>(ok) <span class="keyword">return</span> front;</span><br><span class="line">		<span class="keyword">int</span> z;</span><br><span class="line">		<span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++)<span class="keyword">if</span>(!st[front][z])<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> newx=x+dx[i], newy=y+dy[i], newz=newx*<span class="number">3</span>+newy;</span><br><span class="line">			<span class="keyword">if</span>(newx&gt;=<span class="number">0</span> &amp;&amp; newx&lt;<span class="number">3</span> &amp;&amp; newy&gt;=<span class="number">0</span> &amp;&amp; newy&lt;<span class="number">3</span>)&#123;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">9</span>; j++)st[rear][j] = st[front][j];</span><br><span class="line">				st[rear][newz] = st[front][z];</span><br><span class="line">				st[rear][z] = st[front][newz];</span><br><span class="line">				dist[rear] = dist[front]+<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">if</span>(insert2(rear))rear++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		front++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;dist[bfs()];</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 八数码，使用哈希表（竞赛中最常用）</span></span><br><span class="line"><span class="comment">// Rujia Liu</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXSTATE = <span class="number">1000000</span>;</span><br><span class="line">State st[MAXSTATE], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[MAXSTATE];</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXHASHSIZE = <span class="number">1000003</span>;</span><br><span class="line"><span class="keyword">int</span> head[MAXHASHSIZE], next[MAXSTATE];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init_lookup_table</span><span class="params">()</span> </span>&#123; <span class="built_in">memset</span>(head, <span class="number">0</span>, <span class="keyword">sizeof</span>(head)); &#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hash</span><span class="params">(State&amp; s)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> v = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++) v = v * <span class="number">10</span> + s[i];</span><br><span class="line">  <span class="keyword">return</span> v % MAXHASHSIZE;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">try_to_insert</span><span class="params">(<span class="keyword">int</span> s)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> h = hash(st[s]);</span><br><span class="line">  <span class="keyword">int</span> u = head[h];</span><br><span class="line">  <span class="keyword">while</span>(u) &#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">memcmp</span>(st[u], st[s], <span class="keyword">sizeof</span>(st[s])) == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    u = next[u];</span><br><span class="line">  &#125;</span><br><span class="line">  next[s] = head[h];</span><br><span class="line">  head[h] = s;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">-1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">1</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  init_lookup_table();</span><br><span class="line">  <span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">  <span class="keyword">while</span>(front &lt; rear) &#123;</span><br><span class="line">    State&amp; s = st[front];</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">memcmp</span>(goal, s, <span class="keyword">sizeof</span>(s)) == <span class="number">0</span>) <span class="keyword">return</span> front;</span><br><span class="line">    <span class="keyword">int</span> z;</span><br><span class="line">    <span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++) <span class="keyword">if</span>(!s[z]) <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> d = <span class="number">0</span>; d &lt; <span class="number">4</span>; d++) &#123;</span><br><span class="line">      <span class="keyword">int</span> newx = x + dx[d];</span><br><span class="line">      <span class="keyword">int</span> newy = y + dy[d];</span><br><span class="line">      <span class="keyword">int</span> newz = newx * <span class="number">3</span> + newy;</span><br><span class="line">      <span class="keyword">if</span>(newx &gt;= <span class="number">0</span> &amp;&amp; newx &lt; <span class="number">3</span> &amp;&amp; newy &gt;= <span class="number">0</span> &amp;&amp; newy &lt; <span class="number">3</span>) &#123;</span><br><span class="line">        State&amp; t = st[rear];</span><br><span class="line">        <span class="built_in">memcpy</span>(&amp;t, &amp;s, <span class="keyword">sizeof</span>(s));</span><br><span class="line">        t[newz] = s[z];</span><br><span class="line">        t[z] = s[newz];</span><br><span class="line">        dist[rear] = dist[front] + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(try_to_insert(rear)) rear++;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    front++;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">  <span class="keyword">int</span> ans = bfs();</span><br><span class="line">  <span class="keyword">if</span>(ans &gt; <span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, dist[ans]);</span><br><span class="line">  <span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"-1\n"</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作者:gwj1139177410</span></span><br><span class="line"><span class="comment">题目:p1225 八数码难题</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxn = <span class="number">1000000</span>;</span><br><span class="line">State st[maxn], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[maxn];</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;vis;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span>&#123; vis.clear();&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> s)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)t = t*<span class="number">10</span>+st[s][i];</span><br><span class="line">	<span class="keyword">if</span>(vis.count(t))<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	vis.insert(t);</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">-1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">1</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">	init();</span><br><span class="line">	<span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">while</span>(front &lt; rear)&#123;</span><br><span class="line">		State&amp; t = st[front];</span><br><span class="line">		<span class="keyword">if</span>(<span class="built_in">memcmp</span>(goal, t, <span class="keyword">sizeof</span>(t)) == <span class="number">0</span>)<span class="keyword">return</span> front;</span><br><span class="line">		<span class="keyword">int</span> z;</span><br><span class="line">		<span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++)<span class="keyword">if</span>(!t[z])<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> newx = x+dx[i], newy = y+dy[i], newz = newx*<span class="number">3</span>+newy;</span><br><span class="line">			<span class="keyword">if</span>(newx&gt;=<span class="number">0</span> &amp;&amp; newx&lt;<span class="number">3</span> &amp;&amp; newy&gt;=<span class="number">0</span> &amp;&amp; newy&lt;<span class="number">3</span>)&#123;</span><br><span class="line">				State&amp; tt = st[rear];</span><br><span class="line">				<span class="built_in">memcpy</span>(&amp;tt, &amp;t, <span class="keyword">sizeof</span>(t));</span><br><span class="line">				swap(tt[z], tt[newz]);</span><br><span class="line">				dist[rear] = dist[front]+<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">if</span>(insert(rear)) rear++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		front++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;dist[bfs()];</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>参考资料</p>
+<p><a href="http://blog.csdn.net/a1323933782/article/details/53363745" target="_blank" rel="noopener">极域九法</a></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Chinese</title>
+    <url>/chinese/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h4 id="Word1"><a href="#Word1" class="headerlink" title="Word1"></a>Word1</h4><p>为大家带来一首纯音乐233<br></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“正确”与“一致性”与“数学”与“世界”</title>
+    <url>/diary/%E2%80%9C%E6%AD%A3%E7%A1%AE%E2%80%9D%E4%B8%8E%E2%80%9C%E4%B8%80%E8%87%B4%E6%80%A7%E2%80%9D%E4%B8%8E%E2%80%9C%E6%95%B0%E5%AD%A6%E2%80%9D%E4%B8%8E%E2%80%9C%E4%B8%96%E7%95%8C%E2%80%9D/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>转自世界：<a href="http://blog.csdn.net/popoqqq/article/details/78066428" target="_blank" rel="noopener">http://blog.csdn.net/popoqqq/article/details/78066428</a></p>
+<p> 1.数学上的正确 </p>
+<p>命题P：1+2=3。正确。<br>命题Q：加法支持交换律。正确。<br>命题R：2+1=3。正确。<br>明眼人一看就知道，这三个命题都是正确的。<br>如果你再学过一点逻辑学，那么可以推导出这样的结论：<br>P∧Q→R<br>现在思考，什么是正确？或者说，正确具有什么样的特性？<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>好，我要说答案了。<br>正确具有<strong>“一致性”</strong>。<br>准确地来说，那就是用正确的结论之间加以推导，一定得到的是正确的结论。<br>那么照着这个来说，我们来思考“正确”的对立面——“<strong>错误</strong>”。<br>正确加错误，错误加正确，错误加错误，这些东西都不能保证得到“正确”，就像你把水和水掺在一起一定会得到水，但是你把水和盐水，盐水和水，盐水和盐水掺在一起，得到的都不会是纯水。<br>幸运的是，我们人类从发展至今苦苦建立的庞大数学体系里没有“盐水”的存在（我不敢说绝对），数学从根基开始建立，沿着定理与推论的枝叶发展，从头到尾都是一致的，我们将与这棵参天巨树一致的东西称作“正确”。<br>我不清楚逻辑空间里能不能建立出一棵与“数学”相不一致的另一棵树，或许不能——我崇敬并信仰数学，更信仰数学带来的完美的一致性，并相信这个世界是数学构成的。<br>理清了上述结论后，我们可以这样说：</p>
+<p><strong>一致性+数学=正确。</strong></p>
+<p>或者激进一点：</p>
+<p><strong>抛开数学谈正确就是耍流氓。</strong></p>
+<p>这样，我们就将“正确”这个词定义成了一个数学名词。</p>
+<p>2.一致性<br>我们尝试将数学上的完美的一致性放在现实世界中，但是结果往往是令人沮丧的。比如，有的人喜欢吃甜的，有的人喜欢吃咸的，有的人喜欢吃辣的，那么如何定义“美味”？我说这个食物“美味”，那么这句话到底是不是“正确”的呢？<br>我们发现，数学上的完美一致性放在现实世界中彻底失效。我们每天听到各种“忠言”，繁多纷杂，自相矛盾；于是我们决定相信自己，然而遇到挫折之后又去想要相信他人；最后我们只能告诉自己“明辨是非”，可是我们连参照物都没有，根本不知道该如何“明辨是非”；我们去听讲座、读传记，想要找一个参照物，却发现他们的世界套在自己身上，根本不管用。<br>离开了数学，一致性显得那么可笑，那么虚无缥缈。<br>世事无绝对，说的就是一致性在现实世界的无力。</p>
+<p>可是世界真的没有一致性吗？<br><del>除他以外的</del>人活不过200年就会死。<br>这是人尽皆知的结论，尽管我们没有任何手段可以证明它，甚至我们不能完美地定义“人”，“活”和“死”。<br>（柏拉图：人不就是没有羽毛的两脚直立的动物么）<br>那么这个结论是怎么来的呢？很简单，因为现今记录根本没有人活到过那么长。<br>好，那么现在我们就有了一个数学模型：<br>将世界上<del>除他以外</del>所有的“人”看做个体，定义其“寿命”为一个特征，单位为年，统计所有个体中此特征，其最大值小于200，故<del>除他以外的</del>人活不过200年就会死。<br>证毕。<br>数学模型的正确性是显而易见的，但是整个问题的前提与数学模型、数学模型与结论之间是<strong>不完全一致</strong>的，比如说<del>“他”、</del>“人”、“寿命”、“活”和“死”不能精确定义，“年”也不是一个固定时长的单位，时差对于时间计算的影响，乃至于相对论都会影响这些一致性。<br>我们只是把现实中的前提化成了数学模型中的前提，然后推出了数学模型中的结论，然后又化成了现实中的结论而已。<br>数学模型构建起了世界与世界之间的桥梁，桥梁本身绝对稳固，但现世与桥梁之间的连接并不牢靠，我们称现世中的一致性为“<strong>模糊一致性</strong>”。这里的“模糊”与模糊数学中的“模糊”同一概念。</p>
+<p>3.数学模型<br>其实我们根本研究不了这个世界，我们研究的所有东西都是数学模型。<br>我们所熟识的物理，化学，都是将现世的法则抽象成了数学模型再加以研究的。<br>这个抽象看似精确但并不必然，无论有多少例子在佐证这些结论，抽象也永远是抽象，不可能被证明，所以他们被称为定律而不是定理，因为这些结论都是建立在普遍观测的规律上的。<br>几百年前，牛顿建立起了牛顿力学体系；后来，相对论推翻了牛顿力学，建立起了相对论力学体系；可是我们仍不知道还有什么东西会推翻相对论。物理学在无法观测的领域（时间跳跃，高维空间，……）显得极度的无力，然而数学上的一些工具却可以轻易地处理这些东西。<br>不光物理，这世间一切元素在研究的时候都会被视作数学模型。当你试图和别人说明一个道理的时候，如果你说不明白，说明你们对相关理论的理解的一致性出现了偏差，换句话说，世界观不一样。<br>我自诩为世界学家，我研究的对象是世界的法则，那么在此我其实是将世界抽象成了一个数学模型，而你在看这篇胡诌的时候也是将世界抽象成了一个数学模型来理解的。如果你对我这里的“数学”、“物理”的概念理解与我不同，恭喜你——</p>
+<p>我们之间的数学桥梁“模糊”了。</p>
+<p>4.无关内容<br>所以至今没搞明白某个天天自吹还逼着别人听他吹的民科组织口中说的“正确”到底是指啥。<br>吵架的时候脑洞出来的理论 今天整理了一下发现放在上面简直不能太贴切。</p>
+]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Diary</tag>
+        <tag>脑洞</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NOIP知识点汇总</title>
+    <url>/tools/NOIP%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="NOIP知识点汇总"><a href="#NOIP知识点汇总" class="headerlink" title="NOIP知识点汇总"></a>NOIP知识点汇总</h2><p><strong>加*号是选学，加粗为重点，重要值排序不分先后</strong></p>
+<ul>
+<li>基础<a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">算法</a><ul>
+<li><strong>贪心、枚举、分治、二分、倍增、***</strong>构造<strong>、</strong>高精、模拟**</li>
+</ul>
+</li>
+<li>图论<ul>
+<li>图 <ul>
+<li><strong>最短路（dijkstra、spfa、floyd）</strong>，差分约束</li>
+<li><strong>最小生成树（kruskal、prim）</strong></li>
+<li><strong>并查集（扩展域）</strong></li>
+<li><strong>拓扑排序</strong></li>
+<li><strong>二分图染色</strong>，*二分图匹配</li>
+<li><strong>tarjan找scc、桥、割点，缩点</strong></li>
+<li>*分数规划</li>
+</ul>
+</li>
+<li>树 <ul>
+<li><strong>树上倍增（LCA）</strong></li>
+<li>树的直径、树的重心</li>
+<li><strong>dfs序</strong></li>
+<li>*树链剖分</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数论<ul>
+<li><strong>gcd、lcm</strong></li>
+<li><strong>埃氏筛法</strong></li>
+<li><strong>exgcd，求解同余方程、逆元</strong></li>
+<li><strong>快速幂</strong></li>
+<li>*组合数学</li>
+<li>矩阵</li>
+</ul>
+</li>
+<li><a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">数据结构</a><ul>
+<li><strong>链表、队列（单调队列）、栈（单调栈）</strong></li>
+<li><strong>堆、st表、hash表</strong></li>
+<li><strong>线段树、树状数组</strong></li>
+<li>字典树</li>
+<li>*分块</li>
+</ul>
+</li>
+<li>动态规划<ul>
+<li><strong>背包DP、树形DP、记忆化搜索、递推</strong></li>
+<li><strong>区间DP、序列DP</strong></li>
+<li><strong>*DP优化</strong>（不涉及斜率优化、四边形不等式等等）</li>
+</ul>
+</li>
+<li>搜索<ul>
+<li><strong>暴搜（dfs、bfs）</strong></li>
+<li><strong>搜索的剪枝</strong></li>
+<li>启发式搜索（A*）</li>
+<li>迭代加深搜索、<em> IDA</em></li>
+<li>*随机化搜索</li>
+</ul>
+</li>
+<li>其他算法<ul>
+<li><strong>STL的基本使用方法</strong></li>
+<li>脑洞的正确使用方法</li>
+<li>*KMP</li>
+<li><strong>*状态压缩</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="省选知识点汇总"><a href="#省选知识点汇总" class="headerlink" title="省选知识点汇总"></a>省选知识点汇总</h2><p>冲省选的，<strong>先把整理的NOIP知识点学扎实，注意一定要学扎实</strong><br>加粗是重点，星号是选学<br>学无止境，欢迎大家继续补充~</p>
+<ul>
+<li>图论<ul>
+<li><strong>网络流</strong>（dinic，SAP，ISAP选一个，费用流写EK就行。*zkw费用流），<strong>二分图</strong></li>
+<li><strong>点分治，边分治</strong>，*动态点分治</li>
+<li><strong>树链剖分，动态树，树分块</strong></li>
+<li><strong>虚树</strong>，*prufer编码</li>
+<li><strong>*仙人掌算法</strong></li>
+</ul>
+</li>
+<li>数据结构<ul>
+<li>带权并查集</li>
+<li><strong>Splay</strong>（作为平衡树和维护区间），Treap，替罪羊树</li>
+<li><strong>线段树（权值线段树），树状数组</strong>，*线段树合并</li>
+<li><strong>分块，块状链表</strong>，*双向链表</li>
+<li><strong>凸包</strong></li>
+<li><strong>树套树</strong></li>
+<li><strong>主席树，可持久化trie，*其它可持久化数据结构</strong></li>
+<li><strong>莫队算法</strong>，*树上莫队，<strong>CDQ分治，整体二分</strong></li>
+<li><strong>二维线段树，*KDtree</strong></li>
+<li><em>舞蹈链，</em>二进制分组，<em>左偏树，</em>超哥线段树，<em>后缀平衡树，</em>fhqTreap</li>
+</ul>
+</li>
+<li>字符串相关算法及数据结构<ul>
+<li><strong>hash（自然溢出，双hash）</strong></li>
+<li><strong>kmp，AC自动机，trie</strong></li>
+<li><strong>后缀数组</strong></li>
+<li>manacher，最小表示法</li>
+<li><em>后缀自动机，</em>回文自动机，*后缀树</li>
+</ul>
+</li>
+<li><strong>数学</strong><ul>
+<li><strong>线性筛，积性函数，容斥原理，莫比乌斯反演</strong></li>
+<li><strong>exgcd，费马小定理，Lucas定理，高中排列组合</strong></li>
+<li><strong>高斯消元，概率与期望相关</strong></li>
+<li><strong>中国剩余定理，BSGS，欧拉定理</strong></li>
+<li><strong>矩阵乘法</strong></li>
+<li><strong>单纯形法解线性规划</strong></li>
+<li><strong>FFT</strong></li>
+<li><strong>线性代数（行列式）</strong></li>
+<li>*Simpson积分，高中求导与积分</li>
+<li>*群论</li>
+<li>*生成函数， <strong>多项式类算法</strong></li>
+<li><strong>博弈论相关</strong>，*密码学，<strong>阶，原根</strong></li>
+</ul>
+</li>
+<li>计算几何<ul>
+<li><strong>向量的点积/叉积，计算几何基础</strong></li>
+<li><em>二维计算几何相关，</em>三维计算几何相关</li>
+<li><em>半平面交，</em>旋转卡壳，*三角剖分</li>
+</ul>
+</li>
+<li>搜索<ul>
+<li><strong>A*，记忆化搜索，迭代深搜，双向广搜</strong></li>
+<li>模拟退火，爬山算法，*随机增量法</li>
+</ul>
+</li>
+<li>动态规划<ul>
+<li><strong>基础DP，树形DP，数位DP，状压DP，期望DP，基环树DP，*插头DP</strong></li>
+<li><strong>斜率优化，矩乘优化，单调队列优化，倍增优化</strong>，*四边形不等式优化</li>
+<li>trie图DP，*仙人掌DP</li>
+</ul>
+</li>
+<li>其他算法<ul>
+<li><strong>构造</strong>，<strong>乱搞，随机化</strong>，三分法，<strong>打表</strong>，<strong>启发式合并</strong></li>
+<li>Huffman树，2-sat，*朱刘算法</li>
+</ul>
+</li>
+</ul>
+<p>说真的，计算几何要么全场不会，要么全场AK。所以尽量花时间在别的地方吧。</p>
+<blockquote>
+<p>参考资料</p>
+<p><a href="http://blog.csdn.net/txl199106/article/details/71504478" target="_blank" rel="noopener">NOIP知识点汇总</a></p>
+<p><a href="http://blog.csdn.net/loi_dqs/article/details/52076386" target="_blank" rel="noopener">省选知识点汇总</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>NOIP</tag>
+        <tag>考纲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性代数</title>
+    <url>/note/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h3 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h3><blockquote>
+<p>For LaTeX Test</p>
+</blockquote>
+<h4 id="0x01-行列式的计算"><a href="#0x01-行列式的计算" class="headerlink" title="0x01 行列式的计算"></a>0x01 行列式的计算</h4><ol>
+<li>某行(列)加上或减去另一行(列)的几倍，行列式不变。</li>
+<li>行(列)乘k，等于k乘此行列式。</li>
+<li>互换两行(列)，行列式变号。</li>
+</ol>
+<h4 id="0x02-计算的题型和套路"><a href="#0x02-计算的题型和套路" class="headerlink" title="0x02 计算的题型和套路"></a>0x02 计算的题型和套路</h4><ol>
+<li><p>只有两个数字, 对角线是一个: 套公式 $$ (x-a)^{n-1}[x+(n-1)a] $$</p>
+</li>
+<li><p>$$ x^{0}, x^{1}, x^{2} … x^{n-1} = (x_n-x_{n-1})(x_n-x_{n-2})…(x_n-x_1)<em>(x_{n-1}-x_{n-2})…</em>_(x_{n-1}-x_1)*…$$</p>
+</li>
+<li><p>两行(列)相同或成比例时, 行列式为0。以及某行(列)为两项相加减时，行列式可拆成两个行列式相加减。</p>
+</li>
+<li><p>求余子式M和代数余子式A(要乘以-1的行加列次方)</p>
+</li>
+<li><p>$$ D=a_{i1}A_{i1}+a_{i2}A_{i2}+…+a_{in}A_{in}  (第i行)$$</p>
+</li>
+<li><p>多个A或M相加减: 把M换成A, 找到对应A的位置, 用系数替换, 计算行列式。</p>
+</li>
+<li><p>给一组方程组，判断解的情况： 计算系数组成的行列式</p>
+<p>| 方程组  | D!=0    | D==0    |<br>| :— | ——- | :—— |<br>| 其次   | 只有一组零解  | 有零解与非零解 |<br>| 非其次  | 只有一组非零解 | 有多个解或无解 |</p>
+</li>
+</ol>
+<h4 id="0x03-矩阵运算上"><a href="#0x03-矩阵运算上" class="headerlink" title="0x03 矩阵运算上"></a>0x03 矩阵运算上</h4><ol>
+<li>矩阵加减</li>
+<li>矩阵相乘，前行乘后列<ol>
+<li>零矩阵，全为零的矩阵。 任何矩阵乘零矩阵都是0。</li>
+<li>E矩阵，对角线为1其余全为0。任何矩阵乘E矩阵都是本身。E*E=E。</li>
+<li>AB与BA未必相等。矩阵相乘有顺序。</li>
+<li>AX=AY不能推出X=Y。矩阵没有除法。</li>
+<li>$$(AB)^k != A^kB^k$$。这个不能展开。</li>
+<li>$$A^2+2AB+B^2不能合并成(A+B)^2$$，十字相乘同理。如果B为E则该条成立。</li>
+</ol>
+</li>
+<li>矩阵取绝对值。矩阵变成行列式。。。以及$$ |\lambda A|=\lambda^n|A|$$</li>
+</ol>
+<h4 id="0x04-矩阵运算下"><a href="#0x04-矩阵运算下" class="headerlink" title="0x04 矩阵运算下"></a>0x04 矩阵运算下</h4><ol>
+<li>矩阵转置。先用行乘列+$$(AB)^T=B^TA^T$$ + $$|A^T=A|$$</li>
+<li>证明矩阵可逆。为方正(行列数相同)+|A|!=0(或者存在B使得AB=E或BA=E)</li>
+<li>求逆矩阵，把(A:E)变成(E:B),则B就是A的逆矩阵。</li>
+<li>利用$A*A^{-1}=E$来计算</li>
+<li>A的伴随矩阵$A^<em>A=|A|E$或$AA^</em>=|A|E$</li>
+<li>求矩阵的秩即R(A),进行行变换，使下行左端的0比上行多，直到下面全为0为止</li>
+<li>已知秩，求未知数：不管未知数先变成0。</li>
+</ol>
+<h4 id="0x05-向量组与线性空间"><a href="#0x05-向量组与线性空间" class="headerlink" title="0x05 向量组与线性空间"></a>0x05 向量组与线性空间</h4><ol>
+<li>某向量是否可由其他向量表示：$$A=(a_1,a_2,a_3), B=(a_1,a_2,a_3,b), if R(A)==R(B)ok,else not ok$$</li>
+<li>某向量组是否线性相关：若R(A)&lt;向量个数则线性相关，若R(A)=向量个数则无关。$A=(a_1,a_2,a_3,a_4)$。 存在一组可由其他向量表 示的。</li>
+<li>已知一组基底，求某一向量在此下的坐标。待定系数法设方程并带入。</li>
+<li>求行向量的极大无关组。先编号，然后求秩(若交换两行则编号也要交换)，最后取秩的个数个编号为答案。</li>
+</ol>
+<h4 id="0x06-解方程组"><a href="#0x06-解方程组" class="headerlink" title="0x06 解方程组"></a>0x06 解方程组</h4><ol>
+<li>判断方程组有无解</li>
+<li>解方程组</li>
+<li>求方程组通解，特解，基础解系。</li>
+<li>已知某方程组的特解，求某其次方程组的通解</li>
+<li>已知某方程组的特解，求某其非齐次方程组的通解</li>
+<li>集合中线性无关的解向量个数</li>
+</ol>
+<h4 id="0x07-方正对角化及应用"><a href="#0x07-方正对角化及应用" class="headerlink" title="0x07 方正对角化及应用"></a>0x07 方正对角化及应用</h4><ol>
+<li>规范正交化</li>
+<li>求矩阵特征值：满足$|A-\lambda E|=0$的$\lambda$即为特征值</li>
+<li>求矩阵特征向量：(A-$\lambda$E)x=0的通解</li>
+<li>方阵与对角线相似或$P^{-1}AP=A$：方阵向量个数等于方阵阶数</li>
+<li>求方阵的对角阵A和可逆变换矩阵P</li>
+<li>求方阵的复杂式子。</li>
+</ol>
+<h4 id="0x08-二次型"><a href="#0x08-二次型" class="headerlink" title="0x08 二次型"></a>0x08 二次型</h4><ol>
+<li>对应的系数矩阵，套公式</li>
+<li>化成标准型</li>
+<li>​</li>
+</ol>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境变量</title>
+    <url>/tools/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><blockquote>
+<p>mac下终端出现command not found现象解决</p>
+</blockquote>
+<ol>
+<li>终端输入<code>cd</code></li>
+<li>输入<code>touch .bash_profile</code></li>
+<li>输入<code>open -e .bash_profile</code></li>
+<li>导入你的默认path     <code>/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:</code>不同的PATH 用”:”隔开</li>
+</ol>
+<blockquote>
+<p>参考资料</p>
+<p><a href="http://blog.csdn.net/matrixhero/article/details/8114065" target="_blank" rel="noopener">mac下终端出现command not found现象解决</a></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>BZOJ题目一句话题解整理</title>
+    <url>/tools/BZOJ%E9%A2%98%E7%9B%AE%E4%B8%80%E5%8F%A5%E8%AF%9D%E9%A2%98%E8%A7%A3%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><blockquote>
+<p><a href="http://blog.csdn.net/creationaugust/article/details/51387623" target="_blank" rel="noopener">BZOJ题目一句话题解整理</a><br>就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.<br>做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..<br>部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.<br>可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的<br>UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ</p>
+</blockquote>
+<p>已AC的题目及部分未AC但是知道标算的题目(数学题均不提供分析过程,公式):<br>1000:A+B<br>1001:平面图最小割,转对偶图最短路<br>1002:矩阵树定理,也可以通过推矩阵的递推关系得到递推式<br>1003:最短路+DP<br>1007:半平面交<br>1008:组合数学,需要高精<br>1010:斜率优化/四边形不等式推决策单调性<br>1012:线段树<br>1014:Splay维护字符串的Hash值<br>1016:矩阵树定理,相同权值压联通块,对一个联通块用一次矩阵树定理计算方案数,累积答案 也可以DFS<br>1023:仙人掌DP找直径<br>1031:直接构建出倍长后串的SA,用rank数组做<br>1034:贪心<br>1036:树链剖分/LCT<br>1038:半平面交<br>1041:数论,推一下公式 也可以用一种跟勾股定理相关的做法<br>1043:计算几何,细节已忘.<br>1050:并查集,细节已忘.<br>1053:爆搜<br>1054:模拟<br>1059:二分图最大匹配,对行和列做点<br>1061:不等关系转费用流建图<br>1066:最大流<br>1067:线段树分类讨论<br>1070:费用流<br>1072:状压DP,据说暴力可过<br>1083:最小生成树<br>1087:状压DP<br>1088:枚举状态,暴力<br>1089:找规律,需要高精,也可以用组合数学推一下<br>1092:模拟<br>1095:动态树分治,或者dfs序线段树维护括号序列<br>1099:线段树+分类讨论<br>1101:莫比乌斯反演,同HAOI ProblemB<br>1103:dfs序,或者链剖<br>1106:树状数组.考虑记录下每个元素上一次出现的位置,然后BIT搞一搞.<br>1112:权值平衡树,中位数相关.<br>1113:好像是单调栈扫一扫就没了.<br>1121:一个结论题,答案是n/2.<br>1131:树形DP一下.<br>1132:答案的式子可以看出一个坐标的前缀和,优化一下暴力.<br>1143:利用那些图论定理,最长反链=n-最大匹配.<br>1145:很多种情况,BIT维护一下然后把这些情况加加减减.网上有WJMZBMR题解.<br>1146:一个比较模板的题..为了不被卡常卡空间可以考虑把其中一维搞上整体二分.<br>1167:空数据,Python 2B<br>1176:cdq分治,或者kdtree<br>1180:LCT<br>1191:二分图最大匹配<br>1192:考虑二进制分解.<br>1193:大规模贪心,小规模暴力.<br>1195:状压DP,与某道TC SRM一样.<br>1202:加权并查集,维护前缀和.<br>1208:权值平衡树.<br>1213:二分,Python.<br>1214:空数据,Python 2B<br>1227:组合,容斥,二维BIT.建议看黄学长题解.<br>1269:区间Splay裸题.<br>1307:题意是找最大的一个区间使得区间内为一个排列.记录前驱后继,可以得到符合条件的判定关系与区间长度,区间最大值最小值差有关.通过前驱后继来查询这个东西.<br>1318:同1307<br>1336:最小圆覆盖<br>1337:同1336<br>1342:对当前区间搞了个set.<br>1345:规律+结论题,附核心代码,我也不知道怎么证的</p>
+<p>for (int i=1;i&lt;=n;i++)<br>    {<br>        in(a[i]);<br>        if (i&gt;=2)<br>        {<br>            if (a[i]&gt;maxn)  sum+=a[i];<br>            else    sum+=maxn;<br>        }<br>        maxn=a[i];<br>    }<br>    cout&lt;&lt;sum&lt;&lt;endl;</p>
+<p>1351:空数据,Python 2B<br>1360:空数据,Python 2B<br>1370:并查集.(这不是某NOIP题吗<br>1379:答案就是m.忘了为什么了.<br>1398:KMP最小表示,卡SAM内存.<br>1406:数论,找质因子搞一搞.<br>1419:DP一下.枚举选到了i张红的,然后1~b枚举选到了多少黑的.似乎需要滚一下数组压内存.<br>1453:方法很多,提供四个.1.LCT维护删除时间最大生成树 2.cdq分治+并查集 3.A*爆搜 4.线段树维护连通性<br>1482:空数据,Python 2B<br>1492:斜率优化,因为状态点的x不单调,所以需要平衡树或者cdq分治<br>1500:区间Splay.<br>1502:Simpson积分.<br>1503:权值平衡树<br>1513:二维线段树<br>1529:答案是联通块个数,并查集或者Tarjan都可以.<br>1532:二分答案,最大流判定.<br>1543:同JSOI2008最小生成树计数.<br>1563:四边形不等式推出决策单调,二分决策点.<br>1568:李超线段树.<br>1588:权值平衡树.<br>1798:线段树双标记.但是我是拿LCT写的.<br>1800:暴力<br>1821:二分答案+并查集<br>1853:爆搜<br>1857:三分套三分.<br>1875:矩乘优化DP<br>1876:Python题,直接GCD<br>1877:拆点费用流<br>1878:离线处理+树状数组<br>1879:状压DP<br>1880:四遍最短路,然后DP一下<br>1898:可以发现每12次还是6次一个循环,然后对大范围矩乘一下,剩下的一点暴力DP出来.<br>1902:考虑p进制拆分,答案是拆分后每一位+1的乘积 证明好像是考虑Lucas定理的<br>也可以数位DP+组合数学,但是无论哪种做法都需要Python高精度<br>1907:树的最小路径覆盖,可以直接树DP/贪心<br>1922:分层图最短路<br>1923:高斯消元.<br>1924:强联通分量缩点最长路<br>1925:DP.需要用到一些抖动子序列的性质.<br>1941:kdtree最远点<br>1951:数论板子合集.<br>1968:枚举1~n统计n/i的和<br>1969:LCT维护两点间桥边数量,不知道当年标算是什么但应该不是LCT吧<br>1979:二分答案,用平衡树判定.<br>1984:链剖/LCT裸题.<br>1997:平面图判定.需要平面图理论.<br>2000:可以贪心的博弈问题.网上很多证明.<br>2001:可以LCT,也可以cdq,cdq的话需要很多最小生成树的性质.<br>2002:可以LCT,可以分块.<br>2003:特技爆搜.<br>2004:矩乘优化DP<br>2005:莫比乌斯反演<br>2006:线段树+堆维护五元组<br>2012:容斥+组合,同SDOI2013Spring<br>2013:DP+二分<br>2045:同POI2007Zap<br>2049:国内第一个LCT<br>2051:点分治<br>2054:并查集的特技<br>2056:嘿嘿嘿<br>2064:状压DP<br>2089:同2090.<br>2090:权值线段树优化一下DP.感觉这个DP好像并不一定对啊..但是大家好像都是这么写的.<br>2093:左右端点移动一下找到目标位置,然后倍增.<br>2096:单调队列搞一搞<br>2111:组合数搞一搞,需要Lucas<br>2117:同2051<br>2141:cdq分治<br>2151:堆+贪心<br>2154:莫比乌斯反演,有很多种公式化法,我的好像是比较傻逼的那种..<br>2157:LCT,随便打标记<br>2163:直接最小割过了,其实应该转对偶图然后最短路才对.<br>2186:考察线性的逆元求法.<br>2190:反演分析一下,最后却发现答案是个跟phi有关的表达式..<br>2213:DP乱搞一下.附核心代码</p>
+<p>for (int i=2;i&lt;=n;++i)   ch[i]=getchar(),maxn=max(maxn,ch[i]-‘a’);<br>    for (int i=1;i&lt;=n;++i)<br>    {<br>        int y=ch[i]-‘a’;<br>        for (int j=0;j&lt;=maxn;++j)<br>        {<br>            ++f[j][y];–f[y][j];<br>            if (!g[y][j])   g[y][j]=1;<br>            else    if (g[y][j]==2) –g[y][j],++f[y][j];<br>            if (f[y][j]&lt;0)   f[y][j]=-1,g[y][j]=2;<br>            if (g[y][j])    ans=max(ans,f[y][j]);<br>            if (g[j][y])    ans=max(ans,f[j][y]);<br>        }<br>    }<br>2216:显然权函数单调,满足四边形不等式,决策单调.<br>2222:似乎数据有问题还是什么?面向数据了一波.<br>2223:主席树<br>2229:GHTree<br>2241:暴力枚举答案然后检测,检测时候需要特技,感觉理论复杂度并不对但是过了<br>2243:链剖或者LCT,我写的链剖<br>2244:cdq分治做三维偏序的DP,答案实际上可能非常大会爆…但是出题人十分懒惰没管那样的数据,所以double就过了<br>2275:考虑斐波那契分解.有一个定理,然而并不会证明.<br>2280:倍增+最小圆覆盖,卡评测好题.<br>2288:线段树优化费用流,模拟费用的取反什么的.5倍经验.<br>2295:乱搞.附核心代码</p>
+<p>char ch[MAXN],tmp[20]={‘l’,’u’,’v’,’l’,’e’,’t’,’t’,’e’,’r’};<br>int main()<br>{<br>    for (scanf(“%d”,&amp;T),getchar();T;T–)<br>    {<br>        gets(ch+1);n=strlen(ch+1);ans=0;<br>        for (int i=1,j=0;i&lt;=n;i++)<br>        {<br>            j+=(ch[i]==tmp[j]);<br>            if (j&gt;=9)    j=0,ans++;<br>        }<br>        printf(“%d\n”,ans);<br>    }<br>}<br>2296:找到一个P=987654321*10^6,答案就是(P+n)-(P+n)mod n<br>2299:裴蜀定理<br>2300:平衡树维护凸包.因为求的是凸包周长,所以贡献不可累积,故不能分治.<br>2301:莫比乌斯反演.同POI2007Zap<br>2326:矩乘.<br>2336:模拟退火<br>2344:暴力找三元环.<br>2351:Hash<br>2377:同POI2012 A Horrible Poem<br>2378:PA2011Kangaroo kdtree 把序列[L,R]看成点(L,R) 然后查询的就是右下角的矩阵,打一些标记搞一搞.<br>2393:同SCOI2010幸运数字<br>2395:二维最小乘积生成树,裸.<br>2428:模拟退火<br>2433:计算几何.<br>2434:AC自动机+线段树.<br>2438:强连通分量.<br>2440:莫比乌斯函数的应用,实际上就是容斥.<br>2448:区间DP,线段树优化,卡普通线段树常数,需要zkw线段树.<br>2456:卡内存..乱搞<br>2458:分治,分治子结构内暴力+剪枝<br>2460:线性基<br>2461:乱DP一波<br>2462:同2351Hash<br>2463:根奇偶有关的博弈,一眼看出规律,证明可以考虑转化成骨牌铺满格子的问题.<br>2464:裸最短路<br>2467:矩阵树定理<br>2506:小范围直接记录答案,大范围暴力.<br>2514:同HNOI2010那个.<br>2527:整体二分.<br>2555: LCT维护SAM Parent树Right集合<br>2568:按位考虑的乱搞树状数组,大量逻辑混乱…<br>2588:找dfs序,树上建个主席树<br>2594:LCT<br>2595:斯坦纳树.<br>2600:贪心,找规律,中位数相关<br>2618:半平面交<br>2623:RGB识别系统的弱化.湖南当年请的教授出题真厉害..<br>2626:kdtree+堆<br>2631:LCT+双标记<br>2639:二维莫队.<br>2642:可以发现一次删一段连续的一定是最优的,所以二分一下删的长度,半平面交<br>2648:kdtree<br>2654:二分答案然后最小生成树<br>2656:Python题<br>2657:实际上就是让你找直径,没有三角剖分的姿势也没事<br>2659:直觉型数学题<br>2660:DP一下.<br>2661:费用流<br>2662:分层图最短路<br>2671:类似莫比乌斯反演,推一推式子就行了<br>2683:我写的cdq<br>2697:贪心<br>2705:莫比乌斯反演<br>2716:cdq分治<br>2717:奇怪的姿势枚举一发</p>
+<p>for (int i=1;i&lt;=(n&gt;&gt;1);i++)    for (int j=0;j&lt;n;j++)    printf(“%d %d %d\n”,j+1,(j+i)%n+1,(j+i+i)%n+1);<br>1<br>1<br>2718:同CTSC2008祭祀<br>2721:随便化一下式子<br>2724:分块<br>2729:组合数,需要Python<br>2732:二分答案半平面交判定<br>2733:平衡树启发式合并.<br>2738:整体二分,也可分块<br>2739:四边形不等式,然后发现决策单调,然后分治找决策点<br>2741:分块套可持久化trie<br>2751:根据题目找一个性质啥的..细节已忘<br>2753:本意是求最小树形图,实际上因为题目特殊所以可以BFS一遍然后做最小生成树<br>2754:AC自动机fail树+容斥,实际上暴力也过了.<br>2759:题目给的是个环套树,对LCT维护一个额外的father,然后扩欧求答案<br>2761:妈的智障..<br>2763:分层图最短路<br>2783:dfs时候维护一下set<br>2786:DP一下,需要Python<br>2789:还是考虑上个位置,然后树状数组乱搞一下<br>2795:hash,对一段数枚举约数然后判定<br>2796:记忆化搜索<br>2809:权值平衡树启发式合并,或者左偏树<br>2812:空数据,Python 2B<br>2813:斐波那契数性质的应用,线筛时候记录一下质因子,约数个数之类的<br>2814:人生写过最码农的题,可以LCT可以链剖,只不过都得维护30来个量<br>2815:支配树弱化版,倍增<br>2816:LCT<br>2818:同SDOI2012Longge的问题<br>2822:卡特兰数相关,需要Python<br>2823:最小圆覆盖<br>2824:好像是个A*,我面向数据了一波<br>2843:LCT<br>2850:kdtree<br>2851:灭绝树.<br>2862:二分limit,dp<br>2864:计算几何+最大流<br>2875:矩乘<br>2883:树套树,线段树套平衡树,但是我写的是线段树套权值线段树<br>2886:显然先从整个矩形的边界上走比较好,可以发现转一下就是杨辉三角,再然后就没别的了<br>2888:LCT维护树的重心,需要启发式合并<br>2890:同POI2012 A Horrible Poem<br>2896:同AHOI2005航线那题<br>2901:可以发现能用前缀和做..<br>2908:考虑建32位的信息维护,链剖或者LCT<br>2916:暴力<br>2936:灌水法,堆+爆搜<br>2937:写了个n^2暴力就能过<br>2946:SAM时刻记录匹配上的最大值<br>2957:线段树维护一段区间斜率<br>2961:圆的反演,然后就成了cdq分治做半平面交<br>2976:模拟一下得到一堆同余方程,扩欧找最小解<br>2986:把2440反过来,做法一样<br>2987:类欧裸题,然而还是不是很理解类欧<br>3038:记录区间最大值,如果还能开根,暴力下放,最多开根lglg次<br>3040:平板电视+Dij<br>3043:乱搞一发,附核心代码</p>
+<pre><code>in(n);for (int i=1;i&lt;=n;++i) in(a[i]);
+for (int i=n;i;--i) a[i]-=a[i-1],ans1+=(i&gt;1)*a[i]*(a[i]&gt;0),ans2+=(i&gt;1)*(-a[i])*(a[i]&lt;0);
+cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
+</code></pre><p>1<br>2<br>3<br>1<br>2<br>3<br>3051:平面图求域+点定位.<br>3052:莫队上树.<br>3053:高维kdtree<br>3064:线段树+标记+时间戳.<br>3069:LCT维护是否存在桥边,实际上可以并查集<br>3070:考虑固定指数,把底数慢慢往上调,比较难写,于是我当时面向数据了一发<br>3072:神DP.建议看Claris题解.<br>3073:线段树优化建图最短路<br>3084:扩展KMP.建议看Claris题解<br>3098:生日攻击.<br>3100:根前面那个什么 玩具 是一样的.<br>3103:跑一边马拉车,然后并查集缩点一下,就成了弦图染色问题.<br>3110:整体二分<br>3117:链表+堆搞了一下,看似不科学实际上飞快<br>3130:显然费用的分配是可以贪心的.然后二分.<br>3132:二维树状数组<br>3153:TopTree/ETT+LCT 然而出题人的做法不是这两个…<br>3155:树状数组乱搞一下<br>3170:链剖<br>3172:建出多串后缀自动机,直接搞<br>3176:显然要考虑逆序对什么的,然后还需要树状数组,附核心代码</p>
+<p> for (int i=1,last;i&lt;=n;i=last+1)<br>    {<br>        for (last=i+1;a[last-1]&gt;a[last]&amp;&amp;last&lt;=n;last++);last–;<br>        for (ans++,l=i,r=last;l&lt;r;swap(a[l++],a[r–]));<br>    }<br>    for (int i=n;i;i–) ans+=query(a[i]),add(a[i]);<br>    cout&lt;&lt;ans&lt;&lt;endl;<br>3178:循环构成了一个树形结构,然后就可以DP了<br>3180:单调栈乱搞 需要SPJ 但是我好像恰巧跟std策略相同,直接A了<br>3181:大质数暴力,小的二分乱搞一下<br>3196:树套树<br>3197:树Hash+乱搞<br>3198:容斥+组合<br>3199:显然图是个V图,半平面交弄出来,然后最短路<br>3203:计算几何,答案在凸壳上,三分一下<br>3209:数位DP+数论<br>3211:同 上帝造题七分钟2<br>3223:区间Splay裸题.<br>3224:权值平衡树<br>3226:把区间拆成两倍来处理开闭问题,然后线段树就行了,可以看成区间加减01,区间覆盖01的问题<br>3228:把整个坐标系旋转45°,然后就成了扫描线sb题,问题在于统计的不是面积而是格子…所以细节非常麻烦<br>3229:满足四边形不等式然后DP就好了<br>3231:矩乘<br>3236:莫队/树套树/cdq分治.<br>3237:我写的cdq分治,实际上也有别的做法<br>3238:后缀自动机Parent树上DP一下<br>3243:基于随机化的乱搞<br>3251:注意到fib数没多少项就爆int了,所以暴力<br>3252:dfs序,然后变成了rmq问题,写个线段树<br>3260:同2886<br>3262:cdq分治维护三维偏序<br>3267:同2288.<br>3268:ST表搞一搞.source里都给写了题解了..<br>3272:同3267<br>3277:SAM基本应用<br>3282:LCT<br>3283:BSGS.<br>3295:cdq分治.注意每次修改会产生更多额外的贡献要单独减去的<br>3309:莫比乌斯反演<br>3323:序列平衡树维护多项式<br>3329:把两问分别考虑,一个数位DP一个矩乘<br>3339:跟SDOI2008HH的项链方法差不多,也是离线然后考虑找到前驱后继线段树做<br>3350:同3103<br>3417:对一个环可以重复走多次每次长度都是+2的,所以第一次BFS看看路径长奇偶就行了.<br>3424:跟dfs序有关.有波兰人论文.<br>3439:建trie,对trie dfs一遍,同时建立主席树<br>3463:分块维护凸壳<br>3473:同3277<br>3482:SPFA预处理含x条边的情况然后做.建议看Claris题解.<br>3483:建trie,可以发现询问能跟trie的dfs序对应起来,所以再建一棵主席树.<br>3489:我写的3d kdtree<br>3493:同HNOI2010那个<br>3495:考虑2-SAT建图.安利Claris题解.<br>3498:枚举三元环,我拿度数倍数判的实际上应该是根号度数..<br>3500:OEIS有数列<br>3501:把3501加点数论特技,CRT什么的..<br>3502:同3272<br>3505:组合数一下<br>3514:LCT.记录下某条边被加入成环,主席树统计答案.<br>3522:树DP.可以O(n)特技.<br>3524:主席树<br>3527:FFT<br>3529:莫比乌斯反演+树状数组<br>3530:AC自动机+数位DP<br>3531:动态开点的LCT/链剖线段树<br>3532:退流科技.<br>3533:线段树维护凸包<br>3534:构建一个合理的矩阵然后矩阵树定理,这个矩阵的构建需要十分高超的概率姿势,建议看高大哥的题解<br>3543:有定理好像是这样的正方形不超过根号个还是什么来着..忘掉了.反正是结论题<br>3544:搞个set就好了<br>3545:本题不强制在线,标算为平衡树启发式合并<br>3551:对3545强制在线后,我们需要主席树+倍增搞一发<br>3555:hash<br>3566:树形概率DP<br>3571:最小乘积生成树+KM.<br>3572:虚树.<br>3573:考虑对树DFS,做一个对数的转化<br>3575:不靠谱的暴力做法..加上堆维护一下<br>3585:又是考虑离线记前驱后继然后线段树的题<br>3589:实际上是虚树.用链剖线段树随便打了打标记.然而标算应该是LCT做链的并吧.<br>3594:线段树优化DP<br>3603:分块高斯消元.<br>3605:分治FFT.<br>3606:平面图求域+点定位.<br>3607:最长路剖分一下,再轻重路剖分一下,安利Claris题解.<br>3613:贪心/找规律.<br>3616:kdtree+bitset<br>3622:厉害的组合数+DP.<br>3629:有一个什么分解定理来着…<br>3638:同3502<br>3643:爆搜<br>3647:hash一下,好像也是个双倍经验<br>3651:对ZJOI2012网络去掉权值的维护<br>3658:单调栈+树状数组<br>3659:矩阵树定理+BestTheorem<br>3667:MillerRabin+PollarRho<br>3668:按位贪心<br>3669:LCT<br>3672:点分治+斜率优化+cdq分治.<br>3673/3674:rope的应用.<br>3675:满足四边形不等式,有决策单调<br>3676:PAM裸题,但是我写的SAM+manacher<br>3680:模拟退火/多重爬山<br>3585:VEB树.<br>3687:bitset应用<br>3688:线段树优化DP<br>3709:贪心.肯定先打能回血的.<br>3710:构造神题.波兰人有论文.<br>3711:分治优化DP,分治过程中用线段树找决策点,决策点单调.<br>3712:树上倍增.<br>3713:暴力拆分.<br>3714:前缀和Prim.<br>3715:找找最大边界值,随便判定一下..<br>3716:最小割转最大流,然后贪心,需要一定坐标变换.<br>3717:高姿势的状压DP.<br>3718:只要能卡住就行了,树状数组.<br>3719:线段树套个vector扫描线扫一扫.<br>3721:随便贪心,考虑奇换偶偶换奇.<br>3722:树形DP.<br>3725:扫一遍,扫的时候记录出现位置,更新答案.<br>3726:悬线法.<br>3727:稍微推一推公式,然后就发现代价可以根据size什么的树形DP了.<br>3728:堆贪心.<br>3732:跟某NOIP货车运输一样.<br>3733:爆搜+信仰剪枝.安利潇爷(Time-Machine)题解<br>3735:堆搞一搞<br>3737:跟phi的反函数一个做法.<br>3743:显然可以直接树形DP.<br>3745:分治,前缀和,单调栈.<br>3754:很好的乱搞题.可以考虑看成是一堆点,然后中间有一条水平直线算代价.<br>3767:Python题.<br>3779:LCT+dfs序线段树<br>3791:可以比较容易的DP出来.<br>3802:预处理转移的DP.也可以直接手动分类讨论出来,只要你不嫌手累代码长难调.<br>3810:记忆化搜索<br>3811:这个期望和概率题好神啊..建议直接上网看题解<br>3812:状压DP,需要一些奇怪姿势.<br>3815:kdtree.<br>3816:空数据 Python 2B<br>3817:类欧题,类欧前需要很多变形.<br>3831:挺sb的一个DP.<br>3834:莫比乌斯反演.<br>3837:线筛处理一些东西,然后DP.<br>3838:看成线段树维护括号序列,然后就发现需要维护的东西特别多还不止一棵线段树.<br>3839:考虑从某个点开始向四个方向扩展的凸包,预处理,然后对询问用线段树扫描线一下.<br>3884:高姿势的数论题.<br>3895:dfs,过程中需要很多情况的讨论,建议看Po姐题解.<br>3915:矩形剖分.<br>3916:枚举删除的位置,Hash.<br>3917:考虑爆搜各种剪枝,每次范围都是之前的十分之一.<br>3922:搞一堆线段树分别对应不同公差,大公差暴力,小的线段树.<br>3926:trie上SAM扩展裸题.因为度数少,所以暴力合并.<br>3928:区间DP一下.<br>3944:杜教筛裸题.<br>3950:同3607.<br>3984:按时间分治,维护删除时间最大的基.<br>3990:操作序列的顺序并不影响答案,根据这个性质所以搜.<br>3991:虚树.<br>3993:二分费用最大流判定.<br>3994:比较厉害的莫比乌斯反演,需要一个性质.安利高大哥题解.<br>3995:线段树维护两排点,分类讨论.<br>3998:SAM的应用.<br>4001:找规律.实际上要靠生成函数来推..<br>4010:拓扑.<br>4020:手写编译器.<br>4025:LCT,或者cdq分治.<br>4027:贪心.<br>4029:模拟.<br>4031:矩阵树定理.<br>4032:前两问直接DP,后两问SAM上DP.<br>4033:看似n^3,实际上n^2的树DP.<br>4034:链剖,<br>4036:子集和变换.<br>4043:同3802.<br>4048:同3928.<br>4052:发现gcd最多有log个,单调栈一下.<br>4057:状压DP.<br>4059:奇怪的暴力.<br>4062:同3658.<br>4063:智障啊..<br>4066:卡掉离线算法差评不已.kdtree<br>4068:维护套着堆的线段树就行了,每次考虑用后来的任务替换一下前面的任务.<br>4084:Hash<br>4085:线段树维护矩乘.据说考场卡常?矩阵可以从3<em>3优化到2</em>2.<br>4086:组合数容斥.<br>4088:大模拟.<br>4106:WF签到题.<br>4127:数一直加的,已经没有负数的就不用管了,其他的可以暴力下放.<br>4128:矩阵BSGS,矩阵求逆或者不求逆的BSGS.<br>4130:kdtree.上面写过这个题了..<br>4140:因为强制在线了,所以要二进制分组<br>4143:乱搞,暴力,没技术含量.<br>4144:最短路+最小生成树.<br>4145:状压DP.<br>4146:写个计数器.sb题<br>4147:又一个根据很多情况来讨论的博弈.看Claris题解把<br>4148:构造.算基础构造题了.<br>4149:考虑单调栈搞一搞.<br>4151:一个非常厉害的.最短路?安利Claris题解<br>4152:把点排个序,构个图,最短路.<br>4154:可以kdtree,要是不只是子树的话,点分就好了.<br>4160:这题好神啊.安利Claris题解.<br>4180:构建出SAM,然后可以矩乘<br>4184:按时间分治线段树维护一下线性基<br>4194:k做一下前缀和就可以看成是凸壳,然后二分一下斜率什么的.<br>4195:并查集<br>4196:链剖<br>4198:Huffman树+贪心<br>4199:SAM Parent树上DP<br>4209:把PA的Bazarek用主席树来做动态的<br>4212:同3483,但是卡trie转移边内存.<br>4216:分块,也卡内存.<br>4229:同PA2011HardChoice<br>4236:随便统计一下三个字母数目更新下答案就行了.<br>4245:按位贪心<br>4247:背包变形<br>4250,4251前面都出现过了<br>4253:把AHOI那个密码箱找质因子的过程来弄成PollardRho<br>4260:trie正着一遍倒着一遍DP,但是我写的可持久化trie,差点T飞<br>4262:考虑询问离线,然后用线段树搞一搞,安利Claris题解.<br>4263:某TCSRM题改编,结论题,贪心一下.<br>4264:边集Hash.<br>4266:同 一个动态树好题<br>4269:线性基<br>4288:跟Baltic2014sequence一样<br>4289:转一下建图,差分建图,,然后最短路<br>4291:跟Bazarek一样<br>4292:按位暴力<br>4293:大小关系是始终不变的,所以排序后可以在线段树上二分.<br>4294:斐波那契数列模10^m有循环节,利用这个,然后搜<br>4296:好像是考虑贪心的删?忘了..<br>4297:神题.安利Claris题解.<br>4298:比较厉害的边集Hash.<br>4299:主席树.可以发现那个东西的一个性质.这个性质如果说出来就没意思了..<br>4300:builtin大法好啊..<br>4305:组合+容斥<br>4310:二分+后缀数组判定/hash判定<br>4311:按时间分治的线段树,答案在凸壳三分<br>4312:大型分类讨论<br>4316:仙人掌DP<br>4317:同2051<br>4318:同Easy那题<br>4319:简单的构造<br>4320:小范围记录答案,大范围暴力 的那种题目<br>4327:SAM直接跑<br>4337:树Hash<br>4347:比较厉害的DP.安利Claris题解.<br>4352:又是个双倍经验..同 A Huge Tower<br>4358:考虑kdtree,序列[L,R]当成(L,R)这样子<br>4364:线段树乱搞..乱更新一下<br>4367:搞出暴力DP之后,满足四边形不等式,所以决策单调,然后分治优化,主席树找决策<br>4373:对区间是否符合条件有一个有关gcd的判定,然后线段树就行了.也可以Hash区间和,区间平方和,立方和.<br>4378:特技差分然后树状数组.<br>4380:区间DP.<br>4401:枚举约数.<br>4403:组合数学.<br>4404:按位搜.<br>4407:莫比乌斯反演<br>4408:同FRBSUM<br>4414:利用一点斐波那契数列的性质做,可以找规律.<br>4415:线段树模拟<br>4418:线段树.<br>4419:暴力<br>4421:智障..<br>4423:考虑对偶图中两点连通性与原图中两点连通性关系,然后并查集维护对偶图的连通性.<br>4424:nlogn可以差分树剖或者LCT,O(n)就利用一些特技乱搞一下.<br>4425:搞个堆<br>4426:满足四边形不等式,分治优化下DP<br>4427:计算几何+二分图判定<br>4428:一点特殊的记忆化搜索姿势然后杜教筛<br>4429:二分图最大匹配<br>4430:树状数组找一下逆序对什么的<br>4432:链表大模拟<br>4434:坐标范围很小,考虑分成一小段一小段然后做<br>4435:割流转化,然后最小割树<br>4437:BFS预处理,然后对每个询问三分<br>4438:忘掉了QAQ<br>4439:最小割<br>4444:DP了一下.好像是n倍经验<br>4452:离线,并查集<br>4453:高端的姿势!请单独看我题解<br>4454:O(1)gcd黑科技<br>4455:一点状压<br>4456:分治+Dij<br>4458:超级钢琴上树<br>4465:第二类strling数变形<br>4471:矩乘+贪心模拟<br>4472:树形DP一下<br>4475:找规律<br>4488:同cerc2013 Magical Gcd<br>4490:同4471<br>4500:差分约束<br>4503:FFT<br>4505:考虑只找那个字符串的一半,暴力枚举星号状态,然后匹配<br>4513:数位DP<br>4514:费用流一直跑,跑到变负数<br>4515:李超线段树<br>4516:SAM裸题<br>4517:直接错排,但是建议写容斥<br>4518:斜率优化,实际上也可以直接四边形不等式然后分治<br>4519:GHtree<br>4520:kdtree,姿势同jzpfar<br>4521:数位DP一下<br>4522:按他的要求做就行了..写Pollardrho,然后扩欧什么的..<br>4523:可持久化trie,时刻维护单调栈匹配的最大长度<br>4524:打表+堆然后搜的..<br>4527:这题好神..但是也属于那种单调栈+线段树搞一搞的题目.安利Claris题解<br>4538:链剖线段树+kdtree<br>4540:同4262<br>4543:提供nlogn 点分治 O(n) 利用启发式思想的树形DP<br>4544:打表观察找到一个积性函数.<br>4545:SAM强行上trie..实际上还是2555<br>4548:同4062<br>4551:并查集<br>4552:二分答案,线段树<br>4553:发现成立条件跟a[i],minb[i],maxb[i]有关.实际上是个三维偏序,可以kdtree可以cdq分治.<br>4554:拆点,二分图最大匹配<br>4556:SAM+dfs序+主席树<br>4557:树形DP一下<br>4558:容斥.需要很多细节讨论<br>4562:拓扑<br>4263:直接上错排<br>4565:状压DP.<br>4566:建两个SAM,考虑下合并代价什么的就行了<br>4568:点分治/倍增+线性基(Claris的点分治模板就是快)<br>4569:ST表+并查集<br>4598:可以考虑nlogn的点分治,这是doc老师给的标算,同时还有一种O(n)的做法.基于以前的暴力LCA的DP,考虑使用上启发式思想,可以做出一个漂亮的O(n)DP,基本同 4543Hotel加强版 这个题一样.<br>4599:首先可以看出回文串的贡献都是可以单独考虑的,然后其他的串可以考虑行列拆点最小割.具体建图已忘.<br>4600:考虑按C分类,然后状压DP.<br>4601:比较重要的两个性质:1.路径只有两种可能,分别是两种绕法,因为我没法贴图片,所以留给大家自行思考.想到这两种绕法之后,还有一个性质,就是选出一行/列,考虑这一行/列的插头状况,发现只有一个插头是非空的(当然这并不意味着要让你写一个插头DP,只是这个性质是比较有用的.<br>有了这两个性质就可以独立考虑做法了.<br>4602:带权并查集,或者直接dfs(因为无向图DFS树只有返祖边没有横向边).为了解决分数特别大的问题,考虑记录质因子或者取log(会被卡精度).<br>4603:正四面体剖分,然后搞一搞.</p>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>BZOJ</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mac_gcc_files</title>
+    <url>/tools/mac_gcc_files/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h3 id="mac-gcc-files"><a href="#mac-gcc-files" class="headerlink" title="mac_gcc_files"></a>mac_gcc_files</h3><h4 id="1-在Terminal键入g-提示自动安装"><a href="#1-在Terminal键入g-提示自动安装" class="headerlink" title="1. 在Terminal键入g++提示自动安装"></a>1. 在Terminal键入g++提示自动安装</h4><p>gcc：Terminal键入<code>g++</code>，来自x-code的gcc工具clang，默认版本4.2.1</p>
+<p>Command Line Tools：Terminal键入<code>xcode-select --install</code>或者<a href="https://developer.apple.com/download/more/" target="_blank" rel="noopener">官网下载</a></p>
+<h4 id="2-通过homebreak安装"><a href="#2-通过homebreak安装" class="headerlink" title="2.通过homebreak安装"></a>2.通过homebreak安装</h4><p>1) 先安装<a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener">Homebrew</a></p>
+<p>2) <code>brew install gcc</code></p>
+<p>3) 如果要安装指定版本的gcc</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">brew update</span><br><span class="line">brew reinstall gcc5 --without-multilib</span><br><span class="line">brew install homebrew/versions/gcc5  </span><br><span class="line"></span><br><span class="line">vim ~/.bash_profile</span><br><span class="line">填加如下代码</span><br><span class="line"><span class="keyword">export</span> PATH=<span class="string">"/usr/local/Cellar/gcc/6.3.0_1/bin:$PATH"</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-MacPorts-多版本间切换"><a href="#3-MacPorts-多版本间切换" class="headerlink" title="3. MacPorts! 多版本间切换"></a>3. MacPorts! 多版本间切换</h4><p>1) 先安装<a href="https://www.macports.org/install.php" target="_blank" rel="noopener">MacPorts</a></p>
+<p>2) 再更新MacPorts： <code>sudo port selfupdate</code></p>
+<p>3) 网络查找gcc库： <code>port search gcc</code></p>
+<p>4) 安装gcc：<code>sudo -i #获取管理员权限</code> 和 <code>port install gcc48</code></p>
+<p>5) 查看安装的版本： <code>port select --list gcc</code></p>
+<p>6) 切换gcc版本： <code>sudo port select --set gcc mp-gcc48</code></p>
+<p>7) 清空bash缓存：<code>hash -r</code></p>
+<h4 id="4-来自手动的恐惧"><a href="#4-来自手动的恐惧" class="headerlink" title="4. 来自手动的恐惧"></a>4. 来自手动的恐惧</h4><p>1) <a href="https://link.zhihu.com/?target=https%3A//sourceforge.net/projects/hpc/files/hpc/gcc/" target="_blank" rel="noopener">HPC on Mac OS X</a>下载你所需要的gcc版本</p>
+<p>2) 下载完成后，通过terminal进入下载目录，即gcc-4.8-bin.tar.gz所在的目录。输入命令：<code>gunzip gcc-4.8-bin.tar.gz</code>  (目的是解压，雾)</p>
+<p>3) 继续在terminal中输入命令：<code>sudo tar -xvf gcc-4.8-bin.tar</code></p>
+<p>4) 添加gcc路径：重新新建一个terminal，输入<code>touch ～/.bash_profile</code></p>
+<p>5) 新建一个bash_profile文件，使用vi或者其他编辑器写入如下代码：</p>
+<p><code>export PATH=&quot;/Users/gwj1139177410/Gcc/usr/local/bin:$PATH&quot;</code></p>
+<p>路径有所修改，写完在Terminal键入<code>source ～／.bash_profile</code>使他生效</p>
+<p>6) 查看是否生效 <code>echo $PATH</code></p>
+<h4 id="5-Atom中的g-环境配置"><a href="#5-Atom中的g-环境配置" class="headerlink" title="5. Atom中的g++环境配置"></a>5. <a href="https://atom.io/" target="_blank" rel="noopener">Atom</a>中的g++环境配置</h4><blockquote>
+<p>需要<a href="http://www.mingw.org/" target="_blank" rel="noopener">MinGW</a>或者g++环境</p>
+</blockquote>
+<p>1) 在Atom内安装<code>linter-gcc</code>与<code>linter</code>两个插件。 </p>
+<p>2) 在已安装的包中选择<code>linter-gcc</code>- <code>setting</code>，将路径改为<code>gcc</code>或<code>g++</code><br>并且勾选“Lint on-the-fly”(表示在书写的同时编译，不用每次保存) </p>
+<p>3) 安装<code>gcc-make-run</code>，安装完成后，按<code>F6</code>即可编译并运行程序</p>
+<p>最后再安利几个atom插件：<code>Activate Power Mode</code>，<code>minimap</code>，<code>simplified-chinese-menu</code>等等</p>
+]]></content>
+      <categories>
+        <category>Geek</category>
+      </categories>
+      <tags>
+        <tag>g++</tag>
+        <tag>编译器</tag>
+        <tag>开发环境</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>神经网络浅讲：从神经元到深度学习</title>
+    <url>/note/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%B5%85%E8%AE%B2%EF%BC%9A%E4%BB%8E%E7%A5%9E%E7%BB%8F%E5%85%83%E5%88%B0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="神经网络浅讲：从神经元到深度学习"><a href="#神经网络浅讲：从神经元到深度学习" class="headerlink" title="神经网络浅讲：从神经元到深度学习"></a>神经网络浅讲：从神经元到深度学习</h2><p>　　神经网络是一门重要的机器学习技术。它是目前最为火热的研究方向–深度学习的基础。学习神经网络不仅可以让你掌握一门强大的机器学习方法，同时也可以更好地帮助你理解深度学习技术。</p>
+<p>　　本文以一种简单的，循序的方式讲解神经网络。适合对神经网络了解不多的同学。本文对阅读没有一定的前提要求，但是懂一些<a href="http://www.cnblogs.com/subconscious/p/4107357.html" target="_blank" rel="noopener">机器学习</a>基础会更好地帮助理解本文。</p>
+<p>　　神经网络是一种模拟人脑的神经网络以期能够实现类人工智能的机器学习技术。人脑中的神经网络是一个非常复杂的组织。成人的大脑中估计有1000亿个神经元之多。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151229110952448-2017198041.jpg" alt></p>
+<p>图1 人脑神经网络</p>
+<p>　　那么机器学习中的神经网络是如何实现这种模拟的，并且达到一个惊人的良好效果的？通过本文，你可以了解到这些问题的答案，同时还能知道神经网络的历史，以及如何较好地学习它。</p>
+<p>　　由于本文较长，为方便读者，以下是本文的目录：</p>
+<p>一.前言<br>二.神经元<br>三.单层神经网络（感知器）<br>四.两层神经网络（多层感知器）<br>五.多层神经网络（深度学习）<br>六.回顾　　<br>七.展望<br>八.总结<br>九.后记<br>十.备注</p>
+<p><strong>一. 前言</strong></p>
+<p>　　让我们来看一个经典的神经网络。这是一个包含三个层次的神经网络。红色的是<strong>输入层</strong>，绿色的是<strong>输出层</strong>，紫色的是<strong>中间层</strong>（也叫<strong>隐藏层</strong>）。输入层有3个输入单元，隐藏层有4个单元，输出层有2个单元。后文中，我们统一使用这种颜色来表达神经网络的结构。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219151604318-1557737289.jpg" alt></p>
+<p>图2 神经网络结构图</p>
+<p>　　在开始介绍前，有一些知识可以先记在心里：</p>
+<ol>
+<li>设计一个神经网络时，输入层与输出层的节点数往往是固定的，中间层则可以自由指定；</li>
+<li>神经网络结构图中的拓扑与箭头代表着<strong>预测</strong>过程时数据的流向，跟<strong>训练</strong>时的数据流有一定的区别；</li>
+<li>结构图里的关键不是圆圈（代表“神经元”），而是连接线（代表“神经元”之间的连接）。每个连接线对应一个不同的<strong>权重</strong>（其值称为<strong>权值</strong>），这是需要训练得到的。  </li>
+</ol>
+<p>　　除了从左到右的形式表达的结构图，还有一种常见的表达形式是从下到上来表示一个神经网络。这时候，输入层在图的最下方。输出层则在图的最上方，如下图：</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219174631693-775181930.jpg" alt></p>
+<p>图3 从下到上的神经网络结构图 </p>
+<p>　　从左到右的表达形式以Andrew Ng和LeCun的文献使用较多，Caffe里使用的则是从下到上的表达。在本文中使用Andrew Ng代表的从左到右的表达形式。</p>
+<p>　　下面从简单的神经元开始说起，一步一步介绍神经网络复杂结构的形成。</p>
+<p><strong>二. 神经元</strong></p>
+<p>　　<strong>1.引子</strong></p>
+<p>　　对于神经元的研究由来已久，1904年生物学家就已经知晓了神经元的组成结构。</p>
+<p>　　一个神经元通常具有多个<strong>树突</strong>，主要用来接受传入信息；而<strong>轴突</strong>只有一条，轴突尾端有许多轴突末梢可以给其他多个神经元传递信息。轴突末梢跟其他神经元的树突产生连接，从而传递信号。这个连接的位置在生物学上叫做“<strong>突触</strong>”。</p>
+<p>　　人脑中的神经元形状可以用下图做简单的说明：</p>
+<p><img src="/images/从神经元到深度学习/673793-20151229121248198-818698949.jpg" alt></p>
+<p>图4 神经元</p>
+<p> 　　1943年，心理学家McCulloch和数学家Pitts参考了生物神经元的结构，发表了抽象的神经元模型MP。在下文中，我们会具体介绍神经元模型。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219175550990-1730772549.jpg" alt>   <img src="/images/从神经元到深度学习/673793-20151219175600006-1000051743.jpg" alt></p>
+<p>图5 Warren McCulloch（左）和 Walter Pitts（右）  </p>
+<p><strong>2.结构</strong> </p>
+<p>　　神经元模型是一个包含输入，输出与计算功能的模型。输入可以类比为神经元的树突，而输出可以类比为神经元的轴突，计算则可以类比为细胞核。</p>
+<p>　　下图是一个典型的神经元模型：包含有3个输入，1个输出，以及2个计算功能。</p>
+<p>　　注意中间的箭头线。这些线称为“连接”。每个上有一个“权值”。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219153856802-307732621.jpg" alt></p>
+<p>图6 神经元模型 </p>
+<p>　　连接是神经元中最重要的东西。每一个连接上都有一个权重。</p>
+<p>　　一个神经网络的训练算法就是让权重的值调整到最佳，以使得整个网络的预测效果最好。</p>
+<p>　　我们使用a来表示输入，用w来表示权值。一个表示连接的有向箭头可以这样理解：在初端，传递的信号大小仍然是a，端中间有加权参数w，经过这个加权后的信号会变成a<em>w，因此在连接的末端，信号的大小就变成了a</em>w。</p>
+<p>　　在其他绘图模型里，有向箭头可能表示的是值的不变传递。而在神经元模型里，每个有向箭头表示的是值的加权传递。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219180614819-1652574235.jpg" alt></p>
+<p>图7 连接（connection）  </p>
+<p>　　如果我们将神经元图中的所有变量用符号表示，并且写出输出的计算公式的话，就是下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230201441792-1505283920.jpg" alt></p>
+<p>图8 神经元计算  </p>
+<p>　　可见z是在输入和权值的线性加权和叠加了一个<strong>函数g</strong>的值。在MP模型里，函数g是sgn函数，也就是取符号函数。这个函数当输入大于0时，输出1，否则输出0。</p>
+<p>　　下面对神经元模型的图进行一些扩展。首先将sum函数与sgn函数合并到一个圆圈里，代表神经元的内部计算。其次，把输入a与输出z写到连接线的左上方，便于后面画复杂的网络。最后说明，一个神经元可以引出多个代表输出的有向箭头，但值都是一样的。</p>
+<p>　　神经元可以看作一个计算与存储单元。计算是神经元对其的输入进行计算功能。存储是神经元会暂存计算结果，并传递到下一层。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230204036479-461440948.jpg" alt></p>
+<p>图9 神经元扩展 </p>
+<p>　　当我们用“神经元”组成网络以后，描述网络中的某个“神经元”时，我们更多地会用“<strong>单元</strong>”（unit）来指代。同时由于神经网络的表现形式是一个有向图，有时也会用“<strong>节点</strong>”（node）来表达同样的意思。 </p>
+<p><strong>3.效果</strong> </p>
+<p>　　神经元模型的使用可以这样理解：</p>
+<p>　　我们有一个数据，称之为样本。样本有四个属性，其中三个属性已知，一个属性未知。我们需要做的就是通过三个已知属性<strong>预测</strong>未知属性。</p>
+<p>　　具体办法就是使用神经元的公式进行计算。三个已知属性的值是a1，a2，a3，未知属性的值是z。z可以通过公式计算出来。</p>
+<p>　　这里，已知的属性称之为<strong>特征</strong>，未知的属性称之为<strong>目标</strong>。假设特征与目标之间确实是线性关系，并且我们已经得到表示这个关系的权值w1，w2，w3。那么，我们就可以通过神经元模型预测新样本的目标。</p>
+<p><strong>4.影响</strong></p>
+<p>　　1943年发布的MP模型，虽然简单，但已经建立了神经网络大厦的地基。但是，MP模型中，权重的值都是预先设置的，因此不能学习。</p>
+<p>　　1949年心理学家Hebb提出了Hebb学习率，认为人脑神经细胞的<strong>突触</strong>（也就是连接）上的强度上可以变化的。于是计算科学家们开始考虑用调整权值的方法来让机器学习。这为后面的学习算法奠定了基础。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151219175742677-1785435491.gif" alt></p>
+<p>图10 Donald Olding Hebb </p>
+<p>　　尽管神经元模型与Hebb学习律都已诞生，但限于当时的计算机能力，直到接近10年后，第一个真正意义的神经网络才诞生。</p>
+<p><strong>三. 单层神经网络（感知器）</strong></p>
+<p><strong>1.引子**</strong>　**　</p>
+<p>　　1958年，计算科学家Rosenblatt提出了由两层神经元组成的神经网络。他给它起了一个名字–“感知器”（Perceptron）（有的文献翻译成“感知机”，下文统一用“感知器”来指代）。</p>
+<p>　　感知器是当时首个可以学习的人工神经网络。Rosenblatt现场演示了其学习识别简单图像的过程，在当时的社会引起了轰动。</p>
+<p>　　人们认为已经发现了智能的奥秘，许多学者和科研机构纷纷投入到神经网络的研究中。美国军方大力资助了神经网络的研究，并认为神经网络比“原子弹工程”更重要。这段时间直到1969年才结束，这个时期可以看作神经网络的第一次高潮。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151221153812609-1784157068.jpg" alt></p>
+<p>图11 Rosenblat与感知器 </p>
+<p><strong>2.结构</strong></p>
+<p>　　下面来说明感知器模型。</p>
+<p>　　在原来MP模型的“输入”位置添加神经元节点，标志其为“输入单元”。其余不变，于是我们就有了下图：从本图开始，我们将权值w1, w2, w3写到“连接线”的中间。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151221151959015-1876891081.jpg" alt></p>
+<p>图12 单层神经网络 </p>
+<p>　　在“感知器”中，有两个层次。分别是输入层和输出层。输入层里的“输入单元”只负责传输数据，不做计算。输出层里的“输出单元”则需要对前面一层的输入进行计算。</p>
+<p>　　我们把需要计算的层次称之为“计算层”，并把拥有一个计算层的网络称之为“单层神经网络”。有一些文献会按照网络拥有的层数来命名，例如把“感知器”称为两层神经网络。但在本文里，我们根据计算层的数量来命名。</p>
+<p>　　假如我们要预测的目标不再是一个值，而是一个向量，例如[2,3]。那么可以在输出层再增加一个“输出单元”。</p>
+<p>　　下图显示了带有两个输出单元的单层神经网络，其中输出单元z1的计算公式如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230204223917-579926148.jpg" alt></p>
+<p>图13 单层神经网络(Z1)</p>
+<p>　　可以看到，z1的计算跟原先的z并没有区别。</p>
+<p>　　我们已知一个神经元的输出可以向多个神经元传递，因此z2的计算公式如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230204258057-82126781.jpg" alt></p>
+<p>图14 单层神经网络(Z2)</p>
+<p>　　可以看到，z2的计算中除了三个新的权值：w4，w5，w6以外，其他与z1是一样的。</p>
+<p>　　整个网络的输出如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230204606760-610264555.jpg" alt></p>
+<p>图15 单层神经网络(Z1和Z2)</p>
+<p>　　目前的表达公式有一点不让人满意的就是：w4，w5，w6是后来加的，很难表现出跟原先的w1，w2，w3的关系。</p>
+<p>　　因此我们改用二维的下标，用wx,y来表达一个权值。下标中的x代表后一层神经元的序号，而y代表前一层神经元的序号（序号的顺序从上到下）。</p>
+<p>　　例如，w1,2代表后一层的第1个神经元与前一层的第2个神经元的连接的权值（这种标记方式参照了Andrew Ng的课件）。根据以上方法标记，我们有了下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230205437995-673856644.jpg" alt></p>
+<p>图16 单层神经网络(扩展)</p>
+<p>　　如果我们仔细看输出的计算公式，会发现这两个公式就是线性代数方程组。因此可以用矩阵乘法来表达这两个公式。</p>
+<p>　　例如，输入的变量是[a1，a2，a3]T（代表由a1，a2，a3组成的列向量），用向量<strong>a</strong>来表示。方程的左边是[z1，z2]T，用向量<strong>z</strong>来表示。</p>
+<p>　　系数则是矩阵<strong>W</strong>（2行3列的矩阵，排列形式与公式中的一样）。</p>
+<p>　　于是，输出公式可以改写成：</p>
+<p>g(<strong>W</strong> * <strong>a</strong>) = <strong>z</strong>;</p>
+<p>　　这个公式就是神经网络中从前一层计算后一层的<strong>矩阵运算。</strong></p>
+<p><strong>3.效果</strong></p>
+<p>　　与神经元模型不同，感知器中的权值是通过训练得到的。因此，根据以前的知识我们知道，感知器类似一个<strong>逻辑回归</strong>模型，可以做线性分类任务。</p>
+<p>　　我们可以用<strong>决策分界</strong>来形象的表达分类的效果。决策分界就是在二维的数据平面中划出一条直线，当数据的维度是3维的时候，就是划出一个平面，当数据的维度是n维时，就是划出一个n-1维的超平面。</p>
+<p>　　下图显示了在二维平面中划出决策分界的效果，也就是感知器的分类效果。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151231073138323-962584420.png" alt></p>
+<p>图17 单层神经网络（决策分界）</p>
+<p>　　</p>
+<p><strong>4.影响</strong>　</p>
+<p>　　感知器只能做简单的线性分类任务。但是当时的人们热情太过于高涨，并没有人清醒的认识到这点。于是，当人工智能领域的巨擘Minsky指出这点时，事态就发生了变化。</p>
+<p>　　Minsky在1969年出版了一本叫《Perceptron》的书，里面用详细的数学证明了感知器的弱点，尤其是感知器对XOR（异或）这样的简单分类任务都无法解决。</p>
+<p>　　Minsky认为，如果将计算层增加到两层，计算量则过大，而且没有有效的学习算法。所以，他认为研究更深层的网络是没有价值的。（本文成文后一个月，即2016年1月，<a href="http://cacm.acm.org/news/197529-in-memoriam-marvin-minsky-1927-2016/fulltext" target="_blank" rel="noopener">Minsky在美国去世</a>。谨在本文中纪念这位著名的计算机研究专家与大拿。）</p>
+<p><img src="/images/从神经元到深度学习/673793-20151221213056031-351364155.jpg" alt>   </p>
+<p>图18 Marvin Minsky</p>
+<p>　　</p>
+<p>　　由于Minsky的巨大影响力以及书中呈现的悲观态度，让很多学者和实验室纷纷放弃了神经网络的研究。神经网络的研究陷入了冰河期。这个时期又被称为“AI winter”。</p>
+<p>　　接近10年以后，对于两层神经网络的研究才带来神经网络的复苏。</p>
+<p><strong>四. 两层神经网络（多层感知器）</strong></p>
+<p><strong>1.引子</strong></p>
+<p>　　两层神经网络是本文的重点，因为正是在这时候，神经网络开始了大范围的推广与使用。</p>
+<p>　　Minsky说过单层神经网络无法解决异或问题。但是当增加一个计算层以后，两层神经网络不仅可以解决异或问题，而且具有非常好的非线性分类效果。不过两层神经网络的计算是一个问题，没有一个较好的解法。</p>
+<p>　　1986年，Rumelhar和Hinton等人提出了反向传播（Backpropagation，BP）算法，解决了两层神经网络所需要的复杂计算量问题，从而带动了业界使用两层神经网络研究的热潮。目前，大量的教授神经网络的教材，都是重点介绍两层（带一个隐藏层）神经网络的内容。 </p>
+<p>　　这时候的Hinton还很年轻，30年以后，正是他重新定义了神经网络，带来了神经网络复苏的又一春。</p>
+<p>​    <img src="/images/从神经元到深度学习/673793-20151222162306171-1025091923.jpg" alt>    <img src="/images/从神经元到深度学习/673793-20151222163144687-406696976.jpg" alt></p>
+<p>图19 David Rumelhart（左）以及 Geoffery Hinton（右）</p>
+<p><strong>2.结构</strong></p>
+<p>　　两层神经网络除了包含一个输入层，一个输出层以外，还增加了一个中间层。此时，中间层和输出层都是计算层。我们扩展上节的单层神经网络，在右边新加一个层次（只含有一个节点）。</p>
+<p>　　现在，我们的权值矩阵增加到了两个，我们用上标来区分不同层次之间的变量。</p>
+<p>　　例如ax(y)代表第y层的第x个节点。z1，z2变成了a1(2)，a2(2)。下图给出了a1(2)，a2(2)的计算公式。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151222164731249-360921014.jpg" alt></p>
+<p>图20 两层神经网络（中间层计算）</p>
+<p>　　计算最终输出z的方式是利用了中间层的a1(2)，a2(2)和第二个权值矩阵计算得到的，如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151222171056156-387680541.jpg" alt></p>
+<p>图21 两层神经网络（输出层计算）</p>
+<p>　　假设我们的预测目标是一个向量，那么与前面类似，只需要在“输出层”再增加节点即可。</p>
+<p>　　我们使用向量和矩阵来表示层次中的变量。<strong>a</strong>(1)，<strong>a</strong>(2)，<strong>z</strong>是网络中传输的向量数据。<strong>W</strong>(1)和<strong>W</strong>(2)是网络的矩阵参数。如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151222171328140-1303075636.jpg" alt></p>
+<p>图22 两层神经网络（向量形式）</p>
+<p>　　使用矩阵运算来表达整个计算公式的话如下：</p>
+<p>  g(<strong>W</strong>(1) * <strong>a</strong>(1)) = <strong>a</strong>(2); </p>
+<p>g(<strong>W</strong>(2) * <strong>a</strong>(2)) = <strong>z</strong>;</p>
+<p>　　由此可见，使用矩阵运算来表达是很简洁的，而且也不会受到节点数增多的影响（无论有多少节点参与运算，乘法两端都只有一个变量）。因此神经网络的教程中大量使用矩阵运算来描述。</p>
+<p>　　需要说明的是，至今为止，我们对神经网络的结构图的讨论中都没有提到偏置节点（bias unit）。事实上，这些节点是默认存在的。它本质上是一个只含有存储功能，且存储值永远为1的单元。在神经网络的每个层次中，除了输出层以外，都会含有这样一个偏置单元。正如线性回归模型与逻辑回归模型中的一样。</p>
+<p>　　偏置单元与后一层的所有节点都有连接，我们设这些参数值为向量<strong>b</strong>，称之为偏置。如下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151226111144687-604911384.jpg" alt></p>
+<p>图23 两层神经网络（考虑偏置节点）</p>
+<p>　　可以看出，偏置节点很好认，因为其没有输入（前一层中没有箭头指向它）。有些神经网络的结构图中会把偏置节点明显画出来，有些不会。一般情况下，我们都不会明确画出偏置节点。 </p>
+<p>　　在考虑了偏置以后的一个神经网络的矩阵运算如下：</p>
+<p>  g(<strong>W</strong>(1) * <strong>a</strong>(1) + <strong>b</strong>(1)) = <strong>a</strong>(2); </p>
+<p>g(<strong>W</strong>(2) * <strong>a</strong>(2) + <strong>b</strong>(2)) = <strong>z</strong>;</p>
+<p>　　需要说明的是，在两层神经网络中，我们不再使用sgn函数作为函数g，而是使用平滑函数sigmoid作为函数g。我们把函数g也称作激活函数（active function）。</p>
+<p>　　事实上，神经网络的本质就是通过参数与激活函数来拟合特征与目标之间的真实函数关系。初学者可能认为画神经网络的结构图是为了在程序中实现这些圆圈与线，但在一个神经网络的程序中，既没有“线”这个对象，也没有“单元”这个对象。实现一个神经网络最需要的是线性代数库。</p>
+<p><strong>3.效果</strong></p>
+<p>　　与单层神经网络不同。理论证明，两层神经网络可以无限逼近任意连续函数。</p>
+<p>　　这是什么意思呢？也就是说，面对复杂的非线性分类任务，两层（带一个隐藏层）神经网络可以分类的很好。</p>
+<p>　　下面就是一个例子（此两图来自colah的<a href="http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/" target="_blank" rel="noopener">博客</a>），红色的线与蓝色的线代表数据。而红色区域和蓝色区域代表由神经网络划开的区域，两者的分界线就是决策分界。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151231073619073-461403542.png" alt></p>
+<p>图24 两层神经网络（决策分界）</p>
+<p>　　</p>
+<p>　　可以看到，这个两层神经网络的决策分界是非常平滑的曲线，而且分类的很好。有趣的是，前面已经学到过，单层网络只能做线性分类任务。而两层神经网络中的后一层也是线性分类层，应该只能做线性分类任务。为什么两个线性分类任务结合就可以做非线性分类任务？</p>
+<p>　　我们可以把输出层的决策分界单独拿出来看一下。就是下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151231074314604-2050732128.png" alt></p>
+<p>图25 两层神经网络（空间变换）</p>
+<p>　　可以看到，输出层的决策分界仍然是直线。关键就是，从输入层到隐藏层时，数据发生了空间变换。也就是说，两层神经网络中，隐藏层对原始的数据进行了一个空间变换，使其可以被线性分类，然后输出层的决策分界划出了一个线性分类分界线，对其进行分类。</p>
+<p>　　这样就导出了两层神经网络可以做非线性分类的关键–隐藏层。联想到我们一开始推导出的矩阵公式，我们知道，矩阵和向量相乘，本质上就是对向量的坐标空间进行一个变换。因此，隐藏层的参数矩阵的作用就是使得数据的原始坐标空间从线性不可分，转换成了线性可分。</p>
+<p>　　两层神经网络通过两层的线性模型模拟了数据内真实的非线性函数。因此，多层的神经网络的本质就是复杂函数拟合。</p>
+<p>　　下面来讨论一下隐藏层的节点数设计。在设计一个神经网络时，输入层的节点数需要与特征的维度匹配，输出层的节点数要与目标的维度匹配。而中间层的节点数，却是由设计者指定的。因此，“自由”把握在设计者的手中。但是，节点数设置的多少，却会影响到整个模型的效果。如何决定这个自由层的节点数呢？目前业界没有完善的理论来指导这个决策。一般是根据经验来设置。较好的方法就是预先设定几个可选值，通过切换这几个值来看整个模型的预测效果，选择效果最好的值作为最终选择。这种方法又叫做Grid Search（网格搜索）。</p>
+<p>　　了解了两层神经网络的结构以后，我们就可以看懂其它类似的结构图。例如EasyPR字符识别网络架构（下图）。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151226122337406-1923048422.jpg" alt></p>
+<p>图26 EasyPR字符识别网络</p>
+<p>　　EasyPR使用了字符的图像去进行字符文字的识别。输入是120维的向量。输出是要预测的文字类别，共有65类。根据实验，我们测试了一些隐藏层数目，发现当值为40时，整个网络在测试集上的效果较好，因此选择网络的最终结构就是120，40，65。</p>
+<p><strong>4.训练</strong></p>
+<p>　　下面简单介绍一下两层神经网络的训练。</p>
+<p>　　在Rosenblat提出的感知器模型中，模型中的参数可以被训练，但是使用的方法较为简单，并没有使用目前机器学习中通用的方法，这导致其扩展性与适用性非常有限。从两层神经网络开始，神经网络的研究人员开始使用机器学习相关的技术进行神经网络的训练。例如用大量的数据（1000-10000左右），使用算法进行优化等等，从而使得模型训练可以获得性能与数据利用上的双重优势。</p>
+<p>　　机器学习模型训练的目的，就是使得参数尽可能的与真实的模型逼近。具体做法是这样的。首先给所有参数赋上随机值。我们使用这些随机生成的参数值，来预测训练数据中的样本。样本的预测目标为yp，真实目标为y。那么，定义一个值loss，计算公式如下。</p>
+<p>loss = (yp - y)2</p>
+<p>　　这个值称之为<strong>损失</strong>（loss），我们的目标就是使对所有训练数据的损失和尽可能的小。</p>
+<p>　　如果将先前的神经网络预测的矩阵公式带入到yp中（因为有z=yp），那么我们可以把损失写为关于参数（parameter）的函数，这个函数称之为<strong>损失函数</strong>（loss function）。下面的问题就是求：如何优化参数，能够让损失函数的值最小。</p>
+<p>　　此时这个问题就被转化为一个优化问题。一个常用方法就是高等数学中的求导，但是这里的问题由于参数不止一个，求导后计算导数等于0的运算量很大，所以一般来说解决这个优化问题使用的是<strong>梯度下降</strong>算法。梯度下降算法每次计算参数在当前的梯度，然后让参数向着梯度的反方向前进一段距离，不断重复，直到梯度接近零时截止。一般这个时候，所有的参数恰好达到使损失函数达到一个最低值的状态。</p>
+<p>　　在神经网络模型中，由于结构复杂，每次计算梯度的代价很大。因此还需要使用<strong>反向传播</strong>算法。反向传播算法是利用了神经网络的结构进行的计算。不一次计算所有参数的梯度，而是从后往前。首先计算输出层的梯度，然后是第二个参数矩阵的梯度，接着是中间层的梯度，再然后是第一个参数矩阵的梯度，最后是输入层的梯度。计算结束以后，所要的两个参数矩阵的梯度就都有了。</p>
+<p>　　反向传播算法可以直观的理解为下图。梯度的计算从后往前，一层层反向传播。前缀E代表着相对导数的意思。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151229120754198-2003498733.jpg" alt></p>
+<p>图27 反向传播算法</p>
+<p>　　反向传播算法的启示是数学中的<strong>链式法则</strong>。在此需要说明的是，尽管早期神经网络的研究人员努力从生物学中得到启发，但从BP算法开始，研究者们更多地从数学上寻求问题的最优解。不再盲目模拟人脑网络是神经网络研究走向成熟的标志。正如科学家们可以从鸟类的飞行中得到启发，但没有必要一定要完全模拟鸟类的飞行方式，也能制造可以飞天的飞机。</p>
+<p>　　优化问题只是训练中的一个部分。机器学习问题之所以称为学习问题，而不是优化问题，就是因为它不仅要求数据在训练集上求得一个较小的误差，在测试集上也要表现好。因为模型最终是要部署到没有见过训练数据的真实场景。提升模型在测试集上的预测效果的主题叫做<strong>泛化</strong>（generalization），相关方法被称作正则化（regularization）。神经网络中常用的泛化技术有<strong>权重衰减</strong>等。</p>
+<p><strong>5.影响</strong></p>
+<p>　　两层神经网络在多个地方的应用说明了其效用与价值。10年前困扰神经网络界的异或问题被轻松解决。神经网络在这个时候，已经可以发力于语音识别，图像识别，自动驾驶等多个领域。</p>
+<p>　　历史总是惊人的相似，神经网络的学者们再次登上了《纽约时报》的专访。人们认为神经网络可以解决许多问题。就连娱乐界都开始受到了影响，当年的《终结者》电影中的阿诺都赶时髦地说一句：我的CPU是一个神经网络处理器，一个会学习的计算机。</p>
+<p>　　但是神经网络仍然存在若干的问题：尽管使用了BP算法，一次神经网络的训练仍然耗时太久，而且困扰训练优化的一个问题就是局部最优解问题，这使得神经网络的优化较为困难。同时，隐藏层的节点数需要调参，这使得使用不太方便，工程和研究人员对此多有抱怨。</p>
+<p>　　90年代中期，由Vapnik等人发明的SVM（Support Vector Machines，支持向量机）算法诞生，很快就在若干个方面体现出了对比神经网络的优势：无需调参；高效；全局最优解。基于以上种种理由，SVM迅速打败了神经网络算法成为主流。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224114218312-1112152935.jpg" alt></p>
+<p>图28 Vladimir Vapnik</p>
+<p>　　神经网络的研究再次陷入了冰河期。当时，只要你的论文中包含神经网络相关的字眼，非常容易被会议和期刊拒收，研究界那时对神经网络的不待见可想而知。</p>
+<p><strong>五. 多层神经网络（深度学习）</strong></p>
+<p><strong>1.引子**</strong>　**　</p>
+<p>　　在被人摒弃的10年中，有几个学者仍然在坚持研究。这其中的棋手就是加拿大多伦多大学的Geoffery Hinton教授。</p>
+<p>　　2006年，Hinton在《Science》和相关期刊上发表了论文，首次提出了“深度信念网络”的概念。与传统的训练方式不同，“深度信念网络”有一个“<strong>预训练</strong>”（pre-training）的过程，这可以方便的让神经网络中的权值找到一个接近最优解的值，之后再使用“<strong>微调</strong>”(fine-tuning)技术来对整个网络进行优化训练。这两个技术的运用大幅度减少了训练多层神经网络的时间。他给多层神经网络相关的学习方法赋予了一个新名词–“<strong>深度学习</strong>”。</p>
+<p> 　　很快，深度学习在语音识别领域暂露头角。接着，2012年，深度学习技术又在图像识别领域大展拳脚。Hinton与他的学生在ImageNet竞赛中，用多层的卷积神经网络成功地对包含一千类别的一百万张图片进行了训练，取得了分类错误率15%的好成绩，这个成绩比第二名高了近11个百分点，充分证明了多层神经网络识别效果的优越性。</p>
+<p>　　在这之后，关于深度神经网络的研究与应用不断涌现。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224145544656-1225191900.jpg" alt></p>
+<p>图29 Geoffery Hinton </p>
+<p>　　由于篇幅原因，本文不介绍CNN（Conventional Neural Network，卷积神经网络）与RNN（Recurrent Neural Network，递归神经网络）的架构，下面我们只讨论普通的多层神经网络。</p>
+<p><strong>2.结构</strong></p>
+<p>　　我们延续两层神经网络的方式来设计一个多层神经网络。</p>
+<p>　　在两层神经网络的输出层后面，继续添加层次。原来的输出层变成中间层，新加的层次成为新的输出层。所以可以得到下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224204339234-1994620313.jpg" alt></p>
+<p>图30 多层神经网络</p>
+<p>　　依照这样的方式不断添加，我们可以得到更多层的多层神经网络。公式推导的话其实跟两层神经网络类似，使用矩阵运算的话就仅仅是加一个公式而已。</p>
+<p>　　在已知输入<strong>a</strong>(1)，参数<strong>W</strong>(1)，<strong>W</strong>(2)，<strong>W</strong>(3)的情况下，输出<strong>z</strong>的推导公式如下：</p>
+<p>​     g(<strong>W</strong>(1) * <strong>a</strong>(1)) = <strong>a</strong>(2); </p>
+<p>​    g(<strong>W</strong>(2) * <strong>a</strong>(2)) = <strong>a</strong>(3);</p>
+<p>g(<strong>W</strong>(3) * <strong>a</strong>(3)) = <strong>z</strong>;</p>
+<p>　　多层神经网络中，输出也是按照一层一层的方式来计算。从最外面的层开始，算出所有单元的值以后，再继续计算更深一层。只有当前层所有单元的值都计算完毕以后，才会算下一层。有点像计算向前不断推进的感觉。所以这个过程叫做“正向传播”。</p>
+<p>　　下面讨论一下多层神经网络中的参数。</p>
+<p>　　首先我们看第一张图，可以看出<strong>W</strong>(1)中有6个参数，<strong>W</strong>(2)中有4个参数，<strong>W</strong>(3)中有6个参数，所以整个神经网络中的参数有16个（这里我们不考虑偏置节点，下同）。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224212531484-570745053.jpg" alt> </p>
+<p>图31 多层神经网络（较少参数）</p>
+<p>　　假设我们将中间层的节点数做一下调整。第一个中间层改为3个单元，第二个中间层改为4个单元。</p>
+<p>　　经过调整以后，整个网络的参数变成了33个。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224213620234-1075501325.jpg" alt> </p>
+<p>图32 多层神经网络（较多参数）</p>
+<p>　　虽然层数保持不变，但是第二个神经网络的参数数量却是第一个神经网络的接近两倍之多，从而带来了更好的表示（represention）能力。表示能力是多层神经网络的一个重要性质，下面会做介绍。</p>
+<p>　　在参数一致的情况下，我们也可以获得一个“更深”的网络。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151224213703109-813423001.jpg" alt> </p>
+<p>图33 多层神经网络（更深的层次）</p>
+<p>　　上图的网络中，虽然参数数量仍然是33，但却有4个中间层，是原来层数的接近两倍。这意味着一样的参数数量，可以用更深的层次去表达。</p>
+<p><strong>3.效果</strong></p>
+<p>　　与两层层神经网络不同。多层神经网络中的层数增加了很多。</p>
+<p>　　增加更多的层次有什么好处？更深入的表示特征，以及更强的函数模拟能力。</p>
+<p>　　更深入的表示特征可以这样理解，随着网络的层数增加，每一层对于前一层次的抽象表示更深入。在神经网络中，每一层神经元学习到的是前一层神经元值的更抽象的表示。例如第一个隐藏层学习到的是“边缘”的特征，第二个隐藏层学习到的是由“边缘”组成的“形状”的特征，第三个隐藏层学习到的是由“形状”组成的“图案”的特征，最后的隐藏层学习到的是由“图案”组成的“目标”的特征。通过抽取更抽象的特征来对事物进行区分，从而获得更好的区分与分类能力。</p>
+<p>　　关于逐层特征学习的例子，可以参考下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151231075103229-1126297331.png" alt> </p>
+<p>图34 多层神经网络（特征学习）</p>
+<p>　　更强的函数模拟能力是由于随着层数的增加，整个网络的参数就越多。而神经网络其实本质就是模拟特征与目标之间的真实关系函数的方法，更多的参数意味着其模拟的函数可以更加的复杂，可以有更多的<strong>容量</strong>（capcity）去拟合真正的关系。</p>
+<p>　　通过研究发现，在参数数量一样的情况下，更深的网络往往具有比浅层的网络更好的识别效率。这点也在ImageNet的多次大赛中得到了证实。从2012年起，每年获得ImageNet冠军的深度神经网络的层数逐年增加，2015年最好的方法GoogleNet是一个多达22层的神经网络。</p>
+<p>　　在最新一届的ImageNet大赛上，目前拿到最好成绩的MSRA团队的方法使用的更是一个深达152层的网络！关于这个方法更多的信息有兴趣的可以查阅ImageNet网站。</p>
+<p><strong>4.训练</strong></p>
+<p>　　在单层神经网络时，我们使用的激活函数是sgn函数。到了两层神经网络时，我们使用的最多的是sigmoid函数。而到了多层神经网络时，通过一系列的研究发现，ReLU函数在训练多层神经网络时，更容易收敛，并且预测性能更好。因此，目前在深度学习中，最流行的非线性函数是ReLU函数。ReLU函数不是传统的非线性函数，而是分段线性函数。其表达式非常简单，就是y=max(x,0)。简而言之，在x大于0，输出就是输入，而在x小于0时，输出就保持为0。这种函数的设计启发来自于生物神经元对于激励的线性响应，以及当低于某个阈值后就不再响应的模拟。</p>
+<p>　　在多层神经网络中，训练的主题仍然是优化和泛化。当使用足够强的计算芯片（例如GPU图形加速卡）时，梯度下降算法以及反向传播算法在多层神经网络中的训练中仍然工作的很好。目前学术界主要的研究既在于开发新的算法，也在于对这两个算法进行不断的优化，例如，增加了一种带动量因子（momentum）的梯度下降算法。　</p>
+<p>　　在深度学习中，泛化技术变的比以往更加的重要。这主要是因为神经网络的层数增加了，参数也增加了，表示能力大幅度增强，很容易出现<strong>过拟合现象</strong>。因此正则化技术就显得十分重要。目前，Dropout技术，以及数据扩容（Data-Augmentation）技术是目前使用的最多的正则化技术。</p>
+<p><strong>5.影响</strong></p>
+<p>　　目前，深度神经网络在人工智能界占据统治地位。但凡有关人工智能的产业报道，必然离不开深度学习。神经网络界当下的四位引领者除了前文所说的Ng，Hinton以外，还有CNN的发明人Yann Lecun，以及《Deep Learning》的作者Bengio。</p>
+<p>　　前段时间一直对人工智能持谨慎态度的马斯克，搞了一个<a href="http://news.cnblogs.com/n/534878/" target="_blank" rel="noopener">OpenAI项目</a>，邀请Bengio作为高级顾问。马斯克认为，人工智能技术不应该掌握在大公司如Google，Facebook的手里，更应该作为一种开放技术，让所有人都可以参与研究。马斯克的这种精神值得让人敬佩。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151228131815214-368589404.png" alt>   <img src="/images/从神经元到深度学习/673793-20151228131718948-1881649621.png" alt></p>
+<p>图35 Yann LeCun（左）和 Yoshua Bengio（右）</p>
+<p>　　多层神经网络的研究仍在进行中。现在最为火热的研究技术包括RNN，LSTM等，研究方向则是图像理解方面。图像理解技术是给计算机一幅图片，让它用语言来表达这幅图片的意思。ImageNet竞赛也在不断召开，有更多的方法涌现出来，刷新以往的正确率。</p>
+<p><strong>六. 回顾</strong></p>
+<p><strong>1.影响</strong></p>
+<p>　　我们回顾一下神经网络发展的历程。神经网络的发展历史曲折荡漾，既有被人捧上天的时刻，也有摔落在街头无人问津的时段，中间经历了数次大起大落。</p>
+<p>　　从单层神经网络（感知器）开始，到包含一个隐藏层的两层神经网络，再到多层的深度神经网络，一共有三次兴起过程。详见下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151228170208120-1856567090.jpg" alt> </p>
+<p>图36 三起三落的神经网络</p>
+<p>　　上图中的顶点与谷底可以看作神经网络发展的高峰与低谷。图中的横轴是时间，以年为单位。纵轴是一个神经网络影响力的示意表示。如果把1949年Hebb模型提出到1958年的感知机诞生这个10年视为落下（没有兴起）的话，那么神经网络算是经历了“三起三落”这样一个过程，跟“小平”同志类似。俗话说，天将降大任于斯人也，必先苦其心志，劳其筋骨。经历过如此多波折的神经网络能够在现阶段取得成功也可以被看做是磨砺的积累吧。</p>
+<p>　　历史最大的好处是可以给现在做参考。科学的研究呈现螺旋形上升的过程，不可能一帆风顺。同时，这也给现在过分热衷深度学习与人工智能的人敲响警钟，因为这不是第一次人们因为神经网络而疯狂了。1958年到1969年，以及1985年到1995，这两个十年间人们对于神经网络以及人工智能的期待并不现在低，可结果如何大家也能看的很清楚。</p>
+<p>　　因此，冷静才是对待目前深度学习热潮的最好办法。如果因为深度学习火热，或者可以有“钱景”就一窝蜂的涌入，那么最终的受害人只能是自己。神经网络界已经两次有被人们捧上天了的境况，相信也对于捧得越高，摔得越惨这句话深有体会。因此，神经网络界的学者也必须给这股热潮浇上一盆水，不要让媒体以及投资家们过分的高看这门技术。很有可能，三十年河东，三十年河西，在几年后，神经网络就再次陷入谷底。根据上图的历史曲线图，这是很有可能的。</p>
+<p><strong>2.效果</strong>　</p>
+<p>　　下面说一下神经网络为什么能这么火热？简而言之，就是其学习效果的强大。随着神经网络的发展，其表示性能越来越强。</p>
+<p>　　从单层神经网络，到两层神经网络，再到多层神经网络，下图说明了，随着网络层数的增加，以及激活函数的调整，神经网络所能拟合的决策分界平面的能力。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151228134016120-1091351096.jpg" alt> </p>
+<p>图37 表示能力不断增强</p>
+<p>　　可以看出，随着层数增加，其非线性分界拟合能力不断增强。图中的分界线并不代表真实训练出的效果，更多的是示意效果。</p>
+<p>　　神经网络的研究与应用之所以能够不断地火热发展下去，与其强大的函数拟合能力是分不开关系的。</p>
+<p><strong>3.外因**</strong>　**　</p>
+<p>　　当然，光有强大的内在能力，并不一定能成功。一个成功的技术与方法，不仅需要内因的作用，还需要时势与环境的配合。神经网络的发展背后的外在原因可以被总结为：更强的计算性能，更多的数据，以及更好的训练方法。只有满足这些条件时，神经网络的函数拟合能力才能得已体现，见下图。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151228170149135-2107087462.jpg" alt> </p>
+<p>图38 发展的外在原因</p>
+<p>　　之所以在单层神经网络年代，Rosenblat无法制作一个双层分类器，就在于当时的计算性能不足，Minsky也以此来打压神经网络。但是Minsky没有料到，仅仅10年以后，计算机CPU的快速发展已经使得我们可以做两层神经网络的训练，并且还有快速的学习算法BP。</p>
+<p>　　但是在两层神经网络快速流行的年代。更高层的神经网络由于计算性能的问题，以及一些计算方法的问题，其优势无法得到体现。直到2012年，研究人员发现，用于高性能计算的图形加速卡（GPU）可以极佳地匹配神经网络训练所需要的要求：高并行性，高存储，没有太多的控制需求，配合预训练等算法，神经网络才得以大放光彩。</p>
+<p>　　互联网时代，大量的数据被收集整理，更好的训练方法不断被发现。所有这一切都满足了多层神经网络发挥能力的条件。</p>
+<p>　　“时势造英雄”，正如Hinton在2006年的论文里说道的</p>
+<p>　　“<strong>… provided that computers were fast enough, data sets were big enough, and the initial weights were close enough to a good solution. All three conditions are now satisfied.</strong>”，</p>
+<p>　　外在条件的满足也是神经网络从神经元得以发展到目前的深度神经网络的重要因素。</p>
+<p>　　除此以外，一门技术的发扬没有“伯乐”也是不行的。在神经网络漫长的历史中，正是由于许多研究人员的锲而不舍，不断钻研，才能有了现在的成就。前期的Rosenblat，Rumelhart没有见证到神经网络如今的流行与地位。但是在那个时代，他们为神经网络的发展所打下的基础，却会永远流传下去，不会退色。</p>
+<p><strong>七. 展望</strong></p>
+<p><strong>1.量子计算</strong></p>
+<p>　　回到我们对神经网络历史的讨论，根据历史趋势图来看，神经网络以及深度学习会不会像以往一样再次陷入谷底？作者认为，这个过程可能取决于量子计算机的发展。</p>
+<p>　　根据一些最近的研究发现，人脑内部进行的计算可能是类似于量子计算形态的东西。而且目前已知的最大神经网络跟人脑的神经元数量相比，仍然显得非常小，仅不及1%左右。所以未来真正想实现人脑神经网络的模拟，可能需要借助量子计算的强大计算能力。</p>
+<p>　　各大研究组也已经认识到了量子计算的重要性。谷歌就在开展量子计算机D-wave的研究，希望用量子计算来进行机器学习，并且在前段时间有了突破性的<a href="http://news.cnblogs.com/n/535307/" target="_blank" rel="noopener">进展</a>。国内方面，阿里和中科院合作成立了<a href="http://news.sciencenet.cn/htmlnews/2015/7/323963.shtm" target="_blank" rel="noopener">量子计算实验室</a>，意图进行量子计算的研究。</p>
+<p>　　如果量子计算发展不力，仍然需要数十年才能使我们的计算能力得以突飞猛进的发展，那么缺少了强大计算能力的神经网络可能会无法一帆风顺的发展下去。这种情况可以类比为80-90年时期神经网络因为计算能力的限制而被低估与忽视。假设量子计算机真的能够与神经网络结合，并且助力真正的人工智能技术的诞生，而且量子计算机发展需要10年的话，那么神经网络可能还有10年的发展期。直到那时期以后，神经网络才能真正接近实现AI这一目标。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151227175114031-277810977.jpg" alt> </p>
+<p>图39 量子计算</p>
+<p>　　<strong>2.人工智能</strong></p>
+<p>　　最后，作者想简单地谈谈对目前人工智能的看法。虽然现在人工智能非常火热，但是距离真正的人工智能还有很大的距离。就拿计算机视觉方向来说，面对稍微复杂一些的场景，以及易于混淆的图像，计算机就可能难以识别。因此，这个方向还有很多的工作要做。</p>
+<p>　　就普通人看来，这么辛苦的做各种实验，以及投入大量的人力就是为了实现一些不及孩童能力的视觉能力，未免有些不值。但是这只是第一步。虽然计算机需要很大的运算量才能完成一个普通人简单能完成的识图工作，但计算机最大的优势在于并行化与批量推广能力。使用计算机以后，我们可以很轻易地将以前需要人眼去判断的工作交给计算机做，而且几乎没有任何的推广成本。这就具有很大的价值。正如火车刚诞生的时候，有人嘲笑它又笨又重，速度还没有马快。但是很快规模化推广的火车就替代了马车的使用。人工智能也是如此。这也是为什么目前世界上各著名公司以及政府都对此热衷的原因。</p>
+<p>　　目前看来，神经网络要想实现人工智能还有很多的路要走，但方向至少是正确的，下面就要看后来者的不断努力了。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151231172950167-1599238944.jpg" alt></p>
+<p>图40 人工智能</p>
+<p><strong>八 总结</strong></p>
+<p>　　本文回顾了神经网络的发展历史，从神经元开始，历经单层神经网络，两层神经网络，直到多层神经网络。在历史介绍中穿插讲解神经网络的结构，分类效果以及训练方法等。本文说明了神经网络内部实际上就是矩阵计算，在程序中的实现没有“点”和“线”的对象。本文说明了神经网络强大预测能力的根本，就是多层的神经网络可以无限逼近真实的对应函数，从而模拟数据之间的真实关系。除此之外，本文回顾了神经网络发展的历程，分析了神经网络发展的外在原因，包括计算能力的增强，数据的增多，以及方法的创新等。最后，本文对神经网络的未来进行了展望，包括量子计算与神经网络结合的可能性，以及探讨未来人工智能发展的前景与价值。</p>
+<p><strong>九. 后记</strong></p>
+<p>　　本篇文章可以视为作者一年来对神经网络的理解与总结，包括实验的体会，书籍的阅读，以及思考的火花等。神经网络虽然重要，但学习并不容易。这主要是由于其结构图较为难懂，以及历史发展的原因，导致概念容易混淆，一些介绍的博客与网站内容新旧不齐。本篇文章着眼于这些问题，没有太多的数学推导，意图以一种简单的，直观的方式对神经网络进行讲解。在2015年最后一天终于写完。希望本文可以对各位有所帮助。</p>
+<p>　　<strong>作者很感谢能够阅读到这里的读者。如果看完觉得好的话，还请轻轻点一下赞，你们的鼓励就是作者继续行文的动力。本文的备注部分是一些对神经网络学习的建议，供补充阅读与参考。</strong></p>
+<p>　　</p>
+<p>　　<em>目前为止，EasyPR的1.4版已经将神经网络（ANN）训练的模块加以开放，开发者们可以使用这个模块来进行自己的字符模型的训练。有兴趣的可以下载。</em></p>
+<p><strong>十. 备注</strong></p>
+<p>神经网络虽然很重要，但是对于神经网络的学习，却并不容易。这些学习困难主要来自以下三个方面：概念，类别，教程。下面简单说明这三点。</p>
+<p><strong>1.概念</strong></p>
+<p>　　对于一门技术的学习而言，首先最重要的是弄清概念。只有将概念理解清楚，才能顺畅的进行后面的学习。由于神经网络漫长的发展历史，经常会有一些概念容易混淆，让人学习中产生困惑。这里面包括历史的术语，不一致的说法，以及被遗忘的研究等。　</p>
+<p>　　<strong>历史的术语</strong></p>
+<p>　　这个的代表就是多层感知器（MLP）这个术语。起初看文献时很难理解的一个问题就是，为什么神经网络又有另一个名称：MLP。其实MLP（Multi-Layer Perceptron）的名称起源于50-60年代的感知器（Perceptron）。由于我们在感知器之上又增加了一个计算层，因此称为多层感知器。值得注意的是，虽然叫“多层”，MLP一般都指的是两层（带一个隐藏层的）神经网络。</p>
+<p>　　MLP这个术语属于历史遗留的产物。现在我们一般就说神经网络，以及深度神经网络。前者代表带一个隐藏层的两层神经网络，也是EasyPR目前使用的识别网络，后者指深度学习的网络。</p>
+<p>　　<strong>不一致的说法</strong></p>
+<p>　　这个最明显的代表就是损失函数loss function，这个还有两个说法是跟它完全一致的意思，分别是残差函数error function，以及代价函数cost function。loss function是目前深度学习里用的较多的一种说法，caffe里也是这么叫的。cost function则是Ng在coursera教学视频里用到的统一说法。这三者都是同一个意思，都是优化问题所需要求解的方程。虽然在使用的时候不做规定，但是在听到各种讲解时要心里明白。</p>
+<p>　　再来就是权重weight和参数parameter的说法，神经网络界由于以前的惯例，一般会将训练得到的参数称之为权重，而不像其他机器学习方法就称之为参数。这个需要记住就好。不过在目前的使用惯例中，也有这样一种规定。那就是非偏置节点连接上的值称之为权重，而偏置节点上的值称之为偏置，两者统一起来称之为参数。</p>
+<p>　　另外一个同义词就是激活函数active function和转移函数transfer function了。同样，他们代表一个意思，都是叠加的非线性函数的说法。</p>
+<p>　　<strong>被遗忘的研究</strong></p>
+<p>　　由于神经网络发展历史已经有70年的漫长历史，因此在研究过程中，必然有一些研究分支属于被遗忘阶段。这里面包括各种不同的网络，例如SOM（Self-Organizing Map，自组织特征映射网络），SNN（Synergetic Neural Network，协同神经网络），ART（Adaptive Resonance Theory，自适应共振理论网络）等等。所以看历史文献时会看到许多没见过的概念与名词。</p>
+<p>　　有些历史网络甚至会重新成为新的研究热点，例如RNN与LSTM就是80年代左右开始的研究，目前已经是深度学习研究中的重要一门技术，在语音与文字识别中有很好的效果。　</p>
+<p>　　对于这些易于混淆以及弄错的概念，务必需要多方参考文献，理清上下文，这样才不会在学习与阅读过程中迷糊。</p>
+<p>　　<strong>2.类别</strong></p>
+<p>　　下面谈一下关于神经网络中的不同类别。</p>
+<p>　　其实本文的名字“神经网络浅讲”并不合适，因为本文并不是讲的是“神经网络”的内容，而是其中的一个子类，也是目前最常说的<strong>前馈神经网络</strong>。根据下图的分类可以看出。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151227190543499-2614280.jpg" alt> </p>
+<p>图41 神经网络的类别</p>
+<p>　　神经网络其实是一个非常宽泛的称呼，它包括两类，一类是用计算机的方式去模拟人脑，这就是我们常说的ANN（人工神经网络），另一类是研究生物学上的神经网络，又叫生物神经网络。对于我们计算机人士而言，肯定是研究前者。</p>
+<p>　　在人工神经网络之中，又分为前馈神经网络和反馈神经网络这两种。那么它们两者的区别是什么呢？这个其实在于它们的结构图。我们可以把结构图看作是一个有向图。其中神经元代表顶点，连接代表有向边。对于前馈神经网络中，这个有向图是没有回路的。你可以仔细观察本文中出现的所有神经网络的结构图，确认一下。而对于反馈神经网络中，结构图的有向图是有回路的。反馈神经网络也是一类重要的神经网络。其中Hopfield网络就是反馈神经网络。深度学习中的RNN也属于一种反馈神经网络。</p>
+<p>　　具体到前馈神经网络中，就有了本文中所分别描述的三个网络：单层神经网络，双层神经网络，以及多层神经网络。深度学习中的CNN属于一种特殊的多层神经网络。另外，在一些Blog中和文献中看到的BP神经网络是什么？其实它们就是使用了反向传播BP算法的两层前馈神经网络。也是最普遍的一种两层神经网络。</p>
+<p>　　通过以上分析可以看出，神经网络这种说法其实是非常广义的，具体在文章中说的是什么网络，需要根据文中的内容加以区分。</p>
+<p><strong>3.教程</strong></p>
+<p>　　如何更好的学习神经网络，认真的学习一门课程或者看一本著作都是很有必要的。</p>
+<p>　　说到网络教程的话，这里必须说一下Ng的机器学习课程。对于一个初学者而言，Ng的课程视频是非常有帮助的。Ng一共开设过两门机器学习公开课程：一个是2003年在Standford开设的，面向全球的学生，这个视频现在可以在网易公开课上找到；另一个是2010年专门为Coursera上的用户开设的，需要登陆Coursera上才能学习。</p>
+<p>　　但是，需要注意点是，这两个课程对待神经网络的态度有点不同。早些的课程一共有20节课，Ng花了若干节课去专门讲SVM以及SVM的推导，而当时的神经网络，仅仅放了几段视频，花了大概不到20分钟（一节课60分钟左右）。而到了后来的课程时，总共10节的课程中，Ng给了完整的两节给神经网络，详细介绍了神经网络的反向传播算法。同时给SVM只有一节课，并且没有再讲SVM的推导过程。下面两张图分别是Ng介绍神经网络的开篇，可以大致看出一些端倪。</p>
+<p><img src="/images/从神经元到深度学习/673793-20151230155838057-551533589.jpg" alt> </p>
+<p>图42 Ng与神经网络</p>
+<p>　　为什么Ng对待神经网络的反应前后相差那么大？事实上就是深度学习的原因。Ng实践了深度学习的效果，认识到深度学习的基础–神经网络的重要性。这就是他在后面重点介绍神经网络的原因。总之，对于神经网络的学习而言，我更推荐Coursera上的。因为在那个时候，Ng才是真正的把神经网络作为一门重要的机器学习方法去传授。你可以从他上课的态度中感受到他的重视，以及他希望你能学好的期望。</p>
+<blockquote>
+<p>参考资料<br><a href="http://www.cnblogs.com/subconscious/p/5058741.html" target="_blank" rel="noopener">神经网络浅讲：从神经元到深度学习</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>神经网络</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo建站</title>
+    <url>/tools/hexo%E5%BB%BA%E7%AB%99/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="hexo建站"><a href="#hexo建站" class="headerlink" title="hexo建站"></a>hexo建站</h2><h4 id="0x01-配置环境"><a href="#0x01-配置环境" class="headerlink" title="0x01  配置环境"></a>0x01  配置环境</h4><ol>
+<li>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node</a>, 用来生成静态页面的</li>
+<li>安装Git, Mac的话Xcode自带有Git</li>
+<li>申请GitHub, 项目托管</li>
+</ol>
+<h4 id="0x02-安装hexo"><a href="#0x02-安装hexo" class="headerlink" title="0x02  安装hexo"></a>0x02  安装hexo</h4><ol>
+<li>首先创建一个文件夹,如blog,用户存放hexo的配置文件,然后进入blog里安装Hexo。</li>
+<li>终端执行 <code>sudo npm install -g hexo</code> 安装hexo</li>
+<li>初始化  <code>hexo init</code></li>
+</ol>
+<h4 id="0x03-配置Github"><a href="#0x03-配置Github" class="headerlink" title="0x03  配置Github"></a>0x03  配置Github</h4><ol>
+<li><p>建立与你用户名对应的仓库, 仓库名必须为”BlogName.github.io“, 固定写法</p>
+</li>
+<li><p>建立关联, 我的blog在本地/Users/blog, 打开_config.yml文件, 翻到最下面, 改成</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/UserName/BlogName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>执行<code>npm install hexo-deployer-git —save</code></p>
+</li>
+</ol>
+<h4 id="0x04-常用命令"><a href="#0x04-常用命令" class="headerlink" title="0x04  常用命令"></a>0x04  常用命令</h4><ol>
+<li>清空旧的网页页面, <code>hexo clean</code></li>
+<li>生成新的网页页面, <code>hexo generate</code></li>
+<li>同步到Github上, <code>hexo deploy</code></li>
+</ol>
+<blockquote>
+<p>参考资料<br><a href="https://github.com/gwj1139177410/gwj1139177410.github.io" target="_blank" rel="noopener">Gwj’s OI Blog</a><br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a><br><a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="noopener">hexo+Github搭建属于自己的博客</a><br><a href="http://blog.csdn.net/lemonxq/article/details/72676005" target="_blank" rel="noopener">hexo博客搭建+个人定制</a><br><a href="http://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a><br><a href="http://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="noopener">20分钟教你使用hexo搭建github博客</a><br><a href="http://www.jianshu.com/p/cea41e5c9b2a" target="_blank" rel="noopener">hexo搭建的Github博客绑定域名</a><br><a href="http://hzwer.com/7560.html" target="_blank" rel="noopener">hzwer本博客搭建教程及说明</a><br><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">NexT使用文档</a><br><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT开源项目</a><a href="http://iissnan.com/progit/" target="_blank" rel="noopener">Git教程</a><br><a href="http://fontawesome.io/" target="_blank" rel="noopener">NexT图标使用</a><br><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a><br><a href="http://www.arao.me/2015/hexo-next-theme-optimize-seo/" target="_blank" rel="noopener">动动手指，不限于NexT主题的Hexo优化（SEO篇）</a><br><a href="https://www.fyvps.com/jp.html" target="_blank" rel="noopener">枫叶主机</a><br><a href="http://mp3.flash127.com/sou/%E5%89%8D%E5%89%8D.html" target="_blank" rel="noopener">127mp3外链</a><br><a href="https://portal.qiniu.com/bucket/gwj1314/resource" target="_blank" rel="noopener">七牛云</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Geek</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从机器学习谈起</title>
+    <url>/note/%E4%BB%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B0%88%E8%B5%B7/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="从机器学习谈起"><a href="#从机器学习谈起" class="headerlink" title="从机器学习谈起"></a>从机器学习谈起</h2><p>　在本篇文章中，我将对机器学习做个概要的介绍。本文的目的是能让即便完全不了解机器学习的人也能了解机器学习，并且上手相关的实践。这篇文档也算是EasyPR开发的番外篇，从这里开始，必须对机器学习了解才能进一步介绍EasyPR的内核。当然，本文也面对一般读者，不会对阅读有相关的前提要求。</p>
+<p>　　在进入正题前，我想读者心中可能会有一个疑惑：机器学习有什么重要性，以至于要阅读完这篇非常长的文章呢？</p>
+<p>　　我并不直接回答这个问题前。相反，我想请大家看两张图，下图是图一：</p>
+<p><img src="/images/从机器学习谈起/291235317785665.png" alt><br>图1 机器学习界的执牛耳者与互联网界的大鳄的联姻　　</p>
+<p>　　这幅图上上的三人是当今机器学习界的执牛耳者。中间的是Geoffrey Hinton, 加拿大多伦多大学的教授，如今被聘为“Google大脑”的负责人。右边的是Yann LeCun, 纽约大学教授，如今是Facebook人工智能实验室的主任。而左边的大家都很熟悉，Andrew Ng，中文名吴恩达，斯坦福大学副教授，如今也是“百度大脑”的负责人与百度首席科学家。这三位都是目前业界炙手可热的大牛，被互联网界大鳄求贤若渴的聘请，足见他们的重要性。而他们的研究方向，则全部都是机器学习的子类–深度学习。<br>　　下图是图二：</p>
+<p><img src="/images/从机器学习谈起/190845269685692.jpg" alt></p>
+<p>图2 语音助手产品</p>
+<p>　　这幅图上描述的是什么？Windows Phone上的语音助手Cortana，名字来源于《光环》中士官长的助手。相比其他竞争对手，微软很迟才推出这个服务。Cortana背后的核心技术是什么，为什么它能够听懂人的语音？事实上，这个技术正是机器学习。机器学习是所有语音助手产品(包括Apple的siri与Google的Now)能够跟人交互的关键技术。</p>
+<p>　　通过上面两图，我相信大家可以看出机器学习似乎是一个很重要的，有很多未知特性的技术。学习它似乎是一件有趣的任务。实际上，学习机器学习不仅可以帮助我们了解互联网界最新的趋势，同时也可以知道伴随我们的便利服务的实现技术。</p>
+<p>　　机器学习是什么，为什么它能有这么大的魔力，这些问题正是本文要回答的。同时，本文叫做“从机器学习谈起”，因此会以漫谈的形式介绍跟机器学习相关的所有内容，包括学科(如数据挖掘、计算机视觉等)，算法(神经网络，svm)等等。本文的主要目录如下：</p>
+<ol>
+<li>一个故事说明什么是机器学习</li>
+<li>机器学习的定义</li>
+<li>机器学习的范围</li>
+<li>机器学习的方法</li>
+<li>机器学习的应用–大数据</li>
+<li>机器学习的子类–深度学习</li>
+<li>机器学习的父类–人工智能</li>
+<li>机器学习的思考–计算机的潜意识</li>
+<li>总结</li>
+<li>后记</li>
+</ol>
+<p><strong>1.一个故事说明什么是机器学习</strong></p>
+<p>　　机器学习这个词是让人疑惑的，首先它是英文名称Machine Learning(简称ML)的直译，在计算界Machine一般指计算机。这个名字使用了拟人的手法，说明了这门技术是让机器“学习”的技术。但是计算机是死的，怎么可能像人类一样“学习”呢？<br>　　传统上如果我们想让计算机工作，我们给它一串指令，然后它遵照这个指令一步步执行下去。有因有果，非常明确。但这样的方式在机器学习中行不通。机器学习根本不接受你输入的指令，相反，它接受你输入的数据! 也就是说，机器学习是一种让计算机利用数据而不是指令来进行各种工作的方法。这听起来非常不可思议，但结果上却是非常可行的。“统计”思想将在你学习“机器学习”相关理念时无时无刻不伴随，相关而不是因果的概念将是支撑机器学习能够工作的核心概念。你会颠覆对你以前所有程序中建立的因果无处不在的根本理念。<br>　　下面我通过一个故事来简单地阐明什么是机器学习。这个故事比较适合用在知乎上作为一个概念的阐明。在这里，这个故事没有展开，但相关内容与核心是存在的。如果你想简单的了解一下什么是机器学习，那么看完这个故事就足够了。如果你想了解机器学习的更多知识以及与它关联紧密的当代技术，那么请你继续往下看，后面有更多的丰富的内容。<br>　　这个例子来源于我真实的生活经验，我在思考这个问题的时候突然发现它的过程可以被扩充化为一个完整的机器学习的过程，因此我决定使用这个例子作为所有介绍的开始。这个故事称为“等人问题”。<br>　　我相信大家都有跟别人相约，然后等人的经历。现实中不是每个人都那么守时的，于是当你碰到一些爱迟到的人，你的时间不可避免的要浪费。我就碰到过这样的一个例子。<br>　　对我的一个朋友小Y而言，他就不是那么守时，最常见的表现是他经常迟到。当有一次我跟他约好3点钟在某个麦当劳见面时，在我出门的那一刻我突然想到一个问题：我现在出发合适么？我会不会又到了地点后，花上30分钟去等他？我决定采取一个策略解决这个问题。<br>　　要想解决这个问题，有好几种方法。第一种方法是采用知识：我搜寻能够解决这个问题的知识。但很遗憾，没有人会把如何等人这个问题作为知识传授，因此我不可能找到已有的知识能够解决这个问题。第二种方法是问他人：我去询问他人获得解决这个问题的能力。但是同样的，这个问题没有人能够解答，因为可能没人碰上跟我一样的情况。第三种方法是准则法：我问自己的内心，我有否设立过什么准则去面对这个问题？例如，无论别人如何，我都会守时到达。但我不是个死板的人，我没有设立过这样的规则。<br>　　事实上，我相信有种方法比以上三种都合适。我把过往跟小Y相约的经历在脑海中重现一下，看看跟他相约的次数中，迟到占了多大的比例。而我利用这来预测他这次迟到的可能性。如果这个值超出了我心里的某个界限，那我选择等一会再出发。假设我跟小Y约过5次，他迟到的次数是1次，那么他按时到的比例为80%，我心中的阈值为70%，我认为这次小Y应该不会迟到，因此我按时出门。如果小Y在5次迟到的次数中占了4次，也就是他按时到达的比例为20%，由于这个值低于我的阈值，因此我选择推迟出门的时间。这个方法从它的利用层面来看，又称为经验法。在经验法的思考过程中，我事实上利用了以往所有相约的数据。因此也可以称之为依据数据做的判断。<br>　　<strong>依据数据所做的判断跟机器学习的思想根本上是一致的。</strong><br>　　刚才的思考过程我只考虑“频次”这种属性。在真实的机器学习中，这可能都不算是一个应用。一般的机器学习模型至少考虑两个量：一个是因变量，也就是我们希望预测的结果，在这个例子里就是小Y迟到与否的判断。另一个是自变量，也就是用来预测小Y是否迟到的量。假设我把时间作为自变量，譬如我发现小Y所有迟到的日子基本都是星期五，而在非星期五情况下他基本不迟到。于是我可以建立一个模型，来模拟小Y迟到与否跟日子是否是星期五的概率。见下图：</p>
+<p><img src="/images/从机器学习谈起/302230238567547.jpg" alt></p>
+<p>这样的图就是一个最简单的机器学习模型，称之为决策树。<br>　　当我们考虑的自变量只有一个时，情况较为简单。如果把我们的自变量再增加一个。例如小Y迟到的部分情况时是在他开车过来的时候(你可以理解为他开车水平较臭，或者路较堵)。于是我可以关联考虑这些信息。建立一个更复杂的模型，这个模型包含两个自变量与一个因变量。<br>　　再更复杂一点，小Y的迟到跟天气也有一定的原因，例如下雨的时候，这时候我需要考虑三个自变量。<br>　　如果我希望能够预测小Y迟到的具体时间，我可以把他每次迟到的时间跟雨量的大小以及前面考虑的自变量统一建立一个模型。于是我的模型可以预测值，例如他大概会迟到几分钟。这样可以帮助我更好的规划我出门的时间。在这样的情况下，决策树就无法很好地支撑了，因为决策树只能预测离散值。我们可以用节2所介绍的线型回归方法建立这个模型。<br>　　如果我把这些建立模型的过程交给电脑。比如把所有的自变量和因变量输入，然后让计算机帮我生成一个模型，同时让计算机根据我当前的情况，给出我是否需要迟出门，需要迟几分钟的建议。那么计算机执行这些辅助决策的过程就是机器学习的过程。<br>　　<strong>机器学习方法是计算机利用已有的数据(经验)，得出了某种模型(迟到的规律)，并利用此模型预测未来(是否迟到)的一种方法。</strong><br>　　通过上面的分析，可以看出机器学习与人类思考的经验过程是类似的，不过它能考虑更多的情况，执行更加复杂的计算。事实上，机器学习的一个主要目的就是把人类思考归纳经验的过程转化为计算机通过对数据的处理计算得出模型的过程。经过计算机得出的模型能够以近似于人的方式解决很多灵活复杂的问题。<br>　　下面，我会开始对机器学习的正式介绍，包括定义、范围，方法、应用等等，都有所包含。</p>
+<p><strong>2.机器学习的定义</strong><br>　　从广义上来说，机器学习是一种能够赋予机器学习的能力以此让它完成直接编程无法完成的功能的方法。但从实践的意义上来说，机器学习是一种通过利用数据，训练出模型，然后使用模型预测的一种方法。</p>
+<p>　　让我们具体看一个例子。</p>
+<p><img src="data:image/png;base64,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" alt></p>
+<p>　拿国民话题的房子来说。现在我手里有一栋房子需要售卖，我应该给它标上多大的价格？房子的面积是100平方米，价格是100万，120万，还是140万？</p>
+<p>　　很显然，我希望获得房价与面积的某种规律。那么我该如何获得这个规律？用报纸上的房价平均数据么？还是参考别人面积相似的？无论哪种，似乎都并不是太靠谱。</p>
+<p>　　我现在希望获得一个合理的，并且能够最大程度的反映面积与房价关系的规律。于是我调查了周边与我房型类似的一些房子，获得一组数据。这组数据中包含了大大小小房子的面积与价格，如果我能从这组数据中找出面积与价格的规律，那么我就可以得出房子的价格。</p>
+<p>　　对规律的寻找很简单，拟合出一条直线，让它“穿过”所有的点，并且与各个点的距离尽可能的小。</p>
+<p>　　通过这条直线，我获得了一个能够最佳反映房价与面积规律的规律。这条直线同时也是一个下式所表明的函数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">　　房价 = 面积 * a + b</span><br></pre></td></tr></table></figure>
+<p>　　上述中的a、b都是直线的参数。获得这些参数以后，我就可以计算出房子的价格。</p>
+<p>　　假设a = 0.75,b = 50，则房价 = 100 * 0.75 + 50 = 125万。这个结果与我前面所列的100万，120万，140万都不一样。由于这条直线综合考虑了大部分的情况，因此从“统计”意义上来说，这是一个最合理的预测。<br>　　在求解过程中透露出了两个信息：<br>　　1.房价模型是根据拟合的函数类型决定的。如果是直线，那么拟合出的就是直线方程。如果是其他类型的线，例如抛物线，那么拟合出的就是抛物线方程。机器学习有众多算法，一些强力算法可以拟合出复杂的非线性模型，用来反映一些不是直线所能表达的情况。<br>　　2.如果我的数据越多，我的模型就越能够考虑到越多的情况，由此对于新情况的预测效果可能就越好。这是机器学习界“数据为王”思想的一个体现。一般来说(不是绝对)，数据越多，最后机器学习生成的模型预测的效果越好。</p>
+<p>　　通过我拟合直线的过程，我们可以对机器学习过程做一个完整的回顾。首先，我们需要在计算机中存储历史的数据。接着，我们将这些 数据通过机器学习算法进行处理，这个过程在机器学习中叫做“训练”，处理的结果可以被我们用来对新的数据进行预测，这个结果一般称之为“模型”。对新数据 的预测过程在机器学习中叫做“预测”。“训练”与“预测”是机器学习的两个过程，“模型”则是过程的中间输出结果，“训练”产生“模型”，“模型”指导 “预测”。</p>
+<p>　　让我们把机器学习的过程与人类对历史经验归纳的过程做个比对。</p>
+<p><img src="/images/从机器学习谈起/221227224214301.png" alt></p>
+<p>图5 机器学习与人类思考的类比</p>
+<p>　　人类在成长、生活过程中积累了很多的历史与经验。人类定期地对这些经验进行“归纳”，获得了生活的“规律”。当人类遇到未知的问题或者需要对未来进行“推测”的时候，人类使用这些“规律”，对未知问题与未来进行“推测”，从而指导自己的生活和工作。</p>
+<p>　　机器学习中的“训练”与“预测”过程可以对应到人类的“归纳”和“推测”过程。通过这样的对应，我们可以发现，机器学习的思想并不复杂，仅仅是对人类在生活中学习成长的一个模拟。由于机器学习不是基于编程形成的结果，因此它的处理过程不是因果的逻辑，而是通过归纳思想得出的相关性结论。</p>
+<p> 　　这也可以联想到人类为什么要学习历史，历史实际上是人类过往经验的总结。有句话说得很好，“历史往往不一样，但历史总是惊人的相似”。通过学习历史，我们从历史中归纳出人生与国家的规律，从而指导我们的下一步工作，这是具有莫大价值的。当代一些人忽视了历史的本来价值，而是把其作为一种宣扬功绩的手段，这其实是对历史真实价值的一种误用。</p>
+<p>　　</p>
+<p><strong>3.机器学习的范围</strong></p>
+<p>　　上文虽然说明了机器学习是什么，但是并没有给出机器学习的范围。</p>
+<p>　　其实，机器学习跟模式识别，统计学习，数据挖掘，计算机视觉，语音识别，自然语言处理等领域有着很深的联系。</p>
+<p>　　从范围上来说，机器学习跟模式识别，统计学习，数据挖掘是类似的，同时，机器学习与其他领域的处理技术的结合，形成了计算机视觉、语音识别、自然语言处理等交叉学科。因此，一般说数据挖掘时，可以等同于说机器学习。同时，我们平常所说的机器学习应用，应该是通用的，不仅仅局限在结构化数据，还有图像，音频等应用。<br>　　在这节对机器学习这些相关领域的介绍有助于我们理清机器学习的应用场景与研究范围，更好的理解后面的算法与应用层次。</p>
+<p>　　下图是机器学习所牵扯的一些相关范围的学科与研究领域。</p>
+<p><img src="/images/从机器学习谈起/221213379524716.png" alt></p>
+<p>图6 机器学习与相关学科</p>
+<p>　　模式识别<br>　　模式识别=机器学习。两者的主要区别在于前者是从工业界发展起来的概念，后者则主要源自计算机学科。在著名的《Pattern Recognition And Machine Learning》这本书中，Christopher M. Bishop在开头是这样说的“模式识别源自工业界，而机器学习来自于计算机学科。不过，它们中的活动可以被视为同一个领域的两个方面，同时在过去的10年间，它们都有了长足的发展”。<br>　　数据挖掘<br>　　数据挖掘=机器学习+数据库。这几年数据挖掘的概念实在是太耳熟能详。几乎等同于炒作。但凡说数据挖掘都会吹嘘数据挖掘如何如何，例如从数据中挖出金子，以及将废弃的数据转化为价值等等。但是，我尽管可能会挖出金子，但我也可能挖的是“石头”啊。这个说法的意思是，数据挖掘仅仅是一种思考方式，告诉我们应该尝试从数据中挖掘出知识，但不是每个数据都能挖掘出金子的，所以不要神话它。一个系统绝对不会因为上了一个数据挖掘模块就变得无所不能(这是IBM最喜欢吹嘘的)，恰恰相反，一个拥有数据挖掘思维的人员才是关键，而且他还必须对数据有深刻的认识，这样才可能从数据中导出模式指引业务的改善。大部分数据挖掘中的算法是机器学习的算法在数据库中的优化。<br>　　统计学习<br>　　统计学习近似等于机器学习。统计学习是个与机器学习高度重叠的学科。因为机器学习中的大多数方法来自统计学，甚至可以认为，统计学的发展促进机器学习的繁荣昌盛。例如著名的支持向量机算法，就是源自统计学科。但是在某种程度上两者是有分别的，这个分别在于：统计学习者重点关注的是统计模型的发展与优化，偏数学，而机器学习者更关注的是能够解决问题，偏实践，因此机器学习研究者会重点研究学习算法在计算机上执行的效率与准确性的提升。<br>　　计算机视觉<br>　　计算机视觉=图像处理+机器学习。图像处理技术用于将图像处理为适合进入机器学习模型中的输入，机器学习则负责从图像中识别出相关的模式。计算机视觉相关的应用非常的多，例如百度识图、手写字符识别、车牌识别等等应用。这个领域是应用前景非常火热的，同时也是研究的热门方向。随着机器学习的新领域深度学习的发展，大大促进了计算机图像识别的效果，因此未来计算机视觉界的发展前景不可估量。<br>　　语音识别<br>　　语音识别=语音处理+机器学习。语音识别就是音频处理技术与机器学习的结合。语音识别技术一般不会单独使用，一般会结合自然语言处理的相关技术。目前的相关应用有苹果的语音助手siri等。<br>　　自然语言处理<br>　　自然语言处理=文本处理+机器学习。自然语言处理技术主要是让机器理解人类的语言的一门领域。在自然语言处理技术中，大量使用了编译原理相关的技术，例如词法分析，语法分析等等，除此之外，在理解这个层面，则使用了语义理解，机器学习等技术。作为唯一由人类自身创造的符号，自然语言处理一直是机器学习界不断研究的方向。按照百度机器学习专家余凯的说法“听与看，说白了就是阿猫和阿狗都会的，而只有语言才是人类独有的”。如何利用机器学习技术进行自然语言的的深度理解，一直是工业和学术界关注的焦点。<br>　　可以看出机器学习在众多领域的外延和应用。机器学习技术的发展促使了很多智能领域的进步，改善着我们的生活。</p>
+<p><strong>4.机器学习的方法</strong></p>
+<p>　　通过上节的介绍我们知晓了机器学习的大致范围，那么机器学习里面究竟有多少经典的算法呢？在这个部分我会简要介绍一下机器学习中的经典代表方法。这部分介绍的重点是这些方法内涵的思想，数学与实践细节不会在这讨论。<br>　　<strong>1、回归算法</strong></p>
+<p>　　在大部分机器学习课程中，回归算法都是介绍的第一个算法。原因有两个：一.回归算法比较简单，介绍它可以让人平滑地从统计学迁移到机器学习中。二.回归算法是后面若干强大算法的基石，如果不理解回归算法，无法学习那些强大的算法。回归算法有两个重要的子类：即线性回归和逻辑回归。</p>
+<p>　　线性回归就是我们前面说过的房价求解问题。如何拟合出一条直线最佳匹配我所有的数据？一般使用“最小二乘法”来求解。“最小二乘法”的思想是这样的，假设我们拟合出的直线代表数据的真实值，而观测到的数据代表拥有误差的值。为了尽可能减小误差的影响，需要求解一条直线使所有误差的平方和最小。最小二乘法将最优问题转化为求函数极值问题。函数极值在数学上我们一般会采用求导数为0的方法。但这种做法并不适合计算机，可能求解不出来，也可能计算量太大。</p>
+<p>　　计算机科学界专门有一个学科叫“数值计算”，专门用来提升计算机进行各类计算时的准确性和效率问题。例如，著名的“梯度下降”以及“牛顿法”就是数值计算中的经典算法，也非常适合来处理求解函数极值的问题。梯度下降法是解决回归模型中最简单且有效的方法之一。从严格意义上来说，由于后文中的神经网络和推荐算法中都有线性回归的因子，因此梯度下降法在后面的算法实现中也有应用。<br>　　逻辑回归是一种与线性回归非常类似的算法，但是，从本质上讲，线型回归处理的问题类型与逻辑回归不一致。线性回归处理的是数值问题，也就是最后预测出的结果是数字，例如房价。而逻辑回归属于分类算法，也就是说，逻辑回归预测结果是离散的分类，例如判断这封邮件是否是垃圾邮件，以及用户是否会点击此广告等等。</p>
+<p>　　实现方面的话，逻辑回归只是对对线性回归的计算结果加上了一个Sigmoid函数，将数值结果转化为了0到1之间的概率(Sigmoid函数的图像一般来说并不直观，你只需要理解对数值越大，函数越逼近1，数值越小，函数越逼近0)，接着我们根据这个概率可以做预测，例如概率大于0.5，则这封邮件就是垃圾邮件，或者肿瘤是否是恶性的等等。从直观上来说，逻辑回归是画出了一条分类线，见下图。</p>
+<p><img src="/images/从机器学习谈起/221217185156265.png" alt></p>
+<p>图7 逻辑回归的直观解释</p>
+<p>　　假设我们有一组肿瘤患者的数据，这些患者的肿瘤中有些是良性的(图中的蓝色点)，有些是恶性的(图中的红色点)。这里肿瘤的红蓝色可以被称作数据的“标签”。同时每个数据包括两个“特征”：患者的年龄与肿瘤的大小。我们将这两个特征与标签映射到这个二维空间上，形成了我上图的数据。<br>　　当我有一个绿色的点时，我该判断这个肿瘤是恶性的还是良性的呢？根据红蓝点我们训练出了一个逻辑回归模型，也就是图中的分类线。这时，根据绿点出现在分类线的左侧，因此我们判断它的标签应该是红色，也就是说属于恶性肿瘤。<br>　　逻辑回归算法划出的分类线基本都是线性的(也有划出非线性分类线的逻辑回归，不过那样的模型在处理数据量较大的时候效率会很低)，这意味着当两类之间的界线不是线性时，逻辑回归的表达能力就不足。下面的两个算法是机器学习界最强大且重要的算法，都可以拟合出非线性的分类线。<br>　　<strong>2、神经网络</strong></p>
+<p>　　神经网络(也称之为人工神经网络，ANN)算法是80年代机器学习界非常流行的算法，不过在90年代中途衰落。现在，携着“深度学习”之势，神经网络重装归来，重新成为最强大的机器学习算法之一。<br>　　神经网络的诞生起源于对大脑工作机理的研究。早期生物界学者们使用神经网络来模拟大脑。机器学习的学者们使用神经网络进行机器学习的实验，发现在视觉与语音的识别上效果都相当好。在BP算法(加速神经网络训练过程的数值算法)诞生以后，神经网络的发展进入了一个热潮。BP算法的发明人之一是前面介绍的机器学习大牛Geoffrey Hinton(图1中的中间者)。<br>　　具体说来，神经网络的学习机理是什么？简单来说，就是分解与整合。在著名的Hubel-Wiesel试验中，学者们研究猫的视觉分析机理是这样的。</p>
+<p><img src="/images/从机器学习谈起/221209098439656.png" alt></p>
+<p>图8 Hubel-Wiesel试验与大脑视觉机理</p>
+<p>　　比方说，一个正方形，分解为四个折线进入视觉处理的下一层中。四个神经元分别处理一个折线。每个折线再继续被分解为两条直线，每条直线再被分解为黑白两个面。于是，一个复杂的图像变成了大量的细节进入神经元，神经元处理以后再进行整合，最后得出了看到的是正方形的结论。这就是大脑视觉识别的机理，也是神经网络工作的机理。<br>　　让我们看一个简单的神经网络的逻辑架构。在这个网络中，分成输入层，隐藏层，和输出层。输入层负责接收信号，隐藏层负责对数据的分解与处理，最后的结果被整合到输出层。每层中的一个圆代表一个处理单元，可以认为是模拟了一个神经元，若干个处理单元组成了一个层，若干个层再组成了一个网络，也就是”神经网络”。</p>
+<p><img src="/images/从机器学习谈起/221224194835024.png" alt><br>图9 神经网络的逻辑架构</p>
+<p>　　在神经网络中，每个处理单元事实上就是一个逻辑回归模型，逻辑回归模型接收上层的输入，把模型的预测结果作为输出传输到下一个层次。通过这样的过程，神经网络可以完成非常复杂的非线性分类。</p>
+<p>　　下图会演示神经网络在图像识别领域的一个著名应用，这个程序叫做LeNet，是一个基于多个隐层构建的神经网络。通过LeNet可以识别多种手写数字，并且达到很高的识别精度与拥有较好的鲁棒性。</p>
+<p><img src="/images/从机器学习谈起/242108049057308.gif" alt></p>
+<p><img src="/images/从机器学习谈起/242108416558480.gif" alt>图10 LeNet的效果展示</p>
+<p>　　右下方的方形中显示的是输入计算机的图像，方形上方的红色字样“answer”后面显示的是计算机的输出。左边的三条竖直的图像列显示的是神经网络中三个隐藏层的输出，可以看出，随着层次的不断深入，越深的层次处理的细节越低，例如层3基本处理的都已经是线的细节了。LeNet的发明人就是前文介绍过的机器学习的大牛Yann LeCun(图1右者)。</p>
+<p>　　进入90年代，神经网络的发展进入了一个瓶颈期。其主要原因是尽管有BP算法的加速，神经网络的训练过程仍然很困难。因此90年代后期支持向量机(SVM)算法取代了神经网络的地位。<br>　　<strong>3、SVM（支持向量机）</strong></p>
+<p>　　支持向量机算法是诞生于统计学习界，同时在机器学习界大放光彩的经典算法。</p>
+<p>　　支持向量机算法从某种意义上来说是逻辑回归算法的强化：通过给予逻辑回归算法更严格的优化条件，支持向量机算法可以获得比逻辑回归更好的分类界线。但是如果没有某类函数技术，则支持向量机算法最多算是一种更好的线性分类技术。</p>
+<p>　　但是，通过跟高斯“核”的结合，支持向量机可以表达出非常复杂的分类界线，从而达成很好的的分类效果。“核”事实上就是一种特殊的函数，最典型的特征就是可以将低维的空间映射到高维的空间。</p>
+<p>　　例如下图所示：</p>
+<p><img src="/images/从机器学习谈起/100907289157780.png" alt>          </p>
+<ul>
+<li>*图11 支持向量机图例</li>
+</ul>
+<p>　　我们如何在二维平面划分出一个圆形的分类界线？在二维平面可能会很困难，但是通过“核”可以将二维空间映射到三维空间，然后使用一个线性平面就可以达成类似效果。也就是说，二维平面划分出的非线性分类界线可以等价于三维平面的线性分类界线。于是，我们可以通过在三维空间中进行简单的线性划分就可以达到在二维平面中的非线性划分效果。<br><img src="/images/从机器学习谈起/100907449932793.gif" alt></p>
+<ul>
+<li>*图12 三维空间的切割</li>
+</ul>
+<p>　　支持向量机是一种数学成分很浓的机器学习算法（相对的，神经网络则有生物科学成分）。在算法的核心步骤中，有一步证明，即将数据从低维映射到高维不会带来最后计算复杂性的提升。于是，通过支持向量机算法，既可以保持计算效率，又可以获得非常好的分类效果。因此支持向量机在90年代后期一直占据着机器学习中最核心的地位，基本取代了神经网络算法。直到现在神经网络借着深度学习重新兴起，两者之间才又发生了微妙的平衡转变。<br>　　<strong>4、聚类算法</strong></p>
+<p>　　前面的算法中的一个显著特征就是我的训练数据中包含了标签，训练出的模型可以对其他未知数据预测标签。在下面的算法中，训练数据都是不含标签的，而算法的目的则是通过训练，推测出这些数据的标签。这类算法有一个统称，即无监督算法(前面有标签的数据的算法则是有监督算法)。无监督算法中最典型的代表就是聚类算法。<br>　　让我们还是拿一个二维的数据来说，某一个数据包含两个特征。我希望通过聚类算法，给他们中不同的种类打上标签，我该怎么做呢？简单来说，聚类算法就是计算种群中的距离，根据距离的远近将数据划分为多个族群。<br>　　聚类算法中最典型的代表就是K-Means算法。</p>
+<p>　　<strong>5、降维算法</strong></p>
+<p>　　降维算法也是一种无监督学习算法，其主要特征是将数据从高维降低到低维层次。在这里，维度其实表示的是数据的特征量的大小，例如，房价包含房子的长、宽、面积与房间数量四个特征，也就是维度为4维的数据。可以看出来，长与宽事实上与面积表示的信息重叠了，例如面积=长 × 宽。通过降维算法我们就可以去除冗余信息，将特征减少为面积与房间数量两个特征，即从4维的数据压缩到2维。于是我们将数据从高维降低到低维，不仅利于表示，同时在计算上也能带来加速。<br>　　刚才说的降维过程中减少的维度属于肉眼可视的层次，同时压缩也不会带来信息的损失(因为信息冗余了)。如果肉眼不可视，或者没有冗余的特征，降维算法也能工作，不过这样会带来一些信息的损失。但是，降维算法可以从数学上证明，从高维压缩到的低维中最大程度地保留了数据的信息。因此，使用降维算法仍然有很多的好处。<br>　　降维算法的主要作用是压缩数据与提升机器学习其他算法的效率。通过降维算法，可以将具有几千个特征的数据压缩至若干个特征。另外，降维算法的另一个好处是数据的可视化，例如将5维的数据压缩至2维，然后可以用二维平面来可视。降维算法的主要代表是PCA算法(即主成分分析算法)。<br>　　<strong>6、推荐算法</strong></p>
+<p>　　推荐算法是目前业界非常火的一种算法，在电商界，如亚马逊，天猫，京东等得到了广泛的运用。推荐算法的主要特征就是可以自动向用户推荐他们最感兴趣的东西，从而增加购买率，提升效益。推荐算法有两个主要的类别：</p>
+<p>　　一类是基于物品内容的推荐，是将与用户购买的内容近似的物品推荐给用户，这样的前提是每个物品都得有若干个标签，因此才可以找出与用户购买物品类似的物品，这样推荐的好处是关联程度较大，但是由于每个物品都需要贴标签，因此工作量较大。</p>
+<p>　　另一类是基于用户相似度的推荐，则是将与目标用户兴趣相同的其他用户购买的东西推荐给目标用户，例如小A历史上买了物品B和C，经过算法分析，发现另一个与小A近似的用户小D购买了物品E，于是将物品E推荐给小A。</p>
+<p>　　两类推荐都有各自的优缺点，在一般的电商应用中，一般是两类混合使用。推荐算法中最有名的算法就是协同过滤算法。<br>　　<strong>7、其他</strong></p>
+<p>　　除了以上算法之外，机器学习界还有其他的如高斯判别，朴素贝叶斯，决策树等等算法。但是上面列的六个算法是使用最多，影响最广，种类最全的典型。机器学习界的一个特色就是算法众多，发展百花齐放。<br>　　下面做一个总结，按照训练的数据有无标签，可以将上面算法分为监督学习算法和无监督学习算法，但推荐算法较为特殊，既不属于监督学习，也不属于非监督学习，是单独的一类。</p>
+<p>　　<strong>监督学习算法：</strong><br>　　线性回归，逻辑回归，神经网络，SVM<br>　　<strong>无监督学习算法：</strong><br>　　聚类算法，降维算法<br>　　<strong>特殊算法：</strong><br>　　推荐算法</p>
+<p>　　除了这些算法以外，有一些算法的名字在机器学习领域中也经常出现。但他们本身并不算是一个机器学习算法，而是为了解决某个子问题而诞生的。你可以理解他们为以上算法的子算法，用于大幅度提高训练过程。其中的代表有：梯度下降法，主要运用在线型回归，逻辑回归，神经网络，推荐算法中；牛顿法，主要运用在线型回归中；BP算法，主要运用在神经网络中；SMO算法，主要运用在SVM中。</p>
+<p><strong>5.机器学习的应用–大数据</strong><br>　　说完机器学习的方法，下面要谈一谈机器学习的应用了。无疑，在2010年以前，机器学习的应用在某些特定领域发挥了巨大的作用，如车牌识别，网络攻击防范，手写字符识别等等。但是，从2010年以后，随着大数据概念的兴起，机器学习大量的应用都与大数据高度耦合，几乎可以认为大数据是机器学习应用的最佳场景。<br>　　譬如，但凡你能找到的介绍大数据魔力的文章，都会说大数据如何准确准确预测到了某些事。例如经典的Google利用大数据预测了H1N1在美国某小镇的爆发。</p>
+<p>　<img src="/images/从机器学习谈起/242044433744851.png" alt></p>
+<p>图13 Google成功预测H1N1</p>
+<p>　　百度预测2014年世界杯，从淘汰赛到决赛全部预测正确。</p>
+<p><img src="/images/从机器学习谈起/242049525625891.jpg" alt>图14 百度世界杯成功预测了所有比赛结果</p>
+<p>　　这些实在太神奇了，那么究竟是什么原因导致大数据具有这些魔力的呢？简单来说，就是机器学习技术。正是基于机器学习技术的应用，数据才能发挥其魔力。</p>
+<p>　　大数据的核心是利用数据的价值，机器学习是利用数据价值的关键技术，对于大数据而言，机器学习是不可或缺的。相反，对于机器学习而言，越多的数据会越 可能提升模型的精确性，同时，复杂的机器学习算法的计算时间也迫切需要分布式计算与内存计算这样的关键技术。因此，机器学习的兴盛也离不开大数据的帮助。 大数据与机器学习两者是互相促进，相依相存的关系。</p>
+<p>　　机器学习与大数据紧密联系。但是，必须清醒的认识到，大数据并不等同于机器学习，同理，机器学习也不等同于大数据。大数据中包含有分布式计算，内存数据库，多维分析等等多种技术。单从分析方法来看，大数据也包含以下四种分析方法：<br>　　1.<strong>大数据，小分析：</strong>即数据仓库领域的OLAP分析思路，也就是多维分析思想。<br>　　2.<strong>大数据，大分析：</strong>这个代表的就是数据挖掘与机器学习分析法。<br>　　3.<strong>流式分析：</strong>这个主要指的是事件驱动架构。<br>　　4.<strong>查询分析：</strong>经典代表是NoSQL数据库。<br>　　也就是说，机器学习仅仅是大数据分析中的一种而已。尽管机器学习的一些结果具有很大的魔力，在某种场合下是大数据价值最好的说明。但这并不代表机器学习是大数据下的唯一的分析方法。<br>　　机器学习与大数据的结合产生了巨大的价值。基于机器学习技术的发展，数据能够“预测”。对人类而言，积累的经验越丰富，阅历也广泛，对未来的判断越准确。例如常说的“经验丰富”的人比“初出茅庐”的小伙子更有工作上的优势，就在于经验丰富的人获得的规律比他人更准确。而在机器学习领域，根据著名的一个实验，有效的证实了机器学习界一个理论：即机器学习模型的数据越多，机器学习的预测的效率就越好。见下图：</p>
+<p><img src="/images/从机器学习谈起/301631492162492.png" alt></p>
+<p><img src="/images/从机器学习谈起/301631172002773.png" alt></p>
+<p>图15 机器学习准确率与数据的关系</p>
+<p>　　通过这张图可以看出，各种不同算法在输入的数据量达到一定级数后，都有相近的高准确度。于是诞生了机器学习界的名言：<strong>成功的机器学习应用不是拥有最好的算法，而是拥有最多的数据！</strong><br>　　在大数据的时代，有好多优势促使机器学习能够应用更广泛。例如随着物联网和移动设备的发展，我们拥有的数据越来越多，种类也包括图片、文本、视频等非结构化数据，这使得机器学习模型可以获得越来越多的数据。同时大数据技术中的分布式计算Map-Reduce使得机器学习的速度越来越快，可以更方便的使用。种种优势使得在大数据时代，机器学习的优势可以得到最佳的发挥。</p>
+<p><strong>6.机器学习的子类–深度学习</strong><br>　　近来，机器学习的发展产生了一个新的方向，即“深度学习”。<br>　　虽然深度学习这四字听起来颇为高大上，但其理念却非常简单，就是传统的神经网络发展到了多隐藏层的情况。<br>　　在上文介绍过，自从90年代以后，神经网络已经消寂了一段时间。但是BP算法的发明人Geoffrey Hinton一直没有放弃对神经网络的研究。由于神经网络在隐藏层扩大到两个以上，其训练速度就会非常慢，因此实用性一直低于支持向量机。2006年，Geoffrey Hinton在科学杂志《Science》上发表了一篇文章，论证了两个观点：</p>
+<p><strong>　　1.多隐层的神经网络具有优异的特征学习能力，学习得到的特征对数据有更本质的刻画，从而有利于可视化或分类；</strong></p>
+<p><strong>　　2.深度神经网络在训练上的难度，可以通过“逐层初始化” 来有效克服。</strong></p>
+<p><img src="/images/从机器学习谈起/242050441877753.png" alt><br>图16 Geoffrey Hinton与他的学生在Science上发表文章</p>
+<p>　　通过这样的发现，不仅解决了神经网络在计算上的难度，同时也说明了深层神经网络在学习上的优异性。从此，神经网络重新成为了机器学习界中的主流强大学习技术。同时，具有多个隐藏层的神经网络被称为深度神经网络，基于深度神经网络的学习研究称之为深度学习。<br>　　由于深度学习的重要性质，在各方面都取得极大的关注，按照时间轴排序，有以下四个标志性事件值得一说：<br>　　2012年6月，《纽约时报》披露了Google Brain项目，这个项目是由Andrew Ng和Map-Reduce发明人Jeff Dean共同主导，用16000个CPU Core的并行计算平台训练一种称为“深层神经网络”的机器学习模型，在语音识别和图像识别等领域获得了巨大的成功。Andrew Ng就是文章开始所介绍的机器学习的大牛(图1中左者)。</p>
+<p>　　2012年11月，微软在中国天津的一次活动上公开演示了一个全自动的同声传译系统，讲演者用英文演讲，后台的计算机一气呵成自动完成语音识别、英中机器翻译，以及中文语音合成，效果非常流畅，其中支撑的关键技术是深度学习；</p>
+<p>　　2013年1月，在百度的年会上，创始人兼CEO李彦宏高调宣布要成立百度研究院，其中第一个重点方向就是深度学习，并为此而成立深度学习研究院(IDL)。</p>
+<p>　　2013年4月，《麻省理工学院技术评论》杂志将深度学习列为2013年十大突破性技术(Breakthrough Technology)之首。</p>
+<p><img src="/images/从机器学习谈起/242119267339172.png" alt></p>
+<p>图17 深度学习的发展热潮</p>
+<p>　　文章开头所列的三位机器学习的大牛，不仅都是机器学习界的专家，更是深度学习研究领域的先驱。因此，使他们担任各个大型互联网公司技术掌舵者的原因不仅在于他们的技术实力，更在于他们研究的领域是前景无限的深度学习技术。<br>　　目前业界许多的图像识别技术与语音识别技术的进步都源于深度学习的发展，除了本文开头所提的Cortana等语音助手，还包括一些图像识别应用，其中典型的代表就是下图的百度识图功能。</p>
+<p><img src="/images/从机器学习谈起/301558029039641.png" alt></p>
+<p>图18 百度识图</p>
+<p>　　深度学习属于机器学习的子类。基于深度学习的发展极大的促进了机器学习的地位提高，更进一步地，推动了业界对机器学习父类人工智能梦想的再次重视。</p>
+<p><strong>7.机器学习的父类–人工智能</strong></p>
+<p>　　人工智能是机器学习的父类。深度学习则是机器学习的子类。如果把三者的关系用图来表明的话，则是下图：</p>
+<p><img src="/images/从机器学习谈起/301611254811216.png" alt></p>
+<p>图19 深度学习、机器学习、人工智能三者关系</p>
+<p>　　毫无疑问，人工智能(AI)是人类所能想象的科技界最突破性的发明了，某种意义上来说，人工智能就像游戏最终幻想的名字一样，是人类对于科技界的最终梦想。从50年代提出人工智能的理念以后，科技界，产业界不断在探索，研究。这段时间各种小说、电影都在以各种方式展现对于人工智能的想象。人类可以发明类似于人类的机器，这是多么伟大的一种理念！但事实上，自从50年代以后，人工智能的发展就磕磕碰碰，未有见到足够震撼的科学技术的进步。<br>　　总结起来，人工智能的发展经历了如下若干阶段，从早期的逻辑推理，到中期的专家系统，这些科研进步确实使我们离机器的智能有点接近了，但还有一大段距离。直到机器学习诞生以后，人工智能界感觉终于找对了方向。基于机器学习的图像识别和语音识别在某些垂直领域达到了跟人相媲美的程度。机器学习使人类第一次如此接近人工智能的梦想。</p>
+<p>　　事实上，如果我们把人工智能相关的技术以及其他业界的技术做一个类比，就可以发现机器学习在人工智能中的重要地位不是没有理由的。</p>
+<p>　　人类区别于其他物体，植物，动物的最主要区别，作者认为是<strong>“智慧”</strong>。而智慧的最佳体现是什么？</p>
+<p>　　是计算能力么，应该不是，心算速度快的人我们一般称之为天才。<br>　　是反应能力么，也不是，反应快的人我们称之为灵敏。<br>　　是记忆能力么，也不是，记忆好的人我们一般称之为过目不忘。<br>　　是推理能力么，这样的人我也许会称他智力很高，类似“福尔摩斯”，但不会称他拥有智慧。<br>　　是知识能力么，这样的人我们称之为博闻广，也不会称他拥有智慧。</p>
+<p>　　想想看我们一般形容谁有大智慧？圣人，诸如庄子，老子等。<strong>智慧是对生活的感悟，是对人生的积淀与思考</strong>，这与我们机器学习的思想何其相似？通过经验获取规律，指导人生与未来。没有经验就没有智慧。</p>
+<p><img src="/images/从机器学习谈起/301636181536962.png" alt></p>
+<p>图20 机器学习与智慧</p>
+<p>　　</p>
+<p>　　那么，从计算机来看，以上的种种能力都有种种技术去应对。</p>
+<p>　　例如计算能力我们有分布式计算，反应能力我们有事件驱动架构，检索能力我们有搜索引擎，知识存储能力我们有数据仓库，逻辑推理能力我们有专家系统，但是，唯有对应智慧中最显著特征的归纳与感悟能力，只有机器学习与之对应。这也是机器学习能力最能表征智慧的根本原因。<br>　　让我们再看一下机器人的制造，在我们具有了强大的计算，海量的存储，快速的检索，迅速的反应，优秀的逻辑推理后我们如果再配合上一个强大的智慧大脑，一个真正意义上的人工智能也许就会诞生，这也是为什么说在机器学习快速发展的现在，人工智能可能不再是梦想的原因。<br>　　人工智能的发展可能不仅取决于机器学习，更取决于前面所介绍的深度学习，深度学习技术由于深度模拟了人类大脑的构成，在视觉识别与语音识别上显著性的突破了原有机器学习技术的界限，因此极有可能是真正实现人工智能梦想的关键技术。无论是谷歌大脑还是百度大脑，都是通过海量层次的深度学习网络所构成的。也许借助于深度学习技术，在不远的将来，一个具有人类智能的计算机真的有可能实现。</p>
+<p>　　最后再说一下题外话，由于人工智能借助于深度学习技术的快速发展，已经在某些地方引起了传统技术界达人的担忧。真实世界的“钢铁侠”，特斯拉CEO马斯克就是其中之一。最近马斯克在参加MIT讨论会时，就表达了对于人工智能的担忧。“人工智能的研究就类似于召唤恶魔，我们必须在某些地方加强注意。”</p>
+<p> <img src="/images/从机器学习谈起/292123300283048.png" alt></p>
+<p>图21 马斯克与人工智能</p>
+<p>　　尽管马斯克的担心有些危言耸听，但是马斯克的推理不无道理。“如果人工智能想要消除垃圾邮件的话，可能它最后的决定就是消灭人类。”马斯克认为预防此类现象的方法是引入政府的监管。在这里作者的观点与马斯克类似，在人工智能诞生之初就给其加上若干规则限制可能有效，也就是不应该使用单纯的机器学习，而应该是机器学习与规则引擎等系统的综合能够较好的解决这类问题。因为如果学习没有限制，极有可能进入某个误区，必须要加上某些引导。正如人类社会中，法律就是一个最好的规则，杀人者死就是对于人类在探索提高生产力时不可逾越的界限。</p>
+<p>　　在这里，必须提一下这里的规则与机器学习引出的规律的不同，规律不是一个严格意义的准则，其代表的更多是概率上的指导，而规则则是神圣不可侵犯，不可修改的。规律可以调整，但规则是不能改变的。有效的结合规律与规则的特点，可以引导出一个合理的，可控的学习型人工智能。</p>
+<p><strong>8.机器学习的思考–计算机的潜意识</strong><br>　　最后，作者想谈一谈关于机器学习的一些思考。主要是作者在日常生活总结出来的一些感悟。</p>
+<p>　　回想一下我在节1里所说的故事，我把小Y过往跟我相约的经历做了一个罗列。但是这种罗列以往所有经历的方法只有少数人会这么做，大部分的人采用的是更直接的方法，即利用直觉。那么，直觉是什么？其实直觉也是你在潜意识状态下思考经验后得出的规律。就像你通过机器学习算法，得到了一个模型，那么你下次只要直接使用就行了。那么这个规律你是什么时候思考的？可能是在你无意识的情况下，例如睡觉，走路等情况。这种时候，大脑其实也在默默地做一些你察觉不到的工作。</p>
+<p>　　这种直觉与潜意识，我把它与另一种人类思考经验的方式做了区分。如果一个人勤于思考，例如他会每天做一个小结，譬如“吾日三省吾身”，或者他经常与同伴讨论最近工作的得失，那么他这种训练模型的方式是直接的，明意识的思考与归纳。这样的效果很好，记忆性强，并且更能得出有效反应现实的规律。但是大部分的人可能很少做这样的总结，那么他们得出生活中规律的方法使用的就是潜意识法。</p>
+<p>　　举一个作者本人关于潜意识的例子。作者本人以前没开过车，最近一段时间买了车后，天天开车上班。我每天都走固定的路线。有趣的是，在一开始的几天，我非常紧张的注意着前方的路况，而现在我已经在无意识中就把车开到了目标。这个过程中我的眼睛是注视着前方的，我的大脑是没有思考，但是我手握着的方向盘会自动的调整方向。也就是说。随着我开车次数的增多，我已经把我开车的动作交给了潜意识。这是非常有趣的一件事。在这段过程中，我的大脑将前方路况的图像记录了下来，同时大脑也记忆了我转动方向盘的动作。经过大脑自己的潜意识思考，最后生成的潜意识可以直接根据前方的图像调整我手的动作。假设我们将前方的录像交给计算机，然后让计算机记录与图像对应的驾驶员的动作。经过一段时间的学习，计算机生成的机器学习模型就可以进行自动驾驶了。这很神奇，不是么。其实包括Google、特斯拉在内的自动驾驶汽车技术的原理就是这样。<br>　　除了自动驾驶汽车以外，潜意识的思想还可以扩展到人的交际。譬如说服别人，一个最佳的方法就是给他展示一些信息，然后让他自己去归纳得出我们想要的结论。<strong>这</strong>就好比在<strong>阐述一个观点时，用一个事实，或者一个故事，比大段的道理要好很多。</strong>古往今来，但凡优秀的说客，无不采用的是这种方法。春秋战国时期，各国合纵连横，经常有各种说客去跟一国之君交流，直接告诉君主该做什么，无异于自寻死路，但是跟君主讲故事，通过这些故事让君主恍然大悟，就是一种正确的过程。这里面有许多杰出的代表，如墨子，苏秦等等。<br>　　基本上所有的交流过程，使用故事说明的效果都要远胜于阐述道义之类的效果好很多。为什么用故事的方法比道理或者其他的方法好很多，这是因为在人成长的过程，经过自己的思考，已经形成了很多规律与潜意识。如果你告诉的规律与对方的不相符，很有可能出于保护，他们会本能的拒绝你的新规律，但是如果你跟他讲一个故事，传递一些信息，输送一些数据给他，他会思考并自我改变。他的思考过程实际上就是机器学习的过程，他把新的数据纳入到他的旧有的记忆与数据中，经过重新训练。如果你给出的数据的信息量非常大，大到调整了他的模型，那么他就会按照你希望的规律去做事。有的时候，他会本能的拒绝执行这个思考过程，但是数据一旦输入，无论他希望与否，他的大脑都会在潜意识状态下思考，并且可能改变他的看法。<br>　　如果计算机也拥有潜意识(正如本博客的名称一样)，那么会怎么样？譬如让计算机在工作的过程中，逐渐产生了自身的潜意识，于是甚至可以在你不需要告诉它做什么时它就会完成那件事。这是个非常有意思的设想，这里留给各位读者去发散思考吧。</p>
+<p><strong>9.总结</strong></p>
+<p>　　本文首先介绍了互联网界与机器学习大牛结合的趋势，以及使用机器学习的相关应用，接着以一个“等人故事”展开对机器学习的介绍。介绍中首先是机器学习的概念与定义，然后是机器学习的相关学科，机器学习中包含的各类学习算法，接着介绍机器学习与大数据的关系，机器学习的新子类深度学习，最后探讨了一下机器学习与人工智能发展的联系以及机器学习与潜意识的关联。经过本文的介绍，相信大家对机器学习技术有一定的了解，例如机器学习是什么，它的内核思想是什么(即统计和归纳)，通过了解机器学习与人类思考的近似联系可以知晓机器学习为什么具有智慧能力的原因等等。其次，本文漫谈了机器学习与外延学科的关系，机器学习与大数据相互促进相得益彰的联系，机器学习界最新的深度学习的迅猛发展，以及对于人类基于机器学习开发智能机器人的一种展望与思考，最后作者简单谈了一点关于让计算机拥有潜意识的设想。<br>　　机器学习是目前业界最为Amazing与火热的一项技术，从网上的每一次淘宝的购买东西，到自动驾驶汽车技术，以及网络攻击抵御系统等等，都有机器学习的因子在内，同时机器学习也是最有可能使人类完成AI dream的一项技术，各种人工智能目前的应用，如微软小冰聊天机器人，到计算机视觉技术的进步，都有机器学习努力的成分。作为一名当代的计算机领域的开发或管理人员，以及身处这个世界，使用者IT技术带来便利的人们，最好都应该了解一些机器学习的相关知识与概念，因为这可以帮你更好的理解为你带来莫大便利技术的背后原理，以及让你更好的理解当代科技的进程。<br><strong>10.后记</strong><br>　　这篇文档花了作者两个月的时间，终于在2014年的最后一天的前一天基本完成。通过这篇文章，作者希望对机器学习在国内的普及做一点贡献，同时也是作者本人自己对于所学机器学习知识的一个融汇贯通，整体归纳的提高过程。作者把这么多的知识经过自己的大脑思考，训练出了一个模型，形成了这篇文档，可以说这也是一种机器学习的过程吧(笑)。</p>
+<p>　　作者所在的行业会接触到大量的数据，因此对于数据的处理和分析是平常非常重要的工作，机器学习课程的思想和理念对于作者日常的工作指引作用极大，几乎导致了作者对于数据价值的重新认识。想想半年前，作者还对机器学习似懂非懂，如今也可以算是一个机器学习的Expert了(笑)。但作者始终认为，机器学习的真正应用不是通过概念或者思想的方式，而是通过实践。只有当把机器学习技术真正应用时，才可算是对机器学习的理解进入了一个层次。正所谓再“阳春白雪”的技术，也必须落到“下里巴人”的场景下运用。目前有一种风气，国内外研究机器学习的某些学者，有一种高贵的逼格，认为自己的研究是普通人无法理解的，但是这样的理念是根本错误的，没有在真正实际的地方发挥作用，凭什么证明你的研究有所价值呢？作者认为必须将高大上的技术用在改变普通人的生活上，才能发挥其根本的价值。一些简单的场景，恰恰是实践机器学习技术的最好地方。 </p>
+<p>*　　对EasyPR做下说明：EasyPR，一个开源的中文车牌识别系统，代码托管在github。其次，在前面的博客文章中，包含EasyPR至今的开发文档与介绍。在后续的文章中，作者会介绍EasyPR中基于机器学习技术SVM的应用即车牌判别模块的核心内容，欢迎继续阅读。</p>
+<blockquote>
+<p>参考资料<br><a href="http://www.cnblogs.com/subconscious/p/4107357.html" target="_blank" rel="noopener">从机器学习谈起</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>深度学习</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+</search>

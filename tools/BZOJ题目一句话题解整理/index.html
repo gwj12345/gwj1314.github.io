@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="BZOJ,题解,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="BZOJ题目一句话题解整理就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ  已A">
+<meta name="keywords" content="BZOJ,题解">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BZOJ题目一句话题解整理">
+<meta property="og:url" content="http://page.gwj1314.space/tools/BZOJ题目一句话题解整理/index.html">
+<meta property="og:site_name" content="小哈里&#39;s Blog">
+<meta property="og:description" content="BZOJ题目一句话题解整理就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ  已A">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-09-10T03:36:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BZOJ题目一句话题解整理">
+<meta name="twitter:description" content="BZOJ题目一句话题解整理就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ  已A">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://page.gwj1314.space/tools/BZOJ题目一句话题解整理/">
+
+
+
+
+
+  <title>BZOJ题目一句话题解整理 | 小哈里's Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">小哈里's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">不念过去，不惧未来。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-friends">
+          <a href="/friends/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-group"></i> <br>
+            
+            友链
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://page.gwj1314.space/tools/BZOJ题目一句话题解整理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="小哈里">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/qaq.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小哈里's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">BZOJ题目一句话题解整理</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-02T10:26:12+08:00">
+                2017-08-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/OI/" itemprop="url" rel="index">
+                    <span itemprop="name">OI</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="\assets\js\APlayer.min.js"> </script><blockquote>
+<p><a href="http://blog.csdn.net/creationaugust/article/details/51387623" target="_blank" rel="noopener">BZOJ题目一句话题解整理</a><br>就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.<br>做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..<br>部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.<br>可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的<br>UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ</p>
+</blockquote>
+<p>已AC的题目及部分未AC但是知道标算的题目(数学题均不提供分析过程,公式):<br>1000:A+B<br>1001:平面图最小割,转对偶图最短路<br>1002:矩阵树定理,也可以通过推矩阵的递推关系得到递推式<br>1003:最短路+DP<br>1007:半平面交<br>1008:组合数学,需要高精<br>1010:斜率优化/四边形不等式推决策单调性<br>1012:线段树<br>1014:Splay维护字符串的Hash值<br>1016:矩阵树定理,相同权值压联通块,对一个联通块用一次矩阵树定理计算方案数,累积答案 也可以DFS<br>1023:仙人掌DP找直径<br>1031:直接构建出倍长后串的SA,用rank数组做<br>1034:贪心<br>1036:树链剖分/LCT<br>1038:半平面交<br>1041:数论,推一下公式 也可以用一种跟勾股定理相关的做法<br>1043:计算几何,细节已忘.<br>1050:并查集,细节已忘.<br>1053:爆搜<br>1054:模拟<br>1059:二分图最大匹配,对行和列做点<br>1061:不等关系转费用流建图<br>1066:最大流<br>1067:线段树分类讨论<br>1070:费用流<br>1072:状压DP,据说暴力可过<br>1083:最小生成树<br>1087:状压DP<br>1088:枚举状态,暴力<br>1089:找规律,需要高精,也可以用组合数学推一下<br>1092:模拟<br>1095:动态树分治,或者dfs序线段树维护括号序列<br>1099:线段树+分类讨论<br>1101:莫比乌斯反演,同HAOI ProblemB<br>1103:dfs序,或者链剖<br>1106:树状数组.考虑记录下每个元素上一次出现的位置,然后BIT搞一搞.<br>1112:权值平衡树,中位数相关.<br>1113:好像是单调栈扫一扫就没了.<br>1121:一个结论题,答案是n/2.<br>1131:树形DP一下.<br>1132:答案的式子可以看出一个坐标的前缀和,优化一下暴力.<br>1143:利用那些图论定理,最长反链=n-最大匹配.<br>1145:很多种情况,BIT维护一下然后把这些情况加加减减.网上有WJMZBMR题解.<br>1146:一个比较模板的题..为了不被卡常卡空间可以考虑把其中一维搞上整体二分.<br>1167:空数据,Python 2B<br>1176:cdq分治,或者kdtree<br>1180:LCT<br>1191:二分图最大匹配<br>1192:考虑二进制分解.<br>1193:大规模贪心,小规模暴力.<br>1195:状压DP,与某道TC SRM一样.<br>1202:加权并查集,维护前缀和.<br>1208:权值平衡树.<br>1213:二分,Python.<br>1214:空数据,Python 2B<br>1227:组合,容斥,二维BIT.建议看黄学长题解.<br>1269:区间Splay裸题.<br>1307:题意是找最大的一个区间使得区间内为一个排列.记录前驱后继,可以得到符合条件的判定关系与区间长度,区间最大值最小值差有关.通过前驱后继来查询这个东西.<br>1318:同1307<br>1336:最小圆覆盖<br>1337:同1336<br>1342:对当前区间搞了个set.<br>1345:规律+结论题,附核心代码,我也不知道怎么证的</p>
+<p>for (int i=1;i&lt;=n;i++)<br>    {<br>        in(a[i]);<br>        if (i&gt;=2)<br>        {<br>            if (a[i]&gt;maxn)  sum+=a[i];<br>            else    sum+=maxn;<br>        }<br>        maxn=a[i];<br>    }<br>    cout&lt;&lt;sum&lt;&lt;endl;</p>
+<p>1351:空数据,Python 2B<br>1360:空数据,Python 2B<br>1370:并查集.(这不是某NOIP题吗<br>1379:答案就是m.忘了为什么了.<br>1398:KMP最小表示,卡SAM内存.<br>1406:数论,找质因子搞一搞.<br>1419:DP一下.枚举选到了i张红的,然后1~b枚举选到了多少黑的.似乎需要滚一下数组压内存.<br>1453:方法很多,提供四个.1.LCT维护删除时间最大生成树 2.cdq分治+并查集 3.A*爆搜 4.线段树维护连通性<br>1482:空数据,Python 2B<br>1492:斜率优化,因为状态点的x不单调,所以需要平衡树或者cdq分治<br>1500:区间Splay.<br>1502:Simpson积分.<br>1503:权值平衡树<br>1513:二维线段树<br>1529:答案是联通块个数,并查集或者Tarjan都可以.<br>1532:二分答案,最大流判定.<br>1543:同JSOI2008最小生成树计数.<br>1563:四边形不等式推出决策单调,二分决策点.<br>1568:李超线段树.<br>1588:权值平衡树.<br>1798:线段树双标记.但是我是拿LCT写的.<br>1800:暴力<br>1821:二分答案+并查集<br>1853:爆搜<br>1857:三分套三分.<br>1875:矩乘优化DP<br>1876:Python题,直接GCD<br>1877:拆点费用流<br>1878:离线处理+树状数组<br>1879:状压DP<br>1880:四遍最短路,然后DP一下<br>1898:可以发现每12次还是6次一个循环,然后对大范围矩乘一下,剩下的一点暴力DP出来.<br>1902:考虑p进制拆分,答案是拆分后每一位+1的乘积 证明好像是考虑Lucas定理的<br>也可以数位DP+组合数学,但是无论哪种做法都需要Python高精度<br>1907:树的最小路径覆盖,可以直接树DP/贪心<br>1922:分层图最短路<br>1923:高斯消元.<br>1924:强联通分量缩点最长路<br>1925:DP.需要用到一些抖动子序列的性质.<br>1941:kdtree最远点<br>1951:数论板子合集.<br>1968:枚举1~n统计n/i的和<br>1969:LCT维护两点间桥边数量,不知道当年标算是什么但应该不是LCT吧<br>1979:二分答案,用平衡树判定.<br>1984:链剖/LCT裸题.<br>1997:平面图判定.需要平面图理论.<br>2000:可以贪心的博弈问题.网上很多证明.<br>2001:可以LCT,也可以cdq,cdq的话需要很多最小生成树的性质.<br>2002:可以LCT,可以分块.<br>2003:特技爆搜.<br>2004:矩乘优化DP<br>2005:莫比乌斯反演<br>2006:线段树+堆维护五元组<br>2012:容斥+组合,同SDOI2013Spring<br>2013:DP+二分<br>2045:同POI2007Zap<br>2049:国内第一个LCT<br>2051:点分治<br>2054:并查集的特技<br>2056:嘿嘿嘿<br>2064:状压DP<br>2089:同2090.<br>2090:权值线段树优化一下DP.感觉这个DP好像并不一定对啊..但是大家好像都是这么写的.<br>2093:左右端点移动一下找到目标位置,然后倍增.<br>2096:单调队列搞一搞<br>2111:组合数搞一搞,需要Lucas<br>2117:同2051<br>2141:cdq分治<br>2151:堆+贪心<br>2154:莫比乌斯反演,有很多种公式化法,我的好像是比较傻逼的那种..<br>2157:LCT,随便打标记<br>2163:直接最小割过了,其实应该转对偶图然后最短路才对.<br>2186:考察线性的逆元求法.<br>2190:反演分析一下,最后却发现答案是个跟phi有关的表达式..<br>2213:DP乱搞一下.附核心代码</p>
+<p>for (int i=2;i&lt;=n;++i)   ch[i]=getchar(),maxn=max(maxn,ch[i]-‘a’);<br>    for (int i=1;i&lt;=n;++i)<br>    {<br>        int y=ch[i]-‘a’;<br>        for (int j=0;j&lt;=maxn;++j)<br>        {<br>            ++f[j][y];–f[y][j];<br>            if (!g[y][j])   g[y][j]=1;<br>            else    if (g[y][j]==2) –g[y][j],++f[y][j];<br>            if (f[y][j]&lt;0)   f[y][j]=-1,g[y][j]=2;<br>            if (g[y][j])    ans=max(ans,f[y][j]);<br>            if (g[j][y])    ans=max(ans,f[j][y]);<br>        }<br>    }<br>2216:显然权函数单调,满足四边形不等式,决策单调.<br>2222:似乎数据有问题还是什么?面向数据了一波.<br>2223:主席树<br>2229:GHTree<br>2241:暴力枚举答案然后检测,检测时候需要特技,感觉理论复杂度并不对但是过了<br>2243:链剖或者LCT,我写的链剖<br>2244:cdq分治做三维偏序的DP,答案实际上可能非常大会爆…但是出题人十分懒惰没管那样的数据,所以double就过了<br>2275:考虑斐波那契分解.有一个定理,然而并不会证明.<br>2280:倍增+最小圆覆盖,卡评测好题.<br>2288:线段树优化费用流,模拟费用的取反什么的.5倍经验.<br>2295:乱搞.附核心代码</p>
+<p>char ch[MAXN],tmp[20]={‘l’,’u’,’v’,’l’,’e’,’t’,’t’,’e’,’r’};<br>int main()<br>{<br>    for (scanf(“%d”,&amp;T),getchar();T;T–)<br>    {<br>        gets(ch+1);n=strlen(ch+1);ans=0;<br>        for (int i=1,j=0;i&lt;=n;i++)<br>        {<br>            j+=(ch[i]==tmp[j]);<br>            if (j&gt;=9)    j=0,ans++;<br>        }<br>        printf(“%d\n”,ans);<br>    }<br>}<br>2296:找到一个P=987654321*10^6,答案就是(P+n)-(P+n)mod n<br>2299:裴蜀定理<br>2300:平衡树维护凸包.因为求的是凸包周长,所以贡献不可累积,故不能分治.<br>2301:莫比乌斯反演.同POI2007Zap<br>2326:矩乘.<br>2336:模拟退火<br>2344:暴力找三元环.<br>2351:Hash<br>2377:同POI2012 A Horrible Poem<br>2378:PA2011Kangaroo kdtree 把序列[L,R]看成点(L,R) 然后查询的就是右下角的矩阵,打一些标记搞一搞.<br>2393:同SCOI2010幸运数字<br>2395:二维最小乘积生成树,裸.<br>2428:模拟退火<br>2433:计算几何.<br>2434:AC自动机+线段树.<br>2438:强连通分量.<br>2440:莫比乌斯函数的应用,实际上就是容斥.<br>2448:区间DP,线段树优化,卡普通线段树常数,需要zkw线段树.<br>2456:卡内存..乱搞<br>2458:分治,分治子结构内暴力+剪枝<br>2460:线性基<br>2461:乱DP一波<br>2462:同2351Hash<br>2463:根奇偶有关的博弈,一眼看出规律,证明可以考虑转化成骨牌铺满格子的问题.<br>2464:裸最短路<br>2467:矩阵树定理<br>2506:小范围直接记录答案,大范围暴力.<br>2514:同HNOI2010那个.<br>2527:整体二分.<br>2555: LCT维护SAM Parent树Right集合<br>2568:按位考虑的乱搞树状数组,大量逻辑混乱…<br>2588:找dfs序,树上建个主席树<br>2594:LCT<br>2595:斯坦纳树.<br>2600:贪心,找规律,中位数相关<br>2618:半平面交<br>2623:RGB识别系统的弱化.湖南当年请的教授出题真厉害..<br>2626:kdtree+堆<br>2631:LCT+双标记<br>2639:二维莫队.<br>2642:可以发现一次删一段连续的一定是最优的,所以二分一下删的长度,半平面交<br>2648:kdtree<br>2654:二分答案然后最小生成树<br>2656:Python题<br>2657:实际上就是让你找直径,没有三角剖分的姿势也没事<br>2659:直觉型数学题<br>2660:DP一下.<br>2661:费用流<br>2662:分层图最短路<br>2671:类似莫比乌斯反演,推一推式子就行了<br>2683:我写的cdq<br>2697:贪心<br>2705:莫比乌斯反演<br>2716:cdq分治<br>2717:奇怪的姿势枚举一发</p>
+<p>for (int i=1;i&lt;=(n&gt;&gt;1);i++)    for (int j=0;j&lt;n;j++)    printf(“%d %d %d\n”,j+1,(j+i)%n+1,(j+i+i)%n+1);<br>1<br>1<br>2718:同CTSC2008祭祀<br>2721:随便化一下式子<br>2724:分块<br>2729:组合数,需要Python<br>2732:二分答案半平面交判定<br>2733:平衡树启发式合并.<br>2738:整体二分,也可分块<br>2739:四边形不等式,然后发现决策单调,然后分治找决策点<br>2741:分块套可持久化trie<br>2751:根据题目找一个性质啥的..细节已忘<br>2753:本意是求最小树形图,实际上因为题目特殊所以可以BFS一遍然后做最小生成树<br>2754:AC自动机fail树+容斥,实际上暴力也过了.<br>2759:题目给的是个环套树,对LCT维护一个额外的father,然后扩欧求答案<br>2761:妈的智障..<br>2763:分层图最短路<br>2783:dfs时候维护一下set<br>2786:DP一下,需要Python<br>2789:还是考虑上个位置,然后树状数组乱搞一下<br>2795:hash,对一段数枚举约数然后判定<br>2796:记忆化搜索<br>2809:权值平衡树启发式合并,或者左偏树<br>2812:空数据,Python 2B<br>2813:斐波那契数性质的应用,线筛时候记录一下质因子,约数个数之类的<br>2814:人生写过最码农的题,可以LCT可以链剖,只不过都得维护30来个量<br>2815:支配树弱化版,倍增<br>2816:LCT<br>2818:同SDOI2012Longge的问题<br>2822:卡特兰数相关,需要Python<br>2823:最小圆覆盖<br>2824:好像是个A*,我面向数据了一波<br>2843:LCT<br>2850:kdtree<br>2851:灭绝树.<br>2862:二分limit,dp<br>2864:计算几何+最大流<br>2875:矩乘<br>2883:树套树,线段树套平衡树,但是我写的是线段树套权值线段树<br>2886:显然先从整个矩形的边界上走比较好,可以发现转一下就是杨辉三角,再然后就没别的了<br>2888:LCT维护树的重心,需要启发式合并<br>2890:同POI2012 A Horrible Poem<br>2896:同AHOI2005航线那题<br>2901:可以发现能用前缀和做..<br>2908:考虑建32位的信息维护,链剖或者LCT<br>2916:暴力<br>2936:灌水法,堆+爆搜<br>2937:写了个n^2暴力就能过<br>2946:SAM时刻记录匹配上的最大值<br>2957:线段树维护一段区间斜率<br>2961:圆的反演,然后就成了cdq分治做半平面交<br>2976:模拟一下得到一堆同余方程,扩欧找最小解<br>2986:把2440反过来,做法一样<br>2987:类欧裸题,然而还是不是很理解类欧<br>3038:记录区间最大值,如果还能开根,暴力下放,最多开根lglg次<br>3040:平板电视+Dij<br>3043:乱搞一发,附核心代码</p>
+<pre><code>in(n);for (int i=1;i&lt;=n;++i) in(a[i]);
+for (int i=n;i;--i) a[i]-=a[i-1],ans1+=(i&gt;1)*a[i]*(a[i]&gt;0),ans2+=(i&gt;1)*(-a[i])*(a[i]&lt;0);
+cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
+</code></pre><p>1<br>2<br>3<br>1<br>2<br>3<br>3051:平面图求域+点定位.<br>3052:莫队上树.<br>3053:高维kdtree<br>3064:线段树+标记+时间戳.<br>3069:LCT维护是否存在桥边,实际上可以并查集<br>3070:考虑固定指数,把底数慢慢往上调,比较难写,于是我当时面向数据了一发<br>3072:神DP.建议看Claris题解.<br>3073:线段树优化建图最短路<br>3084:扩展KMP.建议看Claris题解<br>3098:生日攻击.<br>3100:根前面那个什么 玩具 是一样的.<br>3103:跑一边马拉车,然后并查集缩点一下,就成了弦图染色问题.<br>3110:整体二分<br>3117:链表+堆搞了一下,看似不科学实际上飞快<br>3130:显然费用的分配是可以贪心的.然后二分.<br>3132:二维树状数组<br>3153:TopTree/ETT+LCT 然而出题人的做法不是这两个…<br>3155:树状数组乱搞一下<br>3170:链剖<br>3172:建出多串后缀自动机,直接搞<br>3176:显然要考虑逆序对什么的,然后还需要树状数组,附核心代码</p>
+<p> for (int i=1,last;i&lt;=n;i=last+1)<br>    {<br>        for (last=i+1;a[last-1]&gt;a[last]&amp;&amp;last&lt;=n;last++);last–;<br>        for (ans++,l=i,r=last;l&lt;r;swap(a[l++],a[r–]));<br>    }<br>    for (int i=n;i;i–) ans+=query(a[i]),add(a[i]);<br>    cout&lt;&lt;ans&lt;&lt;endl;<br>3178:循环构成了一个树形结构,然后就可以DP了<br>3180:单调栈乱搞 需要SPJ 但是我好像恰巧跟std策略相同,直接A了<br>3181:大质数暴力,小的二分乱搞一下<br>3196:树套树<br>3197:树Hash+乱搞<br>3198:容斥+组合<br>3199:显然图是个V图,半平面交弄出来,然后最短路<br>3203:计算几何,答案在凸壳上,三分一下<br>3209:数位DP+数论<br>3211:同 上帝造题七分钟2<br>3223:区间Splay裸题.<br>3224:权值平衡树<br>3226:把区间拆成两倍来处理开闭问题,然后线段树就行了,可以看成区间加减01,区间覆盖01的问题<br>3228:把整个坐标系旋转45°,然后就成了扫描线sb题,问题在于统计的不是面积而是格子…所以细节非常麻烦<br>3229:满足四边形不等式然后DP就好了<br>3231:矩乘<br>3236:莫队/树套树/cdq分治.<br>3237:我写的cdq分治,实际上也有别的做法<br>3238:后缀自动机Parent树上DP一下<br>3243:基于随机化的乱搞<br>3251:注意到fib数没多少项就爆int了,所以暴力<br>3252:dfs序,然后变成了rmq问题,写个线段树<br>3260:同2886<br>3262:cdq分治维护三维偏序<br>3267:同2288.<br>3268:ST表搞一搞.source里都给写了题解了..<br>3272:同3267<br>3277:SAM基本应用<br>3282:LCT<br>3283:BSGS.<br>3295:cdq分治.注意每次修改会产生更多额外的贡献要单独减去的<br>3309:莫比乌斯反演<br>3323:序列平衡树维护多项式<br>3329:把两问分别考虑,一个数位DP一个矩乘<br>3339:跟SDOI2008HH的项链方法差不多,也是离线然后考虑找到前驱后继线段树做<br>3350:同3103<br>3417:对一个环可以重复走多次每次长度都是+2的,所以第一次BFS看看路径长奇偶就行了.<br>3424:跟dfs序有关.有波兰人论文.<br>3439:建trie,对trie dfs一遍,同时建立主席树<br>3463:分块维护凸壳<br>3473:同3277<br>3482:SPFA预处理含x条边的情况然后做.建议看Claris题解.<br>3483:建trie,可以发现询问能跟trie的dfs序对应起来,所以再建一棵主席树.<br>3489:我写的3d kdtree<br>3493:同HNOI2010那个<br>3495:考虑2-SAT建图.安利Claris题解.<br>3498:枚举三元环,我拿度数倍数判的实际上应该是根号度数..<br>3500:OEIS有数列<br>3501:把3501加点数论特技,CRT什么的..<br>3502:同3272<br>3505:组合数一下<br>3514:LCT.记录下某条边被加入成环,主席树统计答案.<br>3522:树DP.可以O(n)特技.<br>3524:主席树<br>3527:FFT<br>3529:莫比乌斯反演+树状数组<br>3530:AC自动机+数位DP<br>3531:动态开点的LCT/链剖线段树<br>3532:退流科技.<br>3533:线段树维护凸包<br>3534:构建一个合理的矩阵然后矩阵树定理,这个矩阵的构建需要十分高超的概率姿势,建议看高大哥的题解<br>3543:有定理好像是这样的正方形不超过根号个还是什么来着..忘掉了.反正是结论题<br>3544:搞个set就好了<br>3545:本题不强制在线,标算为平衡树启发式合并<br>3551:对3545强制在线后,我们需要主席树+倍增搞一发<br>3555:hash<br>3566:树形概率DP<br>3571:最小乘积生成树+KM.<br>3572:虚树.<br>3573:考虑对树DFS,做一个对数的转化<br>3575:不靠谱的暴力做法..加上堆维护一下<br>3585:又是考虑离线记前驱后继然后线段树的题<br>3589:实际上是虚树.用链剖线段树随便打了打标记.然而标算应该是LCT做链的并吧.<br>3594:线段树优化DP<br>3603:分块高斯消元.<br>3605:分治FFT.<br>3606:平面图求域+点定位.<br>3607:最长路剖分一下,再轻重路剖分一下,安利Claris题解.<br>3613:贪心/找规律.<br>3616:kdtree+bitset<br>3622:厉害的组合数+DP.<br>3629:有一个什么分解定理来着…<br>3638:同3502<br>3643:爆搜<br>3647:hash一下,好像也是个双倍经验<br>3651:对ZJOI2012网络去掉权值的维护<br>3658:单调栈+树状数组<br>3659:矩阵树定理+BestTheorem<br>3667:MillerRabin+PollarRho<br>3668:按位贪心<br>3669:LCT<br>3672:点分治+斜率优化+cdq分治.<br>3673/3674:rope的应用.<br>3675:满足四边形不等式,有决策单调<br>3676:PAM裸题,但是我写的SAM+manacher<br>3680:模拟退火/多重爬山<br>3585:VEB树.<br>3687:bitset应用<br>3688:线段树优化DP<br>3709:贪心.肯定先打能回血的.<br>3710:构造神题.波兰人有论文.<br>3711:分治优化DP,分治过程中用线段树找决策点,决策点单调.<br>3712:树上倍增.<br>3713:暴力拆分.<br>3714:前缀和Prim.<br>3715:找找最大边界值,随便判定一下..<br>3716:最小割转最大流,然后贪心,需要一定坐标变换.<br>3717:高姿势的状压DP.<br>3718:只要能卡住就行了,树状数组.<br>3719:线段树套个vector扫描线扫一扫.<br>3721:随便贪心,考虑奇换偶偶换奇.<br>3722:树形DP.<br>3725:扫一遍,扫的时候记录出现位置,更新答案.<br>3726:悬线法.<br>3727:稍微推一推公式,然后就发现代价可以根据size什么的树形DP了.<br>3728:堆贪心.<br>3732:跟某NOIP货车运输一样.<br>3733:爆搜+信仰剪枝.安利潇爷(Time-Machine)题解<br>3735:堆搞一搞<br>3737:跟phi的反函数一个做法.<br>3743:显然可以直接树形DP.<br>3745:分治,前缀和,单调栈.<br>3754:很好的乱搞题.可以考虑看成是一堆点,然后中间有一条水平直线算代价.<br>3767:Python题.<br>3779:LCT+dfs序线段树<br>3791:可以比较容易的DP出来.<br>3802:预处理转移的DP.也可以直接手动分类讨论出来,只要你不嫌手累代码长难调.<br>3810:记忆化搜索<br>3811:这个期望和概率题好神啊..建议直接上网看题解<br>3812:状压DP,需要一些奇怪姿势.<br>3815:kdtree.<br>3816:空数据 Python 2B<br>3817:类欧题,类欧前需要很多变形.<br>3831:挺sb的一个DP.<br>3834:莫比乌斯反演.<br>3837:线筛处理一些东西,然后DP.<br>3838:看成线段树维护括号序列,然后就发现需要维护的东西特别多还不止一棵线段树.<br>3839:考虑从某个点开始向四个方向扩展的凸包,预处理,然后对询问用线段树扫描线一下.<br>3884:高姿势的数论题.<br>3895:dfs,过程中需要很多情况的讨论,建议看Po姐题解.<br>3915:矩形剖分.<br>3916:枚举删除的位置,Hash.<br>3917:考虑爆搜各种剪枝,每次范围都是之前的十分之一.<br>3922:搞一堆线段树分别对应不同公差,大公差暴力,小的线段树.<br>3926:trie上SAM扩展裸题.因为度数少,所以暴力合并.<br>3928:区间DP一下.<br>3944:杜教筛裸题.<br>3950:同3607.<br>3984:按时间分治,维护删除时间最大的基.<br>3990:操作序列的顺序并不影响答案,根据这个性质所以搜.<br>3991:虚树.<br>3993:二分费用最大流判定.<br>3994:比较厉害的莫比乌斯反演,需要一个性质.安利高大哥题解.<br>3995:线段树维护两排点,分类讨论.<br>3998:SAM的应用.<br>4001:找规律.实际上要靠生成函数来推..<br>4010:拓扑.<br>4020:手写编译器.<br>4025:LCT,或者cdq分治.<br>4027:贪心.<br>4029:模拟.<br>4031:矩阵树定理.<br>4032:前两问直接DP,后两问SAM上DP.<br>4033:看似n^3,实际上n^2的树DP.<br>4034:链剖,<br>4036:子集和变换.<br>4043:同3802.<br>4048:同3928.<br>4052:发现gcd最多有log个,单调栈一下.<br>4057:状压DP.<br>4059:奇怪的暴力.<br>4062:同3658.<br>4063:智障啊..<br>4066:卡掉离线算法差评不已.kdtree<br>4068:维护套着堆的线段树就行了,每次考虑用后来的任务替换一下前面的任务.<br>4084:Hash<br>4085:线段树维护矩乘.据说考场卡常?矩阵可以从3<em>3优化到2</em>2.<br>4086:组合数容斥.<br>4088:大模拟.<br>4106:WF签到题.<br>4127:数一直加的,已经没有负数的就不用管了,其他的可以暴力下放.<br>4128:矩阵BSGS,矩阵求逆或者不求逆的BSGS.<br>4130:kdtree.上面写过这个题了..<br>4140:因为强制在线了,所以要二进制分组<br>4143:乱搞,暴力,没技术含量.<br>4144:最短路+最小生成树.<br>4145:状压DP.<br>4146:写个计数器.sb题<br>4147:又一个根据很多情况来讨论的博弈.看Claris题解把<br>4148:构造.算基础构造题了.<br>4149:考虑单调栈搞一搞.<br>4151:一个非常厉害的.最短路?安利Claris题解<br>4152:把点排个序,构个图,最短路.<br>4154:可以kdtree,要是不只是子树的话,点分就好了.<br>4160:这题好神啊.安利Claris题解.<br>4180:构建出SAM,然后可以矩乘<br>4184:按时间分治线段树维护一下线性基<br>4194:k做一下前缀和就可以看成是凸壳,然后二分一下斜率什么的.<br>4195:并查集<br>4196:链剖<br>4198:Huffman树+贪心<br>4199:SAM Parent树上DP<br>4209:把PA的Bazarek用主席树来做动态的<br>4212:同3483,但是卡trie转移边内存.<br>4216:分块,也卡内存.<br>4229:同PA2011HardChoice<br>4236:随便统计一下三个字母数目更新下答案就行了.<br>4245:按位贪心<br>4247:背包变形<br>4250,4251前面都出现过了<br>4253:把AHOI那个密码箱找质因子的过程来弄成PollardRho<br>4260:trie正着一遍倒着一遍DP,但是我写的可持久化trie,差点T飞<br>4262:考虑询问离线,然后用线段树搞一搞,安利Claris题解.<br>4263:某TCSRM题改编,结论题,贪心一下.<br>4264:边集Hash.<br>4266:同 一个动态树好题<br>4269:线性基<br>4288:跟Baltic2014sequence一样<br>4289:转一下建图,差分建图,,然后最短路<br>4291:跟Bazarek一样<br>4292:按位暴力<br>4293:大小关系是始终不变的,所以排序后可以在线段树上二分.<br>4294:斐波那契数列模10^m有循环节,利用这个,然后搜<br>4296:好像是考虑贪心的删?忘了..<br>4297:神题.安利Claris题解.<br>4298:比较厉害的边集Hash.<br>4299:主席树.可以发现那个东西的一个性质.这个性质如果说出来就没意思了..<br>4300:builtin大法好啊..<br>4305:组合+容斥<br>4310:二分+后缀数组判定/hash判定<br>4311:按时间分治的线段树,答案在凸壳三分<br>4312:大型分类讨论<br>4316:仙人掌DP<br>4317:同2051<br>4318:同Easy那题<br>4319:简单的构造<br>4320:小范围记录答案,大范围暴力 的那种题目<br>4327:SAM直接跑<br>4337:树Hash<br>4347:比较厉害的DP.安利Claris题解.<br>4352:又是个双倍经验..同 A Huge Tower<br>4358:考虑kdtree,序列[L,R]当成(L,R)这样子<br>4364:线段树乱搞..乱更新一下<br>4367:搞出暴力DP之后,满足四边形不等式,所以决策单调,然后分治优化,主席树找决策<br>4373:对区间是否符合条件有一个有关gcd的判定,然后线段树就行了.也可以Hash区间和,区间平方和,立方和.<br>4378:特技差分然后树状数组.<br>4380:区间DP.<br>4401:枚举约数.<br>4403:组合数学.<br>4404:按位搜.<br>4407:莫比乌斯反演<br>4408:同FRBSUM<br>4414:利用一点斐波那契数列的性质做,可以找规律.<br>4415:线段树模拟<br>4418:线段树.<br>4419:暴力<br>4421:智障..<br>4423:考虑对偶图中两点连通性与原图中两点连通性关系,然后并查集维护对偶图的连通性.<br>4424:nlogn可以差分树剖或者LCT,O(n)就利用一些特技乱搞一下.<br>4425:搞个堆<br>4426:满足四边形不等式,分治优化下DP<br>4427:计算几何+二分图判定<br>4428:一点特殊的记忆化搜索姿势然后杜教筛<br>4429:二分图最大匹配<br>4430:树状数组找一下逆序对什么的<br>4432:链表大模拟<br>4434:坐标范围很小,考虑分成一小段一小段然后做<br>4435:割流转化,然后最小割树<br>4437:BFS预处理,然后对每个询问三分<br>4438:忘掉了QAQ<br>4439:最小割<br>4444:DP了一下.好像是n倍经验<br>4452:离线,并查集<br>4453:高端的姿势!请单独看我题解<br>4454:O(1)gcd黑科技<br>4455:一点状压<br>4456:分治+Dij<br>4458:超级钢琴上树<br>4465:第二类strling数变形<br>4471:矩乘+贪心模拟<br>4472:树形DP一下<br>4475:找规律<br>4488:同cerc2013 Magical Gcd<br>4490:同4471<br>4500:差分约束<br>4503:FFT<br>4505:考虑只找那个字符串的一半,暴力枚举星号状态,然后匹配<br>4513:数位DP<br>4514:费用流一直跑,跑到变负数<br>4515:李超线段树<br>4516:SAM裸题<br>4517:直接错排,但是建议写容斥<br>4518:斜率优化,实际上也可以直接四边形不等式然后分治<br>4519:GHtree<br>4520:kdtree,姿势同jzpfar<br>4521:数位DP一下<br>4522:按他的要求做就行了..写Pollardrho,然后扩欧什么的..<br>4523:可持久化trie,时刻维护单调栈匹配的最大长度<br>4524:打表+堆然后搜的..<br>4527:这题好神..但是也属于那种单调栈+线段树搞一搞的题目.安利Claris题解<br>4538:链剖线段树+kdtree<br>4540:同4262<br>4543:提供nlogn 点分治 O(n) 利用启发式思想的树形DP<br>4544:打表观察找到一个积性函数.<br>4545:SAM强行上trie..实际上还是2555<br>4548:同4062<br>4551:并查集<br>4552:二分答案,线段树<br>4553:发现成立条件跟a[i],minb[i],maxb[i]有关.实际上是个三维偏序,可以kdtree可以cdq分治.<br>4554:拆点,二分图最大匹配<br>4556:SAM+dfs序+主席树<br>4557:树形DP一下<br>4558:容斥.需要很多细节讨论<br>4562:拓扑<br>4263:直接上错排<br>4565:状压DP.<br>4566:建两个SAM,考虑下合并代价什么的就行了<br>4568:点分治/倍增+线性基(Claris的点分治模板就是快)<br>4569:ST表+并查集<br>4598:可以考虑nlogn的点分治,这是doc老师给的标算,同时还有一种O(n)的做法.基于以前的暴力LCA的DP,考虑使用上启发式思想,可以做出一个漂亮的O(n)DP,基本同 4543Hotel加强版 这个题一样.<br>4599:首先可以看出回文串的贡献都是可以单独考虑的,然后其他的串可以考虑行列拆点最小割.具体建图已忘.<br>4600:考虑按C分类,然后状压DP.<br>4601:比较重要的两个性质:1.路径只有两种可能,分别是两种绕法,因为我没法贴图片,所以留给大家自行思考.想到这两种绕法之后,还有一个性质,就是选出一行/列,考虑这一行/列的插头状况,发现只有一个插头是非空的(当然这并不意味着要让你写一个插头DP,只是这个性质是比较有用的.<br>有了这两个性质就可以独立考虑做法了.<br>4602:带权并查集,或者直接dfs(因为无向图DFS树只有返祖边没有横向边).为了解决分数特别大的问题,考虑记录质因子或者取log(会被卡精度).<br>4603:正四面体剖分,然后搞一搞.</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/BZOJ/" rel="tag"># BZOJ</a>
+          
+            <a href="/tags/题解/" rel="tag"># 题解</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/tools/mac_gcc_files/" rel="next" title="mac_gcc_files">
+                <i class="fa fa-chevron-left"></i> mac_gcc_files
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/hello-world/" rel="prev" title="hello-world">
+                hello-world <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/uploads/qaq.png" alt="小哈里">
+          <p class="site-author-name" itemprop="name">小哈里</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/gwj12345" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      Github
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="xiaohali:2403668241" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      QQ
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/gwj1139177410/activities" target="_blank" title="zhihu">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      zhihu
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="gwj1139177410@gmail.com" target="_blank" title="E-mail">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      E-mail
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://page.gwj1314.space/hello-world/" title="Hello-World" target="_blank">Hello-World</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">小哈里</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Gemini
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

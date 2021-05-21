@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Diary,脑洞,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="转自世界：http://blog.csdn.net/popoqqq/article/details/78066428  1.数学上的正确  命题P：1+2=3。正确。命题Q：加法支持交换律。正确。命题R：2+1=3。正确。明眼人一看就知道，这三个命题都是正确的。如果你再学过一点逻辑学，那么可以推导出这样的结论：P∧Q→R现在思考，什么是正确？或者说，正确具有什么样的特性？............">
+<meta name="keywords" content="Diary,脑洞">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“正确”与“一致性”与“数学”与“世界”">
+<meta property="og:url" content="http://page.gwj1314.space/diary/“正确”与“一致性”与“数学”与“世界”/index.html">
+<meta property="og:site_name" content="小哈里&#39;s Blog">
+<meta property="og:description" content="转自世界：http://blog.csdn.net/popoqqq/article/details/78066428  1.数学上的正确  命题P：1+2=3。正确。命题Q：加法支持交换律。正确。命题R：2+1=3。正确。明眼人一看就知道，这三个命题都是正确的。如果你再学过一点逻辑学，那么可以推导出这样的结论：P∧Q→R现在思考，什么是正确？或者说，正确具有什么样的特性？............">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-04T12:42:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="“正确”与“一致性”与“数学”与“世界”">
+<meta name="twitter:description" content="转自世界：http://blog.csdn.net/popoqqq/article/details/78066428  1.数学上的正确  命题P：1+2=3。正确。命题Q：加法支持交换律。正确。命题R：2+1=3。正确。明眼人一看就知道，这三个命题都是正确的。如果你再学过一点逻辑学，那么可以推导出这样的结论：P∧Q→R现在思考，什么是正确？或者说，正确具有什么样的特性？............">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://page.gwj1314.space/diary/“正确”与“一致性”与“数学”与“世界”/">
+
+
+
+
+
+  <title>“正确”与“一致性”与“数学”与“世界” | 小哈里's Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">小哈里's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">不念过去，不惧未来。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-friends">
+          <a href="/friends/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-group"></i> <br>
+            
+            友链
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://page.gwj1314.space/diary/“正确”与“一致性”与“数学”与“世界”/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="小哈里">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/qaq.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小哈里's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">“正确”与“一致性”与“数学”与“世界”</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-04T20:40:07+08:00">
+                2017-12-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Diary/" itemprop="url" rel="index">
+                    <span itemprop="name">Diary</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="\assets\js\APlayer.min.js"> </script><p>转自世界：<a href="http://blog.csdn.net/popoqqq/article/details/78066428" target="_blank" rel="noopener">http://blog.csdn.net/popoqqq/article/details/78066428</a></p>
+<p> 1.数学上的正确 </p>
+<p>命题P：1+2=3。正确。<br>命题Q：加法支持交换律。正确。<br>命题R：2+1=3。正确。<br>明眼人一看就知道，这三个命题都是正确的。<br>如果你再学过一点逻辑学，那么可以推导出这样的结论：<br>P∧Q→R<br>现在思考，什么是正确？或者说，正确具有什么样的特性？<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>好，我要说答案了。<br>正确具有<strong>“一致性”</strong>。<br>准确地来说，那就是用正确的结论之间加以推导，一定得到的是正确的结论。<br>那么照着这个来说，我们来思考“正确”的对立面——“<strong>错误</strong>”。<br>正确加错误，错误加正确，错误加错误，这些东西都不能保证得到“正确”，就像你把水和水掺在一起一定会得到水，但是你把水和盐水，盐水和水，盐水和盐水掺在一起，得到的都不会是纯水。<br>幸运的是，我们人类从发展至今苦苦建立的庞大数学体系里没有“盐水”的存在（我不敢说绝对），数学从根基开始建立，沿着定理与推论的枝叶发展，从头到尾都是一致的，我们将与这棵参天巨树一致的东西称作“正确”。<br>我不清楚逻辑空间里能不能建立出一棵与“数学”相不一致的另一棵树，或许不能——我崇敬并信仰数学，更信仰数学带来的完美的一致性，并相信这个世界是数学构成的。<br>理清了上述结论后，我们可以这样说：</p>
+<p><strong>一致性+数学=正确。</strong></p>
+<p>或者激进一点：</p>
+<p><strong>抛开数学谈正确就是耍流氓。</strong></p>
+<p>这样，我们就将“正确”这个词定义成了一个数学名词。</p>
+<p>2.一致性<br>我们尝试将数学上的完美的一致性放在现实世界中，但是结果往往是令人沮丧的。比如，有的人喜欢吃甜的，有的人喜欢吃咸的，有的人喜欢吃辣的，那么如何定义“美味”？我说这个食物“美味”，那么这句话到底是不是“正确”的呢？<br>我们发现，数学上的完美一致性放在现实世界中彻底失效。我们每天听到各种“忠言”，繁多纷杂，自相矛盾；于是我们决定相信自己，然而遇到挫折之后又去想要相信他人；最后我们只能告诉自己“明辨是非”，可是我们连参照物都没有，根本不知道该如何“明辨是非”；我们去听讲座、读传记，想要找一个参照物，却发现他们的世界套在自己身上，根本不管用。<br>离开了数学，一致性显得那么可笑，那么虚无缥缈。<br>世事无绝对，说的就是一致性在现实世界的无力。</p>
+<p>可是世界真的没有一致性吗？<br><del>除他以外的</del>人活不过200年就会死。<br>这是人尽皆知的结论，尽管我们没有任何手段可以证明它，甚至我们不能完美地定义“人”，“活”和“死”。<br>（柏拉图：人不就是没有羽毛的两脚直立的动物么）<br>那么这个结论是怎么来的呢？很简单，因为现今记录根本没有人活到过那么长。<br>好，那么现在我们就有了一个数学模型：<br>将世界上<del>除他以外</del>所有的“人”看做个体，定义其“寿命”为一个特征，单位为年，统计所有个体中此特征，其最大值小于200，故<del>除他以外的</del>人活不过200年就会死。<br>证毕。<br>数学模型的正确性是显而易见的，但是整个问题的前提与数学模型、数学模型与结论之间是<strong>不完全一致</strong>的，比如说<del>“他”、</del>“人”、“寿命”、“活”和“死”不能精确定义，“年”也不是一个固定时长的单位，时差对于时间计算的影响，乃至于相对论都会影响这些一致性。<br>我们只是把现实中的前提化成了数学模型中的前提，然后推出了数学模型中的结论，然后又化成了现实中的结论而已。<br>数学模型构建起了世界与世界之间的桥梁，桥梁本身绝对稳固，但现世与桥梁之间的连接并不牢靠，我们称现世中的一致性为“<strong>模糊一致性</strong>”。这里的“模糊”与模糊数学中的“模糊”同一概念。</p>
+<p>3.数学模型<br>其实我们根本研究不了这个世界，我们研究的所有东西都是数学模型。<br>我们所熟识的物理，化学，都是将现世的法则抽象成了数学模型再加以研究的。<br>这个抽象看似精确但并不必然，无论有多少例子在佐证这些结论，抽象也永远是抽象，不可能被证明，所以他们被称为定律而不是定理，因为这些结论都是建立在普遍观测的规律上的。<br>几百年前，牛顿建立起了牛顿力学体系；后来，相对论推翻了牛顿力学，建立起了相对论力学体系；可是我们仍不知道还有什么东西会推翻相对论。物理学在无法观测的领域（时间跳跃，高维空间，……）显得极度的无力，然而数学上的一些工具却可以轻易地处理这些东西。<br>不光物理，这世间一切元素在研究的时候都会被视作数学模型。当你试图和别人说明一个道理的时候，如果你说不明白，说明你们对相关理论的理解的一致性出现了偏差，换句话说，世界观不一样。<br>我自诩为世界学家，我研究的对象是世界的法则，那么在此我其实是将世界抽象成了一个数学模型，而你在看这篇胡诌的时候也是将世界抽象成了一个数学模型来理解的。如果你对我这里的“数学”、“物理”的概念理解与我不同，恭喜你——</p>
+<p>我们之间的数学桥梁“模糊”了。</p>
+<p>4.无关内容<br>所以至今没搞明白某个天天自吹还逼着别人听他吹的民科组织口中说的“正确”到底是指啥。<br>吵架的时候脑洞出来的理论 今天整理了一下发现放在上面简直不能太贴切。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Diary/" rel="tag"># Diary</a>
+          
+            <a href="/tags/脑洞/" rel="tag"># 脑洞</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/tools/hexo建站/" rel="next" title="hexo建站">
+                <i class="fa fa-chevron-left"></i> hexo建站
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/bzoj1001/" rel="prev" title="「bzoj1001」A+B Problem">
+                「bzoj1001」A+B Problem <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/uploads/qaq.png" alt="小哈里">
+          <p class="site-author-name" itemprop="name">小哈里</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/gwj12345" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      Github
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="xiaohali:2403668241" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      QQ
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/gwj1139177410/activities" target="_blank" title="zhihu">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      zhihu
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="gwj1139177410@gmail.com" target="_blank" title="E-mail">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      E-mail
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://page.gwj1314.space/hello-world/" title="Hello-World" target="_blank">Hello-World</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">小哈里</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Gemini
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
