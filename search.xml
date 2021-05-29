@@ -1,405 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>「bzoj1001」A+B Problem</title>
-    <url>/bzoj1001/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>Test</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> a, b;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;a+b;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>bzoj</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hello-world</title>
     <url>/hello-world/</url>
     <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="Welcome-to-葛伟杰’Blog"><a href="#Welcome-to-葛伟杰’Blog" class="headerlink" title="Welcome to 葛伟杰’Blog"></a>Welcome to 葛伟杰’Blog</h2><blockquote>
 <p>博客说明</p>
 </blockquote>
-<p><strong>2017.9.2 Test</strong><br>hexo搭建的静态页面，网站资料托管在Github上<br>从本周起开始搬运<br>原博客地址：<a href="https://user.qzone.qq.com/2403668241/main" target="_blank" rel="noopener">qq空间</a>, <a href="http://blog.csdn.net/qq_33957603" target="_blank" rel="noopener">CSDN</a>, <a href="http://www.cnblogs.com/gwj1314/" target="_blank" rel="noopener">博客园</a>, <a href="http://gwj1314.azurewebsites.net/" target="_blank" rel="noopener">唯</a></p>
-<p><strong>2017.9.3</strong><br>因为时间原因只占了个坑尚未完成搭建<br>美化及部署还待更新。</p>
-<p><strong>2017.9.10</strong><br>看完了官方的说明文档，修改了博客界面<br>搬运了以前的部分文章，不过考虑到实际情况<br>旧版的时间和内容都不大可靠，甚至可以说，没法看，目前只用来凑数</p>
-<p><strong>2017.12.4</strong><br>这段时间发生好多事情，初赛翻车，月考爆炸，OI卡瓶颈等等。<br>总之，今天开始恢复更新。</p>
+<p><strong>2017.9.2 Test</strong><br>hexo搭建的静态页面，网站资料托管在Github上<br>从本周起开始搬运<br>原博客地址：<a href="http://blog.csdn.net/qq_33957603" target="_blank" rel="noopener">CSDN</a>, <a href="http://www.cnblogs.com/gwj1314/" target="_blank" rel="noopener">博客园</a>, <a href="http://gwj1314.azurewebsites.net/" target="_blank" rel="noopener">唯</a></p>
 <hr>
 
 
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=510952005&auto=1&height=66"></iframe>
-
-]]></content>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1384026889&auto=1&height=66"></iframe>]]></content>
       <categories>
         <category>Diary</category>
       </categories>
       <tags>
         <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Notepad</title>
-    <url>/notepad/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h4 id="Word1"><a href="#Word1" class="headerlink" title="Word1"></a>Word1</h4><p>学生端：<code>ntsd /pn studentmain.exe</code></p>
-<h4 id="Word2"><a href="#Word2" class="headerlink" title="Word2"></a>Word2</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function">Sub <span class="title">button1_Click</span><span class="params">()</span></span></span><br><span class="line"><span class="function">Dim a As Integer</span></span><br><span class="line"><span class="function">Randomize</span></span><br><span class="line"><span class="function">a </span>= Int(Rnd() * <span class="number">49</span> + <span class="number">1</span>)</span><br><span class="line">Range(<span class="string">"a14"</span>) = a</span><br><span class="line">End Sub</span><br><span class="line"></span><br><span class="line">Sub button2_Click()</span><br><span class="line">Dim x, y As Integer</span><br><span class="line">Randomize</span><br><span class="line">x = Int(Rnd() * <span class="number">8</span> + <span class="number">1</span>)</span><br><span class="line">y = Int(Rnd() * <span class="number">6</span> + <span class="number">1</span>)</span><br><span class="line">Range(<span class="string">"a1:f8"</span>).Interior.ColorIndex = xlNone</span><br><span class="line">Cells(x, y).Interior.ColorIndex = <span class="number">3</span></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
-<h4 id="Word3"><a href="#Word3" class="headerlink" title="Word3"></a>Word3</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//https://vijos.org/p/1755</span></span><br><span class="line"><span class="comment">//https://www.luogu.org/problemnew/solution/P1074</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> s[<span class="number">10</span>][<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">//分值我们打标</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> score[<span class="number">10</span>][<span class="number">10</span>]=&#123;</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">    &#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//计算分值</span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">calc</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> t=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            t += score[i][j]*s[i][j];</span><br><span class="line">    <span class="keyword">return</span> t;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//是否满足行列不相等</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">check</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//search</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//main</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">9</span>; i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= <span class="number">9</span>; j++)</span><br><span class="line">            <span class="built_in">cin</span>&gt;&gt;s[i][j];</span><br><span class="line">    dfs();</span><br><span class="line">    <span class="comment">//cout&lt;&lt;cacl()&lt;&lt;"\n";</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb push_back</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">getint</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x=<span class="number">0</span>,f=<span class="number">1</span>; <span class="keyword">char</span> ch=getchar();</span><br><span class="line">    <span class="keyword">while</span>(ch&gt;<span class="string">'9'</span>||ch&lt;<span class="string">'0'</span>)&#123;<span class="keyword">if</span>(ch==<span class="string">'-'</span>)f=-f; ch=getchar();&#125;</span><br><span class="line">    <span class="keyword">while</span>(ch&gt;=<span class="string">'0'</span>&amp;&amp;ch&lt;=<span class="string">'9'</span>)&#123;x=x*<span class="number">10</span>+ch-<span class="string">'0'</span>; ch=getchar();&#125;</span><br><span class="line">    <span class="keyword">return</span> f*x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXN=<span class="number">12</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> score[<span class="number">10</span>][<span class="number">10</span>]=</span><br><span class="line">&#123;&#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">7</span>,<span class="number">6</span>&#125;,</span><br><span class="line">&#123;<span class="number">0</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>&#125;&#125;;</span><br><span class="line"><span class="keyword">int</span> row[MAXN][MAXN],col[MAXN][MAXN],area[MAXN][MAXN],sdk[MAXN][MAXN];</span><br><span class="line"><span class="keyword">int</span> row_cnt[MAXN],col_cnt[MAXN],cnt,ans=<span class="number">-1</span>;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">id</span><span class="params">(<span class="keyword">int</span> i,<span class="keyword">int</span> j)</span></span>&#123;<span class="keyword">return</span> (i<span class="number">-1</span>)/<span class="number">3</span>*<span class="number">3</span>+<span class="number">1</span>+(j<span class="number">-1</span>)/<span class="number">3</span>;&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">calc</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> tmp=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            tmp+=score[i][j]*sdk[i][j];</span><br><span class="line">    <span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> r,<span class="keyword">int</span> c,<span class="keyword">int</span> cpl)</span></span>&#123;    </span><br><span class="line">    <span class="keyword">if</span>(cpl==<span class="number">81</span>)&#123;</span><br><span class="line">        ans=max(ans,calc());</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">1</span>;k&lt;=<span class="number">9</span>;++k)&#123;</span><br><span class="line">        <span class="keyword">if</span>(row[r][k]||col[c][k]||area[id(r,c)][k]) <span class="keyword">continue</span>;</span><br><span class="line">        row[r][k]=<span class="literal">true</span>;</span><br><span class="line">        col[c][k]=<span class="literal">true</span>;</span><br><span class="line">        area[id(r,c)][k]=<span class="literal">true</span>;</span><br><span class="line">        row_cnt[r]++,col_cnt[c]++;</span><br><span class="line">        sdk[r][c]=k;</span><br><span class="line">        <span class="keyword">int</span> tmpr=<span class="number">-1</span>,nxt_r=<span class="number">0</span>,tmpc=<span class="number">-1</span>,nxt_c=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">            <span class="keyword">if</span>(row_cnt[i]&gt;tmpr&amp;&amp;row_cnt[i]&lt;<span class="number">9</span>)</span><br><span class="line">                tmpr=row_cnt[i],nxt_r=i;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">            <span class="keyword">if</span>(col_cnt[j]&gt;tmpc&amp;&amp;(!sdk[nxt_r][j]))</span><br><span class="line">                tmpc=col_cnt[j],nxt_c=j;</span><br><span class="line">        dfs(nxt_r,nxt_c,cpl+<span class="number">1</span>);</span><br><span class="line">        row[r][k]=<span class="literal">false</span>;</span><br><span class="line">        col[c][k]=<span class="literal">false</span>;</span><br><span class="line">        area[id(r,c)][k]=<span class="literal">false</span>;</span><br><span class="line">        row_cnt[r]--,col_cnt[c]--;</span><br><span class="line">        sdk[r][c]=<span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;    </span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)&#123;</span><br><span class="line">            sdk[i][j]=getint();</span><br><span class="line">            <span class="keyword">if</span>(sdk[i][j]!=<span class="number">0</span>)&#123;</span><br><span class="line">                row[i][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                col[j][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                area[id(i,j)][sdk[i][j]]=<span class="literal">true</span>;</span><br><span class="line">                row_cnt[i]++,col_cnt[j]++;</span><br><span class="line">                cnt++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> tmpr=<span class="number">-1</span>,r,tmpc=<span class="number">-1</span>,c;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">9</span>;++i)</span><br><span class="line">        <span class="keyword">if</span>(row_cnt[i]&gt;tmpr&amp;&amp;row_cnt[i]&lt;<span class="number">9</span>)</span><br><span class="line">            tmpr=row_cnt[i],r=i;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">9</span>;++j)</span><br><span class="line">        <span class="keyword">if</span>(col_cnt[j]&gt;tmpc&amp;&amp;(!sdk[r][j]))</span><br><span class="line">            tmpc=col_cnt[j],c=j;</span><br><span class="line">    dfs(r,c,cnt);</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;ans&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//八数码</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作者:gwj233</span></span><br><span class="line"><span class="comment">题目:p1225 八数码难题</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>  maxn = <span class="number">1000000</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line">State st[maxn], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[maxn];</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;vis;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span>&#123; vis.clear();&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)t = t*<span class="number">10</span>+st[x][i];</span><br><span class="line">	<span class="keyword">if</span>(vis.count(t))<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	vis.insert(t);</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">bool</span> vis2[<span class="number">362880</span>]; <span class="keyword">int</span> fact[<span class="number">9</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init2</span><span class="params">()</span></span>&#123;</span><br><span class="line">	fact[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; <span class="number">9</span>; i++)fact[i] = fact[i<span class="number">-1</span>]*i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert2</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> code = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = i+<span class="number">1</span>; j &lt; <span class="number">9</span>; j++)<span class="keyword">if</span>(st[x][j] &lt; st[x][i])cnt++;</span><br><span class="line">		code += fact[<span class="number">8</span>-i]*cnt;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(vis2[code])<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	<span class="keyword">return</span> vis2[code]=<span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXHASHSIZE = <span class="number">1000003</span>;</span><br><span class="line"><span class="keyword">int</span> head[MAXHASHSIZE], next[MAXHASHSIZE];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init3</span><span class="params">()</span></span>&#123; <span class="built_in">memset</span>(head, <span class="number">0</span>, <span class="keyword">sizeof</span>(head));&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hash</span><span class="params">(State&amp; s)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> v = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)v = v*<span class="number">10</span>+s[i];</span><br><span class="line">	<span class="keyword">return</span> v % MAXHASHSIZE;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert3</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> h = hash(st[x]);</span><br><span class="line">	<span class="keyword">int</span> u = head[h];</span><br><span class="line">	<span class="keyword">while</span>(u)&#123;</span><br><span class="line">		<span class="keyword">bool</span> ok = <span class="literal">true</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)</span><br><span class="line">			<span class="keyword">if</span>(st[u][i] != st[x][i])ok = <span class="literal">false</span>;</span><br><span class="line">		<span class="keyword">if</span>(ok) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		u = next[u];</span><br><span class="line">	&#125;</span><br><span class="line">	next[x] = head[h];</span><br><span class="line">	next[h] = x;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">-1</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">	init2();</span><br><span class="line">	<span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">while</span>(front &lt; rear)&#123;</span><br><span class="line">		<span class="keyword">bool</span> ok = <span class="literal">true</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)</span><br><span class="line">			<span class="keyword">if</span>(st[front][i] != goal[i])ok = <span class="literal">false</span>;</span><br><span class="line">		<span class="keyword">if</span>(ok) <span class="keyword">return</span> front;</span><br><span class="line">		<span class="keyword">int</span> z;</span><br><span class="line">		<span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++)<span class="keyword">if</span>(!st[front][z])<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> newx=x+dx[i], newy=y+dy[i], newz=newx*<span class="number">3</span>+newy;</span><br><span class="line">			<span class="keyword">if</span>(newx&gt;=<span class="number">0</span> &amp;&amp; newx&lt;<span class="number">3</span> &amp;&amp; newy&gt;=<span class="number">0</span> &amp;&amp; newy&lt;<span class="number">3</span>)&#123;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">9</span>; j++)st[rear][j] = st[front][j];</span><br><span class="line">				st[rear][newz] = st[front][z];</span><br><span class="line">				st[rear][z] = st[front][newz];</span><br><span class="line">				dist[rear] = dist[front]+<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">if</span>(insert2(rear))rear++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		front++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;dist[bfs()];</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 八数码，使用哈希表（竞赛中最常用）</span></span><br><span class="line"><span class="comment">// Rujia Liu</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXSTATE = <span class="number">1000000</span>;</span><br><span class="line">State st[MAXSTATE], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[MAXSTATE];</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXHASHSIZE = <span class="number">1000003</span>;</span><br><span class="line"><span class="keyword">int</span> head[MAXHASHSIZE], next[MAXSTATE];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init_lookup_table</span><span class="params">()</span> </span>&#123; <span class="built_in">memset</span>(head, <span class="number">0</span>, <span class="keyword">sizeof</span>(head)); &#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hash</span><span class="params">(State&amp; s)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> v = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++) v = v * <span class="number">10</span> + s[i];</span><br><span class="line">  <span class="keyword">return</span> v % MAXHASHSIZE;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">try_to_insert</span><span class="params">(<span class="keyword">int</span> s)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> h = hash(st[s]);</span><br><span class="line">  <span class="keyword">int</span> u = head[h];</span><br><span class="line">  <span class="keyword">while</span>(u) &#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">memcmp</span>(st[u], st[s], <span class="keyword">sizeof</span>(st[s])) == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    u = next[u];</span><br><span class="line">  &#125;</span><br><span class="line">  next[s] = head[h];</span><br><span class="line">  head[h] = s;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">-1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">1</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  init_lookup_table();</span><br><span class="line">  <span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">  <span class="keyword">while</span>(front &lt; rear) &#123;</span><br><span class="line">    State&amp; s = st[front];</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">memcmp</span>(goal, s, <span class="keyword">sizeof</span>(s)) == <span class="number">0</span>) <span class="keyword">return</span> front;</span><br><span class="line">    <span class="keyword">int</span> z;</span><br><span class="line">    <span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++) <span class="keyword">if</span>(!s[z]) <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> d = <span class="number">0</span>; d &lt; <span class="number">4</span>; d++) &#123;</span><br><span class="line">      <span class="keyword">int</span> newx = x + dx[d];</span><br><span class="line">      <span class="keyword">int</span> newy = y + dy[d];</span><br><span class="line">      <span class="keyword">int</span> newz = newx * <span class="number">3</span> + newy;</span><br><span class="line">      <span class="keyword">if</span>(newx &gt;= <span class="number">0</span> &amp;&amp; newx &lt; <span class="number">3</span> &amp;&amp; newy &gt;= <span class="number">0</span> &amp;&amp; newy &lt; <span class="number">3</span>) &#123;</span><br><span class="line">        State&amp; t = st[rear];</span><br><span class="line">        <span class="built_in">memcpy</span>(&amp;t, &amp;s, <span class="keyword">sizeof</span>(s));</span><br><span class="line">        t[newz] = s[z];</span><br><span class="line">        t[z] = s[newz];</span><br><span class="line">        dist[rear] = dist[front] + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(try_to_insert(rear)) rear++;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    front++;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">  <span class="keyword">int</span> ans = bfs();</span><br><span class="line">  <span class="keyword">if</span>(ans &gt; <span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, dist[ans]);</span><br><span class="line">  <span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"-1\n"</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">作者:gwj1139177410</span></span><br><span class="line"><span class="comment">题目:p1225 八数码难题</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> State[<span class="number">9</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxn = <span class="number">1000000</span>;</span><br><span class="line">State st[maxn], goal = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span>,<span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dist[maxn];</span><br><span class="line"></span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;vis;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span>&#123; vis.clear();&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> s)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)t = t*<span class="number">10</span>+st[s][i];</span><br><span class="line">	<span class="keyword">if</span>(vis.count(t))<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	vis.insert(t);</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dx[] = &#123;<span class="number">-1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> dy[] = &#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">1</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">bfs</span><span class="params">()</span></span>&#123;</span><br><span class="line">	init();</span><br><span class="line">	<span class="keyword">int</span> front = <span class="number">1</span>, rear = <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">while</span>(front &lt; rear)&#123;</span><br><span class="line">		State&amp; t = st[front];</span><br><span class="line">		<span class="keyword">if</span>(<span class="built_in">memcmp</span>(goal, t, <span class="keyword">sizeof</span>(t)) == <span class="number">0</span>)<span class="keyword">return</span> front;</span><br><span class="line">		<span class="keyword">int</span> z;</span><br><span class="line">		<span class="keyword">for</span>(z = <span class="number">0</span>; z &lt; <span class="number">9</span>; z++)<span class="keyword">if</span>(!t[z])<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x = z/<span class="number">3</span>, y = z%<span class="number">3</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> newx = x+dx[i], newy = y+dy[i], newz = newx*<span class="number">3</span>+newy;</span><br><span class="line">			<span class="keyword">if</span>(newx&gt;=<span class="number">0</span> &amp;&amp; newx&lt;<span class="number">3</span> &amp;&amp; newy&gt;=<span class="number">0</span> &amp;&amp; newy&lt;<span class="number">3</span>)&#123;</span><br><span class="line">				State&amp; tt = st[rear];</span><br><span class="line">				<span class="built_in">memcpy</span>(&amp;tt, &amp;t, <span class="keyword">sizeof</span>(t));</span><br><span class="line">				swap(tt[z], tt[newz]);</span><br><span class="line">				dist[rear] = dist[front]+<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">if</span>(insert(rear)) rear++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		front++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;str;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">9</span>; i++)st[<span class="number">1</span>][i] = str[i]-<span class="string">'0'</span>;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;dist[bfs()];</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>参考资料</p>
-<p><a href="http://blog.csdn.net/a1323933782/article/details/53363745" target="_blank" rel="noopener">极域九法</a></p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>Chinese</title>
-    <url>/chinese/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h4 id="Word1"><a href="#Word1" class="headerlink" title="Word1"></a>Word1</h4><p>为大家带来一首纯音乐233<br></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“正确”与“一致性”与“数学”与“世界”</title>
-    <url>/diary/%E2%80%9C%E6%AD%A3%E7%A1%AE%E2%80%9D%E4%B8%8E%E2%80%9C%E4%B8%80%E8%87%B4%E6%80%A7%E2%80%9D%E4%B8%8E%E2%80%9C%E6%95%B0%E5%AD%A6%E2%80%9D%E4%B8%8E%E2%80%9C%E4%B8%96%E7%95%8C%E2%80%9D/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>转自世界：<a href="http://blog.csdn.net/popoqqq/article/details/78066428" target="_blank" rel="noopener">http://blog.csdn.net/popoqqq/article/details/78066428</a></p>
-<p> 1.数学上的正确 </p>
-<p>命题P：1+2=3。正确。<br>命题Q：加法支持交换律。正确。<br>命题R：2+1=3。正确。<br>明眼人一看就知道，这三个命题都是正确的。<br>如果你再学过一点逻辑学，那么可以推导出这样的结论：<br>P∧Q→R<br>现在思考，什么是正确？或者说，正确具有什么样的特性？<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>好，我要说答案了。<br>正确具有<strong>“一致性”</strong>。<br>准确地来说，那就是用正确的结论之间加以推导，一定得到的是正确的结论。<br>那么照着这个来说，我们来思考“正确”的对立面——“<strong>错误</strong>”。<br>正确加错误，错误加正确，错误加错误，这些东西都不能保证得到“正确”，就像你把水和水掺在一起一定会得到水，但是你把水和盐水，盐水和水，盐水和盐水掺在一起，得到的都不会是纯水。<br>幸运的是，我们人类从发展至今苦苦建立的庞大数学体系里没有“盐水”的存在（我不敢说绝对），数学从根基开始建立，沿着定理与推论的枝叶发展，从头到尾都是一致的，我们将与这棵参天巨树一致的东西称作“正确”。<br>我不清楚逻辑空间里能不能建立出一棵与“数学”相不一致的另一棵树，或许不能——我崇敬并信仰数学，更信仰数学带来的完美的一致性，并相信这个世界是数学构成的。<br>理清了上述结论后，我们可以这样说：</p>
-<p><strong>一致性+数学=正确。</strong></p>
-<p>或者激进一点：</p>
-<p><strong>抛开数学谈正确就是耍流氓。</strong></p>
-<p>这样，我们就将“正确”这个词定义成了一个数学名词。</p>
-<p>2.一致性<br>我们尝试将数学上的完美的一致性放在现实世界中，但是结果往往是令人沮丧的。比如，有的人喜欢吃甜的，有的人喜欢吃咸的，有的人喜欢吃辣的，那么如何定义“美味”？我说这个食物“美味”，那么这句话到底是不是“正确”的呢？<br>我们发现，数学上的完美一致性放在现实世界中彻底失效。我们每天听到各种“忠言”，繁多纷杂，自相矛盾；于是我们决定相信自己，然而遇到挫折之后又去想要相信他人；最后我们只能告诉自己“明辨是非”，可是我们连参照物都没有，根本不知道该如何“明辨是非”；我们去听讲座、读传记，想要找一个参照物，却发现他们的世界套在自己身上，根本不管用。<br>离开了数学，一致性显得那么可笑，那么虚无缥缈。<br>世事无绝对，说的就是一致性在现实世界的无力。</p>
-<p>可是世界真的没有一致性吗？<br><del>除他以外的</del>人活不过200年就会死。<br>这是人尽皆知的结论，尽管我们没有任何手段可以证明它，甚至我们不能完美地定义“人”，“活”和“死”。<br>（柏拉图：人不就是没有羽毛的两脚直立的动物么）<br>那么这个结论是怎么来的呢？很简单，因为现今记录根本没有人活到过那么长。<br>好，那么现在我们就有了一个数学模型：<br>将世界上<del>除他以外</del>所有的“人”看做个体，定义其“寿命”为一个特征，单位为年，统计所有个体中此特征，其最大值小于200，故<del>除他以外的</del>人活不过200年就会死。<br>证毕。<br>数学模型的正确性是显而易见的，但是整个问题的前提与数学模型、数学模型与结论之间是<strong>不完全一致</strong>的，比如说<del>“他”、</del>“人”、“寿命”、“活”和“死”不能精确定义，“年”也不是一个固定时长的单位，时差对于时间计算的影响，乃至于相对论都会影响这些一致性。<br>我们只是把现实中的前提化成了数学模型中的前提，然后推出了数学模型中的结论，然后又化成了现实中的结论而已。<br>数学模型构建起了世界与世界之间的桥梁，桥梁本身绝对稳固，但现世与桥梁之间的连接并不牢靠，我们称现世中的一致性为“<strong>模糊一致性</strong>”。这里的“模糊”与模糊数学中的“模糊”同一概念。</p>
-<p>3.数学模型<br>其实我们根本研究不了这个世界，我们研究的所有东西都是数学模型。<br>我们所熟识的物理，化学，都是将现世的法则抽象成了数学模型再加以研究的。<br>这个抽象看似精确但并不必然，无论有多少例子在佐证这些结论，抽象也永远是抽象，不可能被证明，所以他们被称为定律而不是定理，因为这些结论都是建立在普遍观测的规律上的。<br>几百年前，牛顿建立起了牛顿力学体系；后来，相对论推翻了牛顿力学，建立起了相对论力学体系；可是我们仍不知道还有什么东西会推翻相对论。物理学在无法观测的领域（时间跳跃，高维空间，……）显得极度的无力，然而数学上的一些工具却可以轻易地处理这些东西。<br>不光物理，这世间一切元素在研究的时候都会被视作数学模型。当你试图和别人说明一个道理的时候，如果你说不明白，说明你们对相关理论的理解的一致性出现了偏差，换句话说，世界观不一样。<br>我自诩为世界学家，我研究的对象是世界的法则，那么在此我其实是将世界抽象成了一个数学模型，而你在看这篇胡诌的时候也是将世界抽象成了一个数学模型来理解的。如果你对我这里的“数学”、“物理”的概念理解与我不同，恭喜你——</p>
-<p>我们之间的数学桥梁“模糊”了。</p>
-<p>4.无关内容<br>所以至今没搞明白某个天天自吹还逼着别人听他吹的民科组织口中说的“正确”到底是指啥。<br>吵架的时候脑洞出来的理论 今天整理了一下发现放在上面简直不能太贴切。</p>
-]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-      <tags>
-        <tag>Diary</tag>
-        <tag>脑洞</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NOIP知识点汇总</title>
-    <url>/tools/NOIP%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="NOIP知识点汇总"><a href="#NOIP知识点汇总" class="headerlink" title="NOIP知识点汇总"></a>NOIP知识点汇总</h2><p><strong>加*号是选学，加粗为重点，重要值排序不分先后</strong></p>
-<ul>
-<li>基础<a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">算法</a><ul>
-<li><strong>贪心、枚举、分治、二分、倍增、***</strong>构造<strong>、</strong>高精、模拟**</li>
-</ul>
-</li>
-<li>图论<ul>
-<li>图 <ul>
-<li><strong>最短路（dijkstra、spfa、floyd）</strong>，差分约束</li>
-<li><strong>最小生成树（kruskal、prim）</strong></li>
-<li><strong>并查集（扩展域）</strong></li>
-<li><strong>拓扑排序</strong></li>
-<li><strong>二分图染色</strong>，*二分图匹配</li>
-<li><strong>tarjan找scc、桥、割点，缩点</strong></li>
-<li>*分数规划</li>
-</ul>
-</li>
-<li>树 <ul>
-<li><strong>树上倍增（LCA）</strong></li>
-<li>树的直径、树的重心</li>
-<li><strong>dfs序</strong></li>
-<li>*树链剖分</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>数论<ul>
-<li><strong>gcd、lcm</strong></li>
-<li><strong>埃氏筛法</strong></li>
-<li><strong>exgcd，求解同余方程、逆元</strong></li>
-<li><strong>快速幂</strong></li>
-<li>*组合数学</li>
-<li>矩阵</li>
-</ul>
-</li>
-<li><a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">数据结构</a><ul>
-<li><strong>链表、队列（单调队列）、栈（单调栈）</strong></li>
-<li><strong>堆、st表、hash表</strong></li>
-<li><strong>线段树、树状数组</strong></li>
-<li>字典树</li>
-<li>*分块</li>
-</ul>
-</li>
-<li>动态规划<ul>
-<li><strong>背包DP、树形DP、记忆化搜索、递推</strong></li>
-<li><strong>区间DP、序列DP</strong></li>
-<li><strong>*DP优化</strong>（不涉及斜率优化、四边形不等式等等）</li>
-</ul>
-</li>
-<li>搜索<ul>
-<li><strong>暴搜（dfs、bfs）</strong></li>
-<li><strong>搜索的剪枝</strong></li>
-<li>启发式搜索（A*）</li>
-<li>迭代加深搜索、<em> IDA</em></li>
-<li>*随机化搜索</li>
-</ul>
-</li>
-<li>其他算法<ul>
-<li><strong>STL的基本使用方法</strong></li>
-<li>脑洞的正确使用方法</li>
-<li>*KMP</li>
-<li><strong>*状态压缩</strong></li>
-</ul>
-</li>
-</ul>
-<h2 id="省选知识点汇总"><a href="#省选知识点汇总" class="headerlink" title="省选知识点汇总"></a>省选知识点汇总</h2><p>冲省选的，<strong>先把整理的NOIP知识点学扎实，注意一定要学扎实</strong><br>加粗是重点，星号是选学<br>学无止境，欢迎大家继续补充~</p>
-<ul>
-<li>图论<ul>
-<li><strong>网络流</strong>（dinic，SAP，ISAP选一个，费用流写EK就行。*zkw费用流），<strong>二分图</strong></li>
-<li><strong>点分治，边分治</strong>，*动态点分治</li>
-<li><strong>树链剖分，动态树，树分块</strong></li>
-<li><strong>虚树</strong>，*prufer编码</li>
-<li><strong>*仙人掌算法</strong></li>
-</ul>
-</li>
-<li>数据结构<ul>
-<li>带权并查集</li>
-<li><strong>Splay</strong>（作为平衡树和维护区间），Treap，替罪羊树</li>
-<li><strong>线段树（权值线段树），树状数组</strong>，*线段树合并</li>
-<li><strong>分块，块状链表</strong>，*双向链表</li>
-<li><strong>凸包</strong></li>
-<li><strong>树套树</strong></li>
-<li><strong>主席树，可持久化trie，*其它可持久化数据结构</strong></li>
-<li><strong>莫队算法</strong>，*树上莫队，<strong>CDQ分治，整体二分</strong></li>
-<li><strong>二维线段树，*KDtree</strong></li>
-<li><em>舞蹈链，</em>二进制分组，<em>左偏树，</em>超哥线段树，<em>后缀平衡树，</em>fhqTreap</li>
-</ul>
-</li>
-<li>字符串相关算法及数据结构<ul>
-<li><strong>hash（自然溢出，双hash）</strong></li>
-<li><strong>kmp，AC自动机，trie</strong></li>
-<li><strong>后缀数组</strong></li>
-<li>manacher，最小表示法</li>
-<li><em>后缀自动机，</em>回文自动机，*后缀树</li>
-</ul>
-</li>
-<li><strong>数学</strong><ul>
-<li><strong>线性筛，积性函数，容斥原理，莫比乌斯反演</strong></li>
-<li><strong>exgcd，费马小定理，Lucas定理，高中排列组合</strong></li>
-<li><strong>高斯消元，概率与期望相关</strong></li>
-<li><strong>中国剩余定理，BSGS，欧拉定理</strong></li>
-<li><strong>矩阵乘法</strong></li>
-<li><strong>单纯形法解线性规划</strong></li>
-<li><strong>FFT</strong></li>
-<li><strong>线性代数（行列式）</strong></li>
-<li>*Simpson积分，高中求导与积分</li>
-<li>*群论</li>
-<li>*生成函数， <strong>多项式类算法</strong></li>
-<li><strong>博弈论相关</strong>，*密码学，<strong>阶，原根</strong></li>
-</ul>
-</li>
-<li>计算几何<ul>
-<li><strong>向量的点积/叉积，计算几何基础</strong></li>
-<li><em>二维计算几何相关，</em>三维计算几何相关</li>
-<li><em>半平面交，</em>旋转卡壳，*三角剖分</li>
-</ul>
-</li>
-<li>搜索<ul>
-<li><strong>A*，记忆化搜索，迭代深搜，双向广搜</strong></li>
-<li>模拟退火，爬山算法，*随机增量法</li>
-</ul>
-</li>
-<li>动态规划<ul>
-<li><strong>基础DP，树形DP，数位DP，状压DP，期望DP，基环树DP，*插头DP</strong></li>
-<li><strong>斜率优化，矩乘优化，单调队列优化，倍增优化</strong>，*四边形不等式优化</li>
-<li>trie图DP，*仙人掌DP</li>
-</ul>
-</li>
-<li>其他算法<ul>
-<li><strong>构造</strong>，<strong>乱搞，随机化</strong>，三分法，<strong>打表</strong>，<strong>启发式合并</strong></li>
-<li>Huffman树，2-sat，*朱刘算法</li>
-</ul>
-</li>
-</ul>
-<p>说真的，计算几何要么全场不会，要么全场AK。所以尽量花时间在别的地方吧。</p>
-<blockquote>
-<p>参考资料</p>
-<p><a href="http://blog.csdn.net/txl199106/article/details/71504478" target="_blank" rel="noopener">NOIP知识点汇总</a></p>
-<p><a href="http://blog.csdn.net/loi_dqs/article/details/52076386" target="_blank" rel="noopener">省选知识点汇总</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>NOIP</tag>
-        <tag>考纲</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性代数</title>
-    <url>/note/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h3 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h3><blockquote>
-<p>For LaTeX Test</p>
-</blockquote>
-<h4 id="0x01-行列式的计算"><a href="#0x01-行列式的计算" class="headerlink" title="0x01 行列式的计算"></a>0x01 行列式的计算</h4><ol>
-<li>某行(列)加上或减去另一行(列)的几倍，行列式不变。</li>
-<li>行(列)乘k，等于k乘此行列式。</li>
-<li>互换两行(列)，行列式变号。</li>
-</ol>
-<h4 id="0x02-计算的题型和套路"><a href="#0x02-计算的题型和套路" class="headerlink" title="0x02 计算的题型和套路"></a>0x02 计算的题型和套路</h4><ol>
-<li><p>只有两个数字, 对角线是一个: 套公式 $$ (x-a)^{n-1}[x+(n-1)a] $$</p>
-</li>
-<li><p>$$ x^{0}, x^{1}, x^{2} … x^{n-1} = (x_n-x_{n-1})(x_n-x_{n-2})…(x_n-x_1)<em>(x_{n-1}-x_{n-2})…</em>_(x_{n-1}-x_1)*…$$</p>
-</li>
-<li><p>两行(列)相同或成比例时, 行列式为0。以及某行(列)为两项相加减时，行列式可拆成两个行列式相加减。</p>
-</li>
-<li><p>求余子式M和代数余子式A(要乘以-1的行加列次方)</p>
-</li>
-<li><p>$$ D=a_{i1}A_{i1}+a_{i2}A_{i2}+…+a_{in}A_{in}  (第i行)$$</p>
-</li>
-<li><p>多个A或M相加减: 把M换成A, 找到对应A的位置, 用系数替换, 计算行列式。</p>
-</li>
-<li><p>给一组方程组，判断解的情况： 计算系数组成的行列式</p>
-<p>| 方程组  | D!=0    | D==0    |<br>| :— | ——- | :—— |<br>| 其次   | 只有一组零解  | 有零解与非零解 |<br>| 非其次  | 只有一组非零解 | 有多个解或无解 |</p>
-</li>
-</ol>
-<h4 id="0x03-矩阵运算上"><a href="#0x03-矩阵运算上" class="headerlink" title="0x03 矩阵运算上"></a>0x03 矩阵运算上</h4><ol>
-<li>矩阵加减</li>
-<li>矩阵相乘，前行乘后列<ol>
-<li>零矩阵，全为零的矩阵。 任何矩阵乘零矩阵都是0。</li>
-<li>E矩阵，对角线为1其余全为0。任何矩阵乘E矩阵都是本身。E*E=E。</li>
-<li>AB与BA未必相等。矩阵相乘有顺序。</li>
-<li>AX=AY不能推出X=Y。矩阵没有除法。</li>
-<li>$$(AB)^k != A^kB^k$$。这个不能展开。</li>
-<li>$$A^2+2AB+B^2不能合并成(A+B)^2$$，十字相乘同理。如果B为E则该条成立。</li>
-</ol>
-</li>
-<li>矩阵取绝对值。矩阵变成行列式。。。以及$$ |\lambda A|=\lambda^n|A|$$</li>
-</ol>
-<h4 id="0x04-矩阵运算下"><a href="#0x04-矩阵运算下" class="headerlink" title="0x04 矩阵运算下"></a>0x04 矩阵运算下</h4><ol>
-<li>矩阵转置。先用行乘列+$$(AB)^T=B^TA^T$$ + $$|A^T=A|$$</li>
-<li>证明矩阵可逆。为方正(行列数相同)+|A|!=0(或者存在B使得AB=E或BA=E)</li>
-<li>求逆矩阵，把(A:E)变成(E:B),则B就是A的逆矩阵。</li>
-<li>利用$A*A^{-1}=E$来计算</li>
-<li>A的伴随矩阵$A^<em>A=|A|E$或$AA^</em>=|A|E$</li>
-<li>求矩阵的秩即R(A),进行行变换，使下行左端的0比上行多，直到下面全为0为止</li>
-<li>已知秩，求未知数：不管未知数先变成0。</li>
-</ol>
-<h4 id="0x05-向量组与线性空间"><a href="#0x05-向量组与线性空间" class="headerlink" title="0x05 向量组与线性空间"></a>0x05 向量组与线性空间</h4><ol>
-<li>某向量是否可由其他向量表示：$$A=(a_1,a_2,a_3), B=(a_1,a_2,a_3,b), if R(A)==R(B)ok,else not ok$$</li>
-<li>某向量组是否线性相关：若R(A)&lt;向量个数则线性相关，若R(A)=向量个数则无关。$A=(a_1,a_2,a_3,a_4)$。 存在一组可由其他向量表 示的。</li>
-<li>已知一组基底，求某一向量在此下的坐标。待定系数法设方程并带入。</li>
-<li>求行向量的极大无关组。先编号，然后求秩(若交换两行则编号也要交换)，最后取秩的个数个编号为答案。</li>
-</ol>
-<h4 id="0x06-解方程组"><a href="#0x06-解方程组" class="headerlink" title="0x06 解方程组"></a>0x06 解方程组</h4><ol>
-<li>判断方程组有无解</li>
-<li>解方程组</li>
-<li>求方程组通解，特解，基础解系。</li>
-<li>已知某方程组的特解，求某其次方程组的通解</li>
-<li>已知某方程组的特解，求某其非齐次方程组的通解</li>
-<li>集合中线性无关的解向量个数</li>
-</ol>
-<h4 id="0x07-方正对角化及应用"><a href="#0x07-方正对角化及应用" class="headerlink" title="0x07 方正对角化及应用"></a>0x07 方正对角化及应用</h4><ol>
-<li>规范正交化</li>
-<li>求矩阵特征值：满足$|A-\lambda E|=0$的$\lambda$即为特征值</li>
-<li>求矩阵特征向量：(A-$\lambda$E)x=0的通解</li>
-<li>方阵与对角线相似或$P^{-1}AP=A$：方阵向量个数等于方阵阶数</li>
-<li>求方阵的对角阵A和可逆变换矩阵P</li>
-<li>求方阵的复杂式子。</li>
-</ol>
-<h4 id="0x08-二次型"><a href="#0x08-二次型" class="headerlink" title="0x08 二次型"></a>0x08 二次型</h4><ol>
-<li>对应的系数矩阵，套公式</li>
-<li>化成标准型</li>
-<li>​</li>
-</ol>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-        <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境变量</title>
-    <url>/tools/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><blockquote>
-<p>mac下终端出现command not found现象解决</p>
-</blockquote>
-<ol>
-<li>终端输入<code>cd</code></li>
-<li>输入<code>touch .bash_profile</code></li>
-<li>输入<code>open -e .bash_profile</code></li>
-<li>导入你的默认path     <code>/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:</code>不同的PATH 用”:”隔开</li>
-</ol>
-<blockquote>
-<p>参考资料</p>
-<p><a href="http://blog.csdn.net/matrixhero/article/details/8114065" target="_blank" rel="noopener">mac下终端出现command not found现象解决</a></p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>BZOJ题目一句话题解整理</title>
-    <url>/tools/BZOJ%E9%A2%98%E7%9B%AE%E4%B8%80%E5%8F%A5%E8%AF%9D%E9%A2%98%E8%A7%A3%E6%95%B4%E7%90%86/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><blockquote>
-<p><a href="http://blog.csdn.net/creationaugust/article/details/51387623" target="_blank" rel="noopener">BZOJ题目一句话题解整理</a><br>就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.<br>做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..<br>部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.<br>可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的<br>UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ</p>
-</blockquote>
-<p>已AC的题目及部分未AC但是知道标算的题目(数学题均不提供分析过程,公式):<br>1000:A+B<br>1001:平面图最小割,转对偶图最短路<br>1002:矩阵树定理,也可以通过推矩阵的递推关系得到递推式<br>1003:最短路+DP<br>1007:半平面交<br>1008:组合数学,需要高精<br>1010:斜率优化/四边形不等式推决策单调性<br>1012:线段树<br>1014:Splay维护字符串的Hash值<br>1016:矩阵树定理,相同权值压联通块,对一个联通块用一次矩阵树定理计算方案数,累积答案 也可以DFS<br>1023:仙人掌DP找直径<br>1031:直接构建出倍长后串的SA,用rank数组做<br>1034:贪心<br>1036:树链剖分/LCT<br>1038:半平面交<br>1041:数论,推一下公式 也可以用一种跟勾股定理相关的做法<br>1043:计算几何,细节已忘.<br>1050:并查集,细节已忘.<br>1053:爆搜<br>1054:模拟<br>1059:二分图最大匹配,对行和列做点<br>1061:不等关系转费用流建图<br>1066:最大流<br>1067:线段树分类讨论<br>1070:费用流<br>1072:状压DP,据说暴力可过<br>1083:最小生成树<br>1087:状压DP<br>1088:枚举状态,暴力<br>1089:找规律,需要高精,也可以用组合数学推一下<br>1092:模拟<br>1095:动态树分治,或者dfs序线段树维护括号序列<br>1099:线段树+分类讨论<br>1101:莫比乌斯反演,同HAOI ProblemB<br>1103:dfs序,或者链剖<br>1106:树状数组.考虑记录下每个元素上一次出现的位置,然后BIT搞一搞.<br>1112:权值平衡树,中位数相关.<br>1113:好像是单调栈扫一扫就没了.<br>1121:一个结论题,答案是n/2.<br>1131:树形DP一下.<br>1132:答案的式子可以看出一个坐标的前缀和,优化一下暴力.<br>1143:利用那些图论定理,最长反链=n-最大匹配.<br>1145:很多种情况,BIT维护一下然后把这些情况加加减减.网上有WJMZBMR题解.<br>1146:一个比较模板的题..为了不被卡常卡空间可以考虑把其中一维搞上整体二分.<br>1167:空数据,Python 2B<br>1176:cdq分治,或者kdtree<br>1180:LCT<br>1191:二分图最大匹配<br>1192:考虑二进制分解.<br>1193:大规模贪心,小规模暴力.<br>1195:状压DP,与某道TC SRM一样.<br>1202:加权并查集,维护前缀和.<br>1208:权值平衡树.<br>1213:二分,Python.<br>1214:空数据,Python 2B<br>1227:组合,容斥,二维BIT.建议看黄学长题解.<br>1269:区间Splay裸题.<br>1307:题意是找最大的一个区间使得区间内为一个排列.记录前驱后继,可以得到符合条件的判定关系与区间长度,区间最大值最小值差有关.通过前驱后继来查询这个东西.<br>1318:同1307<br>1336:最小圆覆盖<br>1337:同1336<br>1342:对当前区间搞了个set.<br>1345:规律+结论题,附核心代码,我也不知道怎么证的</p>
-<p>for (int i=1;i&lt;=n;i++)<br>    {<br>        in(a[i]);<br>        if (i&gt;=2)<br>        {<br>            if (a[i]&gt;maxn)  sum+=a[i];<br>            else    sum+=maxn;<br>        }<br>        maxn=a[i];<br>    }<br>    cout&lt;&lt;sum&lt;&lt;endl;</p>
-<p>1351:空数据,Python 2B<br>1360:空数据,Python 2B<br>1370:并查集.(这不是某NOIP题吗<br>1379:答案就是m.忘了为什么了.<br>1398:KMP最小表示,卡SAM内存.<br>1406:数论,找质因子搞一搞.<br>1419:DP一下.枚举选到了i张红的,然后1~b枚举选到了多少黑的.似乎需要滚一下数组压内存.<br>1453:方法很多,提供四个.1.LCT维护删除时间最大生成树 2.cdq分治+并查集 3.A*爆搜 4.线段树维护连通性<br>1482:空数据,Python 2B<br>1492:斜率优化,因为状态点的x不单调,所以需要平衡树或者cdq分治<br>1500:区间Splay.<br>1502:Simpson积分.<br>1503:权值平衡树<br>1513:二维线段树<br>1529:答案是联通块个数,并查集或者Tarjan都可以.<br>1532:二分答案,最大流判定.<br>1543:同JSOI2008最小生成树计数.<br>1563:四边形不等式推出决策单调,二分决策点.<br>1568:李超线段树.<br>1588:权值平衡树.<br>1798:线段树双标记.但是我是拿LCT写的.<br>1800:暴力<br>1821:二分答案+并查集<br>1853:爆搜<br>1857:三分套三分.<br>1875:矩乘优化DP<br>1876:Python题,直接GCD<br>1877:拆点费用流<br>1878:离线处理+树状数组<br>1879:状压DP<br>1880:四遍最短路,然后DP一下<br>1898:可以发现每12次还是6次一个循环,然后对大范围矩乘一下,剩下的一点暴力DP出来.<br>1902:考虑p进制拆分,答案是拆分后每一位+1的乘积 证明好像是考虑Lucas定理的<br>也可以数位DP+组合数学,但是无论哪种做法都需要Python高精度<br>1907:树的最小路径覆盖,可以直接树DP/贪心<br>1922:分层图最短路<br>1923:高斯消元.<br>1924:强联通分量缩点最长路<br>1925:DP.需要用到一些抖动子序列的性质.<br>1941:kdtree最远点<br>1951:数论板子合集.<br>1968:枚举1~n统计n/i的和<br>1969:LCT维护两点间桥边数量,不知道当年标算是什么但应该不是LCT吧<br>1979:二分答案,用平衡树判定.<br>1984:链剖/LCT裸题.<br>1997:平面图判定.需要平面图理论.<br>2000:可以贪心的博弈问题.网上很多证明.<br>2001:可以LCT,也可以cdq,cdq的话需要很多最小生成树的性质.<br>2002:可以LCT,可以分块.<br>2003:特技爆搜.<br>2004:矩乘优化DP<br>2005:莫比乌斯反演<br>2006:线段树+堆维护五元组<br>2012:容斥+组合,同SDOI2013Spring<br>2013:DP+二分<br>2045:同POI2007Zap<br>2049:国内第一个LCT<br>2051:点分治<br>2054:并查集的特技<br>2056:嘿嘿嘿<br>2064:状压DP<br>2089:同2090.<br>2090:权值线段树优化一下DP.感觉这个DP好像并不一定对啊..但是大家好像都是这么写的.<br>2093:左右端点移动一下找到目标位置,然后倍增.<br>2096:单调队列搞一搞<br>2111:组合数搞一搞,需要Lucas<br>2117:同2051<br>2141:cdq分治<br>2151:堆+贪心<br>2154:莫比乌斯反演,有很多种公式化法,我的好像是比较傻逼的那种..<br>2157:LCT,随便打标记<br>2163:直接最小割过了,其实应该转对偶图然后最短路才对.<br>2186:考察线性的逆元求法.<br>2190:反演分析一下,最后却发现答案是个跟phi有关的表达式..<br>2213:DP乱搞一下.附核心代码</p>
-<p>for (int i=2;i&lt;=n;++i)   ch[i]=getchar(),maxn=max(maxn,ch[i]-‘a’);<br>    for (int i=1;i&lt;=n;++i)<br>    {<br>        int y=ch[i]-‘a’;<br>        for (int j=0;j&lt;=maxn;++j)<br>        {<br>            ++f[j][y];–f[y][j];<br>            if (!g[y][j])   g[y][j]=1;<br>            else    if (g[y][j]==2) –g[y][j],++f[y][j];<br>            if (f[y][j]&lt;0)   f[y][j]=-1,g[y][j]=2;<br>            if (g[y][j])    ans=max(ans,f[y][j]);<br>            if (g[j][y])    ans=max(ans,f[j][y]);<br>        }<br>    }<br>2216:显然权函数单调,满足四边形不等式,决策单调.<br>2222:似乎数据有问题还是什么?面向数据了一波.<br>2223:主席树<br>2229:GHTree<br>2241:暴力枚举答案然后检测,检测时候需要特技,感觉理论复杂度并不对但是过了<br>2243:链剖或者LCT,我写的链剖<br>2244:cdq分治做三维偏序的DP,答案实际上可能非常大会爆…但是出题人十分懒惰没管那样的数据,所以double就过了<br>2275:考虑斐波那契分解.有一个定理,然而并不会证明.<br>2280:倍增+最小圆覆盖,卡评测好题.<br>2288:线段树优化费用流,模拟费用的取反什么的.5倍经验.<br>2295:乱搞.附核心代码</p>
-<p>char ch[MAXN],tmp[20]={‘l’,’u’,’v’,’l’,’e’,’t’,’t’,’e’,’r’};<br>int main()<br>{<br>    for (scanf(“%d”,&amp;T),getchar();T;T–)<br>    {<br>        gets(ch+1);n=strlen(ch+1);ans=0;<br>        for (int i=1,j=0;i&lt;=n;i++)<br>        {<br>            j+=(ch[i]==tmp[j]);<br>            if (j&gt;=9)    j=0,ans++;<br>        }<br>        printf(“%d\n”,ans);<br>    }<br>}<br>2296:找到一个P=987654321*10^6,答案就是(P+n)-(P+n)mod n<br>2299:裴蜀定理<br>2300:平衡树维护凸包.因为求的是凸包周长,所以贡献不可累积,故不能分治.<br>2301:莫比乌斯反演.同POI2007Zap<br>2326:矩乘.<br>2336:模拟退火<br>2344:暴力找三元环.<br>2351:Hash<br>2377:同POI2012 A Horrible Poem<br>2378:PA2011Kangaroo kdtree 把序列[L,R]看成点(L,R) 然后查询的就是右下角的矩阵,打一些标记搞一搞.<br>2393:同SCOI2010幸运数字<br>2395:二维最小乘积生成树,裸.<br>2428:模拟退火<br>2433:计算几何.<br>2434:AC自动机+线段树.<br>2438:强连通分量.<br>2440:莫比乌斯函数的应用,实际上就是容斥.<br>2448:区间DP,线段树优化,卡普通线段树常数,需要zkw线段树.<br>2456:卡内存..乱搞<br>2458:分治,分治子结构内暴力+剪枝<br>2460:线性基<br>2461:乱DP一波<br>2462:同2351Hash<br>2463:根奇偶有关的博弈,一眼看出规律,证明可以考虑转化成骨牌铺满格子的问题.<br>2464:裸最短路<br>2467:矩阵树定理<br>2506:小范围直接记录答案,大范围暴力.<br>2514:同HNOI2010那个.<br>2527:整体二分.<br>2555: LCT维护SAM Parent树Right集合<br>2568:按位考虑的乱搞树状数组,大量逻辑混乱…<br>2588:找dfs序,树上建个主席树<br>2594:LCT<br>2595:斯坦纳树.<br>2600:贪心,找规律,中位数相关<br>2618:半平面交<br>2623:RGB识别系统的弱化.湖南当年请的教授出题真厉害..<br>2626:kdtree+堆<br>2631:LCT+双标记<br>2639:二维莫队.<br>2642:可以发现一次删一段连续的一定是最优的,所以二分一下删的长度,半平面交<br>2648:kdtree<br>2654:二分答案然后最小生成树<br>2656:Python题<br>2657:实际上就是让你找直径,没有三角剖分的姿势也没事<br>2659:直觉型数学题<br>2660:DP一下.<br>2661:费用流<br>2662:分层图最短路<br>2671:类似莫比乌斯反演,推一推式子就行了<br>2683:我写的cdq<br>2697:贪心<br>2705:莫比乌斯反演<br>2716:cdq分治<br>2717:奇怪的姿势枚举一发</p>
-<p>for (int i=1;i&lt;=(n&gt;&gt;1);i++)    for (int j=0;j&lt;n;j++)    printf(“%d %d %d\n”,j+1,(j+i)%n+1,(j+i+i)%n+1);<br>1<br>1<br>2718:同CTSC2008祭祀<br>2721:随便化一下式子<br>2724:分块<br>2729:组合数,需要Python<br>2732:二分答案半平面交判定<br>2733:平衡树启发式合并.<br>2738:整体二分,也可分块<br>2739:四边形不等式,然后发现决策单调,然后分治找决策点<br>2741:分块套可持久化trie<br>2751:根据题目找一个性质啥的..细节已忘<br>2753:本意是求最小树形图,实际上因为题目特殊所以可以BFS一遍然后做最小生成树<br>2754:AC自动机fail树+容斥,实际上暴力也过了.<br>2759:题目给的是个环套树,对LCT维护一个额外的father,然后扩欧求答案<br>2761:妈的智障..<br>2763:分层图最短路<br>2783:dfs时候维护一下set<br>2786:DP一下,需要Python<br>2789:还是考虑上个位置,然后树状数组乱搞一下<br>2795:hash,对一段数枚举约数然后判定<br>2796:记忆化搜索<br>2809:权值平衡树启发式合并,或者左偏树<br>2812:空数据,Python 2B<br>2813:斐波那契数性质的应用,线筛时候记录一下质因子,约数个数之类的<br>2814:人生写过最码农的题,可以LCT可以链剖,只不过都得维护30来个量<br>2815:支配树弱化版,倍增<br>2816:LCT<br>2818:同SDOI2012Longge的问题<br>2822:卡特兰数相关,需要Python<br>2823:最小圆覆盖<br>2824:好像是个A*,我面向数据了一波<br>2843:LCT<br>2850:kdtree<br>2851:灭绝树.<br>2862:二分limit,dp<br>2864:计算几何+最大流<br>2875:矩乘<br>2883:树套树,线段树套平衡树,但是我写的是线段树套权值线段树<br>2886:显然先从整个矩形的边界上走比较好,可以发现转一下就是杨辉三角,再然后就没别的了<br>2888:LCT维护树的重心,需要启发式合并<br>2890:同POI2012 A Horrible Poem<br>2896:同AHOI2005航线那题<br>2901:可以发现能用前缀和做..<br>2908:考虑建32位的信息维护,链剖或者LCT<br>2916:暴力<br>2936:灌水法,堆+爆搜<br>2937:写了个n^2暴力就能过<br>2946:SAM时刻记录匹配上的最大值<br>2957:线段树维护一段区间斜率<br>2961:圆的反演,然后就成了cdq分治做半平面交<br>2976:模拟一下得到一堆同余方程,扩欧找最小解<br>2986:把2440反过来,做法一样<br>2987:类欧裸题,然而还是不是很理解类欧<br>3038:记录区间最大值,如果还能开根,暴力下放,最多开根lglg次<br>3040:平板电视+Dij<br>3043:乱搞一发,附核心代码</p>
-<pre><code>in(n);for (int i=1;i&lt;=n;++i) in(a[i]);
-for (int i=n;i;--i) a[i]-=a[i-1],ans1+=(i&gt;1)*a[i]*(a[i]&gt;0),ans2+=(i&gt;1)*(-a[i])*(a[i]&lt;0);
-cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
-</code></pre><p>1<br>2<br>3<br>1<br>2<br>3<br>3051:平面图求域+点定位.<br>3052:莫队上树.<br>3053:高维kdtree<br>3064:线段树+标记+时间戳.<br>3069:LCT维护是否存在桥边,实际上可以并查集<br>3070:考虑固定指数,把底数慢慢往上调,比较难写,于是我当时面向数据了一发<br>3072:神DP.建议看Claris题解.<br>3073:线段树优化建图最短路<br>3084:扩展KMP.建议看Claris题解<br>3098:生日攻击.<br>3100:根前面那个什么 玩具 是一样的.<br>3103:跑一边马拉车,然后并查集缩点一下,就成了弦图染色问题.<br>3110:整体二分<br>3117:链表+堆搞了一下,看似不科学实际上飞快<br>3130:显然费用的分配是可以贪心的.然后二分.<br>3132:二维树状数组<br>3153:TopTree/ETT+LCT 然而出题人的做法不是这两个…<br>3155:树状数组乱搞一下<br>3170:链剖<br>3172:建出多串后缀自动机,直接搞<br>3176:显然要考虑逆序对什么的,然后还需要树状数组,附核心代码</p>
-<p> for (int i=1,last;i&lt;=n;i=last+1)<br>    {<br>        for (last=i+1;a[last-1]&gt;a[last]&amp;&amp;last&lt;=n;last++);last–;<br>        for (ans++,l=i,r=last;l&lt;r;swap(a[l++],a[r–]));<br>    }<br>    for (int i=n;i;i–) ans+=query(a[i]),add(a[i]);<br>    cout&lt;&lt;ans&lt;&lt;endl;<br>3178:循环构成了一个树形结构,然后就可以DP了<br>3180:单调栈乱搞 需要SPJ 但是我好像恰巧跟std策略相同,直接A了<br>3181:大质数暴力,小的二分乱搞一下<br>3196:树套树<br>3197:树Hash+乱搞<br>3198:容斥+组合<br>3199:显然图是个V图,半平面交弄出来,然后最短路<br>3203:计算几何,答案在凸壳上,三分一下<br>3209:数位DP+数论<br>3211:同 上帝造题七分钟2<br>3223:区间Splay裸题.<br>3224:权值平衡树<br>3226:把区间拆成两倍来处理开闭问题,然后线段树就行了,可以看成区间加减01,区间覆盖01的问题<br>3228:把整个坐标系旋转45°,然后就成了扫描线sb题,问题在于统计的不是面积而是格子…所以细节非常麻烦<br>3229:满足四边形不等式然后DP就好了<br>3231:矩乘<br>3236:莫队/树套树/cdq分治.<br>3237:我写的cdq分治,实际上也有别的做法<br>3238:后缀自动机Parent树上DP一下<br>3243:基于随机化的乱搞<br>3251:注意到fib数没多少项就爆int了,所以暴力<br>3252:dfs序,然后变成了rmq问题,写个线段树<br>3260:同2886<br>3262:cdq分治维护三维偏序<br>3267:同2288.<br>3268:ST表搞一搞.source里都给写了题解了..<br>3272:同3267<br>3277:SAM基本应用<br>3282:LCT<br>3283:BSGS.<br>3295:cdq分治.注意每次修改会产生更多额外的贡献要单独减去的<br>3309:莫比乌斯反演<br>3323:序列平衡树维护多项式<br>3329:把两问分别考虑,一个数位DP一个矩乘<br>3339:跟SDOI2008HH的项链方法差不多,也是离线然后考虑找到前驱后继线段树做<br>3350:同3103<br>3417:对一个环可以重复走多次每次长度都是+2的,所以第一次BFS看看路径长奇偶就行了.<br>3424:跟dfs序有关.有波兰人论文.<br>3439:建trie,对trie dfs一遍,同时建立主席树<br>3463:分块维护凸壳<br>3473:同3277<br>3482:SPFA预处理含x条边的情况然后做.建议看Claris题解.<br>3483:建trie,可以发现询问能跟trie的dfs序对应起来,所以再建一棵主席树.<br>3489:我写的3d kdtree<br>3493:同HNOI2010那个<br>3495:考虑2-SAT建图.安利Claris题解.<br>3498:枚举三元环,我拿度数倍数判的实际上应该是根号度数..<br>3500:OEIS有数列<br>3501:把3501加点数论特技,CRT什么的..<br>3502:同3272<br>3505:组合数一下<br>3514:LCT.记录下某条边被加入成环,主席树统计答案.<br>3522:树DP.可以O(n)特技.<br>3524:主席树<br>3527:FFT<br>3529:莫比乌斯反演+树状数组<br>3530:AC自动机+数位DP<br>3531:动态开点的LCT/链剖线段树<br>3532:退流科技.<br>3533:线段树维护凸包<br>3534:构建一个合理的矩阵然后矩阵树定理,这个矩阵的构建需要十分高超的概率姿势,建议看高大哥的题解<br>3543:有定理好像是这样的正方形不超过根号个还是什么来着..忘掉了.反正是结论题<br>3544:搞个set就好了<br>3545:本题不强制在线,标算为平衡树启发式合并<br>3551:对3545强制在线后,我们需要主席树+倍增搞一发<br>3555:hash<br>3566:树形概率DP<br>3571:最小乘积生成树+KM.<br>3572:虚树.<br>3573:考虑对树DFS,做一个对数的转化<br>3575:不靠谱的暴力做法..加上堆维护一下<br>3585:又是考虑离线记前驱后继然后线段树的题<br>3589:实际上是虚树.用链剖线段树随便打了打标记.然而标算应该是LCT做链的并吧.<br>3594:线段树优化DP<br>3603:分块高斯消元.<br>3605:分治FFT.<br>3606:平面图求域+点定位.<br>3607:最长路剖分一下,再轻重路剖分一下,安利Claris题解.<br>3613:贪心/找规律.<br>3616:kdtree+bitset<br>3622:厉害的组合数+DP.<br>3629:有一个什么分解定理来着…<br>3638:同3502<br>3643:爆搜<br>3647:hash一下,好像也是个双倍经验<br>3651:对ZJOI2012网络去掉权值的维护<br>3658:单调栈+树状数组<br>3659:矩阵树定理+BestTheorem<br>3667:MillerRabin+PollarRho<br>3668:按位贪心<br>3669:LCT<br>3672:点分治+斜率优化+cdq分治.<br>3673/3674:rope的应用.<br>3675:满足四边形不等式,有决策单调<br>3676:PAM裸题,但是我写的SAM+manacher<br>3680:模拟退火/多重爬山<br>3585:VEB树.<br>3687:bitset应用<br>3688:线段树优化DP<br>3709:贪心.肯定先打能回血的.<br>3710:构造神题.波兰人有论文.<br>3711:分治优化DP,分治过程中用线段树找决策点,决策点单调.<br>3712:树上倍增.<br>3713:暴力拆分.<br>3714:前缀和Prim.<br>3715:找找最大边界值,随便判定一下..<br>3716:最小割转最大流,然后贪心,需要一定坐标变换.<br>3717:高姿势的状压DP.<br>3718:只要能卡住就行了,树状数组.<br>3719:线段树套个vector扫描线扫一扫.<br>3721:随便贪心,考虑奇换偶偶换奇.<br>3722:树形DP.<br>3725:扫一遍,扫的时候记录出现位置,更新答案.<br>3726:悬线法.<br>3727:稍微推一推公式,然后就发现代价可以根据size什么的树形DP了.<br>3728:堆贪心.<br>3732:跟某NOIP货车运输一样.<br>3733:爆搜+信仰剪枝.安利潇爷(Time-Machine)题解<br>3735:堆搞一搞<br>3737:跟phi的反函数一个做法.<br>3743:显然可以直接树形DP.<br>3745:分治,前缀和,单调栈.<br>3754:很好的乱搞题.可以考虑看成是一堆点,然后中间有一条水平直线算代价.<br>3767:Python题.<br>3779:LCT+dfs序线段树<br>3791:可以比较容易的DP出来.<br>3802:预处理转移的DP.也可以直接手动分类讨论出来,只要你不嫌手累代码长难调.<br>3810:记忆化搜索<br>3811:这个期望和概率题好神啊..建议直接上网看题解<br>3812:状压DP,需要一些奇怪姿势.<br>3815:kdtree.<br>3816:空数据 Python 2B<br>3817:类欧题,类欧前需要很多变形.<br>3831:挺sb的一个DP.<br>3834:莫比乌斯反演.<br>3837:线筛处理一些东西,然后DP.<br>3838:看成线段树维护括号序列,然后就发现需要维护的东西特别多还不止一棵线段树.<br>3839:考虑从某个点开始向四个方向扩展的凸包,预处理,然后对询问用线段树扫描线一下.<br>3884:高姿势的数论题.<br>3895:dfs,过程中需要很多情况的讨论,建议看Po姐题解.<br>3915:矩形剖分.<br>3916:枚举删除的位置,Hash.<br>3917:考虑爆搜各种剪枝,每次范围都是之前的十分之一.<br>3922:搞一堆线段树分别对应不同公差,大公差暴力,小的线段树.<br>3926:trie上SAM扩展裸题.因为度数少,所以暴力合并.<br>3928:区间DP一下.<br>3944:杜教筛裸题.<br>3950:同3607.<br>3984:按时间分治,维护删除时间最大的基.<br>3990:操作序列的顺序并不影响答案,根据这个性质所以搜.<br>3991:虚树.<br>3993:二分费用最大流判定.<br>3994:比较厉害的莫比乌斯反演,需要一个性质.安利高大哥题解.<br>3995:线段树维护两排点,分类讨论.<br>3998:SAM的应用.<br>4001:找规律.实际上要靠生成函数来推..<br>4010:拓扑.<br>4020:手写编译器.<br>4025:LCT,或者cdq分治.<br>4027:贪心.<br>4029:模拟.<br>4031:矩阵树定理.<br>4032:前两问直接DP,后两问SAM上DP.<br>4033:看似n^3,实际上n^2的树DP.<br>4034:链剖,<br>4036:子集和变换.<br>4043:同3802.<br>4048:同3928.<br>4052:发现gcd最多有log个,单调栈一下.<br>4057:状压DP.<br>4059:奇怪的暴力.<br>4062:同3658.<br>4063:智障啊..<br>4066:卡掉离线算法差评不已.kdtree<br>4068:维护套着堆的线段树就行了,每次考虑用后来的任务替换一下前面的任务.<br>4084:Hash<br>4085:线段树维护矩乘.据说考场卡常?矩阵可以从3<em>3优化到2</em>2.<br>4086:组合数容斥.<br>4088:大模拟.<br>4106:WF签到题.<br>4127:数一直加的,已经没有负数的就不用管了,其他的可以暴力下放.<br>4128:矩阵BSGS,矩阵求逆或者不求逆的BSGS.<br>4130:kdtree.上面写过这个题了..<br>4140:因为强制在线了,所以要二进制分组<br>4143:乱搞,暴力,没技术含量.<br>4144:最短路+最小生成树.<br>4145:状压DP.<br>4146:写个计数器.sb题<br>4147:又一个根据很多情况来讨论的博弈.看Claris题解把<br>4148:构造.算基础构造题了.<br>4149:考虑单调栈搞一搞.<br>4151:一个非常厉害的.最短路?安利Claris题解<br>4152:把点排个序,构个图,最短路.<br>4154:可以kdtree,要是不只是子树的话,点分就好了.<br>4160:这题好神啊.安利Claris题解.<br>4180:构建出SAM,然后可以矩乘<br>4184:按时间分治线段树维护一下线性基<br>4194:k做一下前缀和就可以看成是凸壳,然后二分一下斜率什么的.<br>4195:并查集<br>4196:链剖<br>4198:Huffman树+贪心<br>4199:SAM Parent树上DP<br>4209:把PA的Bazarek用主席树来做动态的<br>4212:同3483,但是卡trie转移边内存.<br>4216:分块,也卡内存.<br>4229:同PA2011HardChoice<br>4236:随便统计一下三个字母数目更新下答案就行了.<br>4245:按位贪心<br>4247:背包变形<br>4250,4251前面都出现过了<br>4253:把AHOI那个密码箱找质因子的过程来弄成PollardRho<br>4260:trie正着一遍倒着一遍DP,但是我写的可持久化trie,差点T飞<br>4262:考虑询问离线,然后用线段树搞一搞,安利Claris题解.<br>4263:某TCSRM题改编,结论题,贪心一下.<br>4264:边集Hash.<br>4266:同 一个动态树好题<br>4269:线性基<br>4288:跟Baltic2014sequence一样<br>4289:转一下建图,差分建图,,然后最短路<br>4291:跟Bazarek一样<br>4292:按位暴力<br>4293:大小关系是始终不变的,所以排序后可以在线段树上二分.<br>4294:斐波那契数列模10^m有循环节,利用这个,然后搜<br>4296:好像是考虑贪心的删?忘了..<br>4297:神题.安利Claris题解.<br>4298:比较厉害的边集Hash.<br>4299:主席树.可以发现那个东西的一个性质.这个性质如果说出来就没意思了..<br>4300:builtin大法好啊..<br>4305:组合+容斥<br>4310:二分+后缀数组判定/hash判定<br>4311:按时间分治的线段树,答案在凸壳三分<br>4312:大型分类讨论<br>4316:仙人掌DP<br>4317:同2051<br>4318:同Easy那题<br>4319:简单的构造<br>4320:小范围记录答案,大范围暴力 的那种题目<br>4327:SAM直接跑<br>4337:树Hash<br>4347:比较厉害的DP.安利Claris题解.<br>4352:又是个双倍经验..同 A Huge Tower<br>4358:考虑kdtree,序列[L,R]当成(L,R)这样子<br>4364:线段树乱搞..乱更新一下<br>4367:搞出暴力DP之后,满足四边形不等式,所以决策单调,然后分治优化,主席树找决策<br>4373:对区间是否符合条件有一个有关gcd的判定,然后线段树就行了.也可以Hash区间和,区间平方和,立方和.<br>4378:特技差分然后树状数组.<br>4380:区间DP.<br>4401:枚举约数.<br>4403:组合数学.<br>4404:按位搜.<br>4407:莫比乌斯反演<br>4408:同FRBSUM<br>4414:利用一点斐波那契数列的性质做,可以找规律.<br>4415:线段树模拟<br>4418:线段树.<br>4419:暴力<br>4421:智障..<br>4423:考虑对偶图中两点连通性与原图中两点连通性关系,然后并查集维护对偶图的连通性.<br>4424:nlogn可以差分树剖或者LCT,O(n)就利用一些特技乱搞一下.<br>4425:搞个堆<br>4426:满足四边形不等式,分治优化下DP<br>4427:计算几何+二分图判定<br>4428:一点特殊的记忆化搜索姿势然后杜教筛<br>4429:二分图最大匹配<br>4430:树状数组找一下逆序对什么的<br>4432:链表大模拟<br>4434:坐标范围很小,考虑分成一小段一小段然后做<br>4435:割流转化,然后最小割树<br>4437:BFS预处理,然后对每个询问三分<br>4438:忘掉了QAQ<br>4439:最小割<br>4444:DP了一下.好像是n倍经验<br>4452:离线,并查集<br>4453:高端的姿势!请单独看我题解<br>4454:O(1)gcd黑科技<br>4455:一点状压<br>4456:分治+Dij<br>4458:超级钢琴上树<br>4465:第二类strling数变形<br>4471:矩乘+贪心模拟<br>4472:树形DP一下<br>4475:找规律<br>4488:同cerc2013 Magical Gcd<br>4490:同4471<br>4500:差分约束<br>4503:FFT<br>4505:考虑只找那个字符串的一半,暴力枚举星号状态,然后匹配<br>4513:数位DP<br>4514:费用流一直跑,跑到变负数<br>4515:李超线段树<br>4516:SAM裸题<br>4517:直接错排,但是建议写容斥<br>4518:斜率优化,实际上也可以直接四边形不等式然后分治<br>4519:GHtree<br>4520:kdtree,姿势同jzpfar<br>4521:数位DP一下<br>4522:按他的要求做就行了..写Pollardrho,然后扩欧什么的..<br>4523:可持久化trie,时刻维护单调栈匹配的最大长度<br>4524:打表+堆然后搜的..<br>4527:这题好神..但是也属于那种单调栈+线段树搞一搞的题目.安利Claris题解<br>4538:链剖线段树+kdtree<br>4540:同4262<br>4543:提供nlogn 点分治 O(n) 利用启发式思想的树形DP<br>4544:打表观察找到一个积性函数.<br>4545:SAM强行上trie..实际上还是2555<br>4548:同4062<br>4551:并查集<br>4552:二分答案,线段树<br>4553:发现成立条件跟a[i],minb[i],maxb[i]有关.实际上是个三维偏序,可以kdtree可以cdq分治.<br>4554:拆点,二分图最大匹配<br>4556:SAM+dfs序+主席树<br>4557:树形DP一下<br>4558:容斥.需要很多细节讨论<br>4562:拓扑<br>4263:直接上错排<br>4565:状压DP.<br>4566:建两个SAM,考虑下合并代价什么的就行了<br>4568:点分治/倍增+线性基(Claris的点分治模板就是快)<br>4569:ST表+并查集<br>4598:可以考虑nlogn的点分治,这是doc老师给的标算,同时还有一种O(n)的做法.基于以前的暴力LCA的DP,考虑使用上启发式思想,可以做出一个漂亮的O(n)DP,基本同 4543Hotel加强版 这个题一样.<br>4599:首先可以看出回文串的贡献都是可以单独考虑的,然后其他的串可以考虑行列拆点最小割.具体建图已忘.<br>4600:考虑按C分类,然后状压DP.<br>4601:比较重要的两个性质:1.路径只有两种可能,分别是两种绕法,因为我没法贴图片,所以留给大家自行思考.想到这两种绕法之后,还有一个性质,就是选出一行/列,考虑这一行/列的插头状况,发现只有一个插头是非空的(当然这并不意味着要让你写一个插头DP,只是这个性质是比较有用的.<br>有了这两个性质就可以独立考虑做法了.<br>4602:带权并查集,或者直接dfs(因为无向图DFS树只有返祖边没有横向边).为了解决分数特别大的问题,考虑记录质因子或者取log(会被卡精度).<br>4603:正四面体剖分,然后搞一搞.</p>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>BZOJ</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mac_gcc_files</title>
-    <url>/tools/mac_gcc_files/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h3 id="mac-gcc-files"><a href="#mac-gcc-files" class="headerlink" title="mac_gcc_files"></a>mac_gcc_files</h3><h4 id="1-在Terminal键入g-提示自动安装"><a href="#1-在Terminal键入g-提示自动安装" class="headerlink" title="1. 在Terminal键入g++提示自动安装"></a>1. 在Terminal键入g++提示自动安装</h4><p>gcc：Terminal键入<code>g++</code>，来自x-code的gcc工具clang，默认版本4.2.1</p>
-<p>Command Line Tools：Terminal键入<code>xcode-select --install</code>或者<a href="https://developer.apple.com/download/more/" target="_blank" rel="noopener">官网下载</a></p>
-<h4 id="2-通过homebreak安装"><a href="#2-通过homebreak安装" class="headerlink" title="2.通过homebreak安装"></a>2.通过homebreak安装</h4><p>1) 先安装<a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener">Homebrew</a></p>
-<p>2) <code>brew install gcc</code></p>
-<p>3) 如果要安装指定版本的gcc</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">brew update</span><br><span class="line">brew reinstall gcc5 --without-multilib</span><br><span class="line">brew install homebrew/versions/gcc5  </span><br><span class="line"></span><br><span class="line">vim ~/.bash_profile</span><br><span class="line">填加如下代码</span><br><span class="line"><span class="keyword">export</span> PATH=<span class="string">"/usr/local/Cellar/gcc/6.3.0_1/bin:$PATH"</span></span><br></pre></td></tr></table></figure>
-<h4 id="3-MacPorts-多版本间切换"><a href="#3-MacPorts-多版本间切换" class="headerlink" title="3. MacPorts! 多版本间切换"></a>3. MacPorts! 多版本间切换</h4><p>1) 先安装<a href="https://www.macports.org/install.php" target="_blank" rel="noopener">MacPorts</a></p>
-<p>2) 再更新MacPorts： <code>sudo port selfupdate</code></p>
-<p>3) 网络查找gcc库： <code>port search gcc</code></p>
-<p>4) 安装gcc：<code>sudo -i #获取管理员权限</code> 和 <code>port install gcc48</code></p>
-<p>5) 查看安装的版本： <code>port select --list gcc</code></p>
-<p>6) 切换gcc版本： <code>sudo port select --set gcc mp-gcc48</code></p>
-<p>7) 清空bash缓存：<code>hash -r</code></p>
-<h4 id="4-来自手动的恐惧"><a href="#4-来自手动的恐惧" class="headerlink" title="4. 来自手动的恐惧"></a>4. 来自手动的恐惧</h4><p>1) <a href="https://link.zhihu.com/?target=https%3A//sourceforge.net/projects/hpc/files/hpc/gcc/" target="_blank" rel="noopener">HPC on Mac OS X</a>下载你所需要的gcc版本</p>
-<p>2) 下载完成后，通过terminal进入下载目录，即gcc-4.8-bin.tar.gz所在的目录。输入命令：<code>gunzip gcc-4.8-bin.tar.gz</code>  (目的是解压，雾)</p>
-<p>3) 继续在terminal中输入命令：<code>sudo tar -xvf gcc-4.8-bin.tar</code></p>
-<p>4) 添加gcc路径：重新新建一个terminal，输入<code>touch ～/.bash_profile</code></p>
-<p>5) 新建一个bash_profile文件，使用vi或者其他编辑器写入如下代码：</p>
-<p><code>export PATH=&quot;/Users/gwj1139177410/Gcc/usr/local/bin:$PATH&quot;</code></p>
-<p>路径有所修改，写完在Terminal键入<code>source ～／.bash_profile</code>使他生效</p>
-<p>6) 查看是否生效 <code>echo $PATH</code></p>
-<h4 id="5-Atom中的g-环境配置"><a href="#5-Atom中的g-环境配置" class="headerlink" title="5. Atom中的g++环境配置"></a>5. <a href="https://atom.io/" target="_blank" rel="noopener">Atom</a>中的g++环境配置</h4><blockquote>
-<p>需要<a href="http://www.mingw.org/" target="_blank" rel="noopener">MinGW</a>或者g++环境</p>
-</blockquote>
-<p>1) 在Atom内安装<code>linter-gcc</code>与<code>linter</code>两个插件。 </p>
-<p>2) 在已安装的包中选择<code>linter-gcc</code>- <code>setting</code>，将路径改为<code>gcc</code>或<code>g++</code><br>并且勾选“Lint on-the-fly”(表示在书写的同时编译，不用每次保存) </p>
-<p>3) 安装<code>gcc-make-run</code>，安装完成后，按<code>F6</code>即可编译并运行程序</p>
-<p>最后再安利几个atom插件：<code>Activate Power Mode</code>，<code>minimap</code>，<code>simplified-chinese-menu</code>等等</p>
-]]></content>
-      <categories>
-        <category>Geek</category>
-      </categories>
-      <tags>
-        <tag>g++</tag>
-        <tag>编译器</tag>
-        <tag>开发环境</tag>
       </tags>
   </entry>
   <entry>
@@ -731,9 +348,6 @@ cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
 <p><img src="/images/从神经元到深度学习/673793-20151230155838057-551533589.jpg" alt> </p>
 <p>图42 Ng与神经网络</p>
 <p>　　为什么Ng对待神经网络的反应前后相差那么大？事实上就是深度学习的原因。Ng实践了深度学习的效果，认识到深度学习的基础–神经网络的重要性。这就是他在后面重点介绍神经网络的原因。总之，对于神经网络的学习而言，我更推荐Coursera上的。因为在那个时候，Ng才是真正的把神经网络作为一门重要的机器学习方法去传授。你可以从他上课的态度中感受到他的重视，以及他希望你能学好的期望。</p>
-<blockquote>
-<p>参考资料<br><a href="http://www.cnblogs.com/subconscious/p/5058741.html" target="_blank" rel="noopener">神经网络浅讲：从神经元到深度学习</a></p>
-</blockquote>
 ]]></content>
       <categories>
         <category>note</category>
@@ -745,42 +359,181 @@ cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
       </tags>
   </entry>
   <entry>
-    <title>hexo建站</title>
-    <url>/tools/hexo%E5%BB%BA%E7%AB%99/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="hexo建站"><a href="#hexo建站" class="headerlink" title="hexo建站"></a>hexo建站</h2><h4 id="0x01-配置环境"><a href="#0x01-配置环境" class="headerlink" title="0x01  配置环境"></a>0x01  配置环境</h4><ol>
-<li>安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node</a>, 用来生成静态页面的</li>
-<li>安装Git, Mac的话Xcode自带有Git</li>
-<li>申请GitHub, 项目托管</li>
-</ol>
-<h4 id="0x02-安装hexo"><a href="#0x02-安装hexo" class="headerlink" title="0x02  安装hexo"></a>0x02  安装hexo</h4><ol>
-<li>首先创建一个文件夹,如blog,用户存放hexo的配置文件,然后进入blog里安装Hexo。</li>
-<li>终端执行 <code>sudo npm install -g hexo</code> 安装hexo</li>
-<li>初始化  <code>hexo init</code></li>
-</ol>
-<h4 id="0x03-配置Github"><a href="#0x03-配置Github" class="headerlink" title="0x03  配置Github"></a>0x03  配置Github</h4><ol>
-<li><p>建立与你用户名对应的仓库, 仓库名必须为”BlogName.github.io“, 固定写法</p>
+    <title>NOIP知识点汇总</title>
+    <url>/tools/NOIP%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="NOIP知识点汇总"><a href="#NOIP知识点汇总" class="headerlink" title="NOIP知识点汇总"></a>NOIP知识点汇总</h2><p><strong>加*号是选学，加粗为重点，重要值排序不分先后</strong></p>
+<ul>
+<li>基础<a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">算法</a><ul>
+<li><strong>贪心、枚举、分治、二分、倍增、***</strong>构造<strong>、</strong>高精、模拟**</li>
+</ul>
 </li>
-<li><p>建立关联, 我的blog在本地/Users/blog, 打开_config.yml文件, 翻到最下面, 改成</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/UserName/BlogName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<li>图论<ul>
+<li>图 <ul>
+<li><strong>最短路（dijkstra、spfa、floyd）</strong>，差分约束</li>
+<li><strong>最小生成树（kruskal、prim）</strong></li>
+<li><strong>并查集（扩展域）</strong></li>
+<li><strong>拓扑排序</strong></li>
+<li><strong>二分图染色</strong>，*二分图匹配</li>
+<li><strong>tarjan找scc、桥、割点，缩点</strong></li>
+<li>*分数规划</li>
+</ul>
 </li>
-<li><p>执行<code>npm install hexo-deployer-git —save</code></p>
+<li>树 <ul>
+<li><strong>树上倍增（LCA）</strong></li>
+<li>树的直径、树的重心</li>
+<li><strong>dfs序</strong></li>
+<li>*树链剖分</li>
+</ul>
 </li>
-</ol>
-<h4 id="0x04-常用命令"><a href="#0x04-常用命令" class="headerlink" title="0x04  常用命令"></a>0x04  常用命令</h4><ol>
-<li>清空旧的网页页面, <code>hexo clean</code></li>
-<li>生成新的网页页面, <code>hexo generate</code></li>
-<li>同步到Github上, <code>hexo deploy</code></li>
-</ol>
+</ul>
+</li>
+<li>数论<ul>
+<li><strong>gcd、lcm</strong></li>
+<li><strong>埃氏筛法</strong></li>
+<li><strong>exgcd，求解同余方程、逆元</strong></li>
+<li><strong>快速幂</strong></li>
+<li>*组合数学</li>
+<li>矩阵</li>
+</ul>
+</li>
+<li><a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">数据结构</a><ul>
+<li><strong>链表、队列（单调队列）、栈（单调栈）</strong></li>
+<li><strong>堆、st表、hash表</strong></li>
+<li><strong>线段树、树状数组</strong></li>
+<li>字典树</li>
+<li>*分块</li>
+</ul>
+</li>
+<li>动态规划<ul>
+<li><strong>背包DP、树形DP、记忆化搜索、递推</strong></li>
+<li><strong>区间DP、序列DP</strong></li>
+<li><strong>*DP优化</strong>（不涉及斜率优化、四边形不等式等等）</li>
+</ul>
+</li>
+<li>搜索<ul>
+<li><strong>暴搜（dfs、bfs）</strong></li>
+<li><strong>搜索的剪枝</strong></li>
+<li>启发式搜索（A*）</li>
+<li>迭代加深搜索、<em> IDA</em></li>
+<li>*随机化搜索</li>
+</ul>
+</li>
+<li>其他算法<ul>
+<li><strong>STL的基本使用方法</strong></li>
+<li>脑洞的正确使用方法</li>
+<li>*KMP</li>
+<li><strong>*状态压缩</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="省选知识点汇总"><a href="#省选知识点汇总" class="headerlink" title="省选知识点汇总"></a>省选知识点汇总</h2><p>冲省选的，<strong>先把整理的NOIP知识点学扎实，注意一定要学扎实</strong><br>加粗是重点，星号是选学<br>学无止境，欢迎大家继续补充~</p>
+<ul>
+<li>图论<ul>
+<li><strong>网络流</strong>（dinic，SAP，ISAP选一个，费用流写EK就行。*zkw费用流），<strong>二分图</strong></li>
+<li><strong>点分治，边分治</strong>，*动态点分治</li>
+<li><strong>树链剖分，动态树，树分块</strong></li>
+<li><strong>虚树</strong>，*prufer编码</li>
+<li><strong>*仙人掌算法</strong></li>
+</ul>
+</li>
+<li>数据结构<ul>
+<li>带权并查集</li>
+<li><strong>Splay</strong>（作为平衡树和维护区间），Treap，替罪羊树</li>
+<li><strong>线段树（权值线段树），树状数组</strong>，*线段树合并</li>
+<li><strong>分块，块状链表</strong>，*双向链表</li>
+<li><strong>凸包</strong></li>
+<li><strong>树套树</strong></li>
+<li><strong>主席树，可持久化trie，*其它可持久化数据结构</strong></li>
+<li><strong>莫队算法</strong>，*树上莫队，<strong>CDQ分治，整体二分</strong></li>
+<li><strong>二维线段树，*KDtree</strong></li>
+<li><em>舞蹈链，</em>二进制分组，<em>左偏树，</em>超哥线段树，<em>后缀平衡树，</em>fhqTreap</li>
+</ul>
+</li>
+<li>字符串相关算法及数据结构<ul>
+<li><strong>hash（自然溢出，双hash）</strong></li>
+<li><strong>kmp，AC自动机，trie</strong></li>
+<li><strong>后缀数组</strong></li>
+<li>manacher，最小表示法</li>
+<li><em>后缀自动机，</em>回文自动机，*后缀树</li>
+</ul>
+</li>
+<li><strong>数学</strong><ul>
+<li><strong>线性筛，积性函数，容斥原理，莫比乌斯反演</strong></li>
+<li><strong>exgcd，费马小定理，Lucas定理，高中排列组合</strong></li>
+<li><strong>高斯消元，概率与期望相关</strong></li>
+<li><strong>中国剩余定理，BSGS，欧拉定理</strong></li>
+<li><strong>矩阵乘法</strong></li>
+<li><strong>单纯形法解线性规划</strong></li>
+<li><strong>FFT</strong></li>
+<li><strong>线性代数（行列式）</strong></li>
+<li>*Simpson积分，高中求导与积分</li>
+<li>*群论</li>
+<li>*生成函数， <strong>多项式类算法</strong></li>
+<li><strong>博弈论相关</strong>，*密码学，<strong>阶，原根</strong></li>
+</ul>
+</li>
+<li>计算几何<ul>
+<li><strong>向量的点积/叉积，计算几何基础</strong></li>
+<li><em>二维计算几何相关，</em>三维计算几何相关</li>
+<li><em>半平面交，</em>旋转卡壳，*三角剖分</li>
+</ul>
+</li>
+<li>搜索<ul>
+<li><strong>A*，记忆化搜索，迭代深搜，双向广搜</strong></li>
+<li>模拟退火，爬山算法，*随机增量法</li>
+</ul>
+</li>
+<li>动态规划<ul>
+<li><strong>基础DP，树形DP，数位DP，状压DP，期望DP，基环树DP，*插头DP</strong></li>
+<li><strong>斜率优化，矩乘优化，单调队列优化，倍增优化</strong>，*四边形不等式优化</li>
+<li>trie图DP，*仙人掌DP</li>
+</ul>
+</li>
+<li>其他算法<ul>
+<li><strong>构造</strong>，<strong>乱搞，随机化</strong>，三分法，<strong>打表</strong>，<strong>启发式合并</strong></li>
+<li>Huffman树，2-sat，*朱刘算法</li>
+</ul>
+</li>
+</ul>
+<p>说真的，计算几何要么全场不会，要么全场AK。所以尽量花时间在别的地方吧。</p>
 <blockquote>
-<p>参考资料<br><a href="https://github.com/gwj1139177410/gwj1139177410.github.io" target="_blank" rel="noopener">Gwj’s OI Blog</a><br><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a><br><a href="http://www.jianshu.com/p/465830080ea9" target="_blank" rel="noopener">hexo+Github搭建属于自己的博客</a><br><a href="http://blog.csdn.net/lemonxq/article/details/72676005" target="_blank" rel="noopener">hexo博客搭建+个人定制</a><br><a href="http://www.cnblogs.com/visugar/p/6821777.html" target="_blank" rel="noopener">hexo从零开始到搭建完整</a><br><a href="http://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="noopener">20分钟教你使用hexo搭建github博客</a><br><a href="http://www.jianshu.com/p/cea41e5c9b2a" target="_blank" rel="noopener">hexo搭建的Github博客绑定域名</a><br><a href="http://hzwer.com/7560.html" target="_blank" rel="noopener">hzwer本博客搭建教程及说明</a><br><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">NexT使用文档</a><br><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT开源项目</a><a href="http://iissnan.com/progit/" target="_blank" rel="noopener">Git教程</a><br><a href="http://fontawesome.io/" target="_blank" rel="noopener">NexT图标使用</a><br><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a><br><a href="http://www.arao.me/2015/hexo-next-theme-optimize-seo/" target="_blank" rel="noopener">动动手指，不限于NexT主题的Hexo优化（SEO篇）</a><br><a href="https://www.fyvps.com/jp.html" target="_blank" rel="noopener">枫叶主机</a><br><a href="http://mp3.flash127.com/sou/%E5%89%8D%E5%89%8D.html" target="_blank" rel="noopener">127mp3外链</a><br><a href="https://portal.qiniu.com/bucket/gwj1314/resource" target="_blank" rel="noopener">七牛云</a></p>
+<p>参考资料</p>
+<p><a href="http://blog.csdn.net/txl199106/article/details/71504478" target="_blank" rel="noopener">NOIP知识点汇总</a></p>
+<p><a href="http://blog.csdn.net/loi_dqs/article/details/52076386" target="_blank" rel="noopener">省选知识点汇总</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Geek</category>
+        <category>OI</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
-        <tag>网络</tag>
+        <tag>NOIP</tag>
+        <tag>考纲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BZOJ题目一句话题解整理</title>
+    <url>/tools/BZOJ%E9%A2%98%E7%9B%AE%E4%B8%80%E5%8F%A5%E8%AF%9D%E9%A2%98%E8%A7%A3%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><blockquote>
+<p><a href="http://blog.csdn.net/creationaugust/article/details/51387623" target="_blank" rel="noopener">BZOJ题目一句话题解整理</a><br>就当是复习一下自己做过的题,顺便提供一个简要题解给大家看.<br>做题时候实在想不出来看一下一句话题解,可以有一个提示的作用又不至于一下子知道了全部浪费了一道题吧..<br>部分题目(如我A过得大部分奶牛题)是别人拿我的账号做的,不提供题解.<br>可能会漏掉很多做过的题..因为可能点页数不小心点错了什么的<br>UPD.本来想把那些没写过但是知道题解的也写了..但是写完这些已经累死了QAQ</p>
+</blockquote>
+<p>已AC的题目及部分未AC但是知道标算的题目(数学题均不提供分析过程,公式):<br>1000:A+B<br>1001:平面图最小割,转对偶图最短路<br>1002:矩阵树定理,也可以通过推矩阵的递推关系得到递推式<br>1003:最短路+DP<br>1007:半平面交<br>1008:组合数学,需要高精<br>1010:斜率优化/四边形不等式推决策单调性<br>1012:线段树<br>1014:Splay维护字符串的Hash值<br>1016:矩阵树定理,相同权值压联通块,对一个联通块用一次矩阵树定理计算方案数,累积答案 也可以DFS<br>1023:仙人掌DP找直径<br>1031:直接构建出倍长后串的SA,用rank数组做<br>1034:贪心<br>1036:树链剖分/LCT<br>1038:半平面交<br>1041:数论,推一下公式 也可以用一种跟勾股定理相关的做法<br>1043:计算几何,细节已忘.<br>1050:并查集,细节已忘.<br>1053:爆搜<br>1054:模拟<br>1059:二分图最大匹配,对行和列做点<br>1061:不等关系转费用流建图<br>1066:最大流<br>1067:线段树分类讨论<br>1070:费用流<br>1072:状压DP,据说暴力可过<br>1083:最小生成树<br>1087:状压DP<br>1088:枚举状态,暴力<br>1089:找规律,需要高精,也可以用组合数学推一下<br>1092:模拟<br>1095:动态树分治,或者dfs序线段树维护括号序列<br>1099:线段树+分类讨论<br>1101:莫比乌斯反演,同HAOI ProblemB<br>1103:dfs序,或者链剖<br>1106:树状数组.考虑记录下每个元素上一次出现的位置,然后BIT搞一搞.<br>1112:权值平衡树,中位数相关.<br>1113:好像是单调栈扫一扫就没了.<br>1121:一个结论题,答案是n/2.<br>1131:树形DP一下.<br>1132:答案的式子可以看出一个坐标的前缀和,优化一下暴力.<br>1143:利用那些图论定理,最长反链=n-最大匹配.<br>1145:很多种情况,BIT维护一下然后把这些情况加加减减.网上有WJMZBMR题解.<br>1146:一个比较模板的题..为了不被卡常卡空间可以考虑把其中一维搞上整体二分.<br>1167:空数据,Python 2B<br>1176:cdq分治,或者kdtree<br>1180:LCT<br>1191:二分图最大匹配<br>1192:考虑二进制分解.<br>1193:大规模贪心,小规模暴力.<br>1195:状压DP,与某道TC SRM一样.<br>1202:加权并查集,维护前缀和.<br>1208:权值平衡树.<br>1213:二分,Python.<br>1214:空数据,Python 2B<br>1227:组合,容斥,二维BIT.建议看黄学长题解.<br>1269:区间Splay裸题.<br>1307:题意是找最大的一个区间使得区间内为一个排列.记录前驱后继,可以得到符合条件的判定关系与区间长度,区间最大值最小值差有关.通过前驱后继来查询这个东西.<br>1318:同1307<br>1336:最小圆覆盖<br>1337:同1336<br>1342:对当前区间搞了个set.<br>1345:规律+结论题,附核心代码,我也不知道怎么证的</p>
+<p>for (int i=1;i&lt;=n;i++)<br>    {<br>        in(a[i]);<br>        if (i&gt;=2)<br>        {<br>            if (a[i]&gt;maxn)  sum+=a[i];<br>            else    sum+=maxn;<br>        }<br>        maxn=a[i];<br>    }<br>    cout&lt;&lt;sum&lt;&lt;endl;</p>
+<p>1351:空数据,Python 2B<br>1360:空数据,Python 2B<br>1370:并查集.(这不是某NOIP题吗<br>1379:答案就是m.忘了为什么了.<br>1398:KMP最小表示,卡SAM内存.<br>1406:数论,找质因子搞一搞.<br>1419:DP一下.枚举选到了i张红的,然后1~b枚举选到了多少黑的.似乎需要滚一下数组压内存.<br>1453:方法很多,提供四个.1.LCT维护删除时间最大生成树 2.cdq分治+并查集 3.A*爆搜 4.线段树维护连通性<br>1482:空数据,Python 2B<br>1492:斜率优化,因为状态点的x不单调,所以需要平衡树或者cdq分治<br>1500:区间Splay.<br>1502:Simpson积分.<br>1503:权值平衡树<br>1513:二维线段树<br>1529:答案是联通块个数,并查集或者Tarjan都可以.<br>1532:二分答案,最大流判定.<br>1543:同JSOI2008最小生成树计数.<br>1563:四边形不等式推出决策单调,二分决策点.<br>1568:李超线段树.<br>1588:权值平衡树.<br>1798:线段树双标记.但是我是拿LCT写的.<br>1800:暴力<br>1821:二分答案+并查集<br>1853:爆搜<br>1857:三分套三分.<br>1875:矩乘优化DP<br>1876:Python题,直接GCD<br>1877:拆点费用流<br>1878:离线处理+树状数组<br>1879:状压DP<br>1880:四遍最短路,然后DP一下<br>1898:可以发现每12次还是6次一个循环,然后对大范围矩乘一下,剩下的一点暴力DP出来.<br>1902:考虑p进制拆分,答案是拆分后每一位+1的乘积 证明好像是考虑Lucas定理的<br>也可以数位DP+组合数学,但是无论哪种做法都需要Python高精度<br>1907:树的最小路径覆盖,可以直接树DP/贪心<br>1922:分层图最短路<br>1923:高斯消元.<br>1924:强联通分量缩点最长路<br>1925:DP.需要用到一些抖动子序列的性质.<br>1941:kdtree最远点<br>1951:数论板子合集.<br>1968:枚举1~n统计n/i的和<br>1969:LCT维护两点间桥边数量,不知道当年标算是什么但应该不是LCT吧<br>1979:二分答案,用平衡树判定.<br>1984:链剖/LCT裸题.<br>1997:平面图判定.需要平面图理论.<br>2000:可以贪心的博弈问题.网上很多证明.<br>2001:可以LCT,也可以cdq,cdq的话需要很多最小生成树的性质.<br>2002:可以LCT,可以分块.<br>2003:特技爆搜.<br>2004:矩乘优化DP<br>2005:莫比乌斯反演<br>2006:线段树+堆维护五元组<br>2012:容斥+组合,同SDOI2013Spring<br>2013:DP+二分<br>2045:同POI2007Zap<br>2049:国内第一个LCT<br>2051:点分治<br>2054:并查集的特技<br>2056:嘿嘿嘿<br>2064:状压DP<br>2089:同2090.<br>2090:权值线段树优化一下DP.感觉这个DP好像并不一定对啊..但是大家好像都是这么写的.<br>2093:左右端点移动一下找到目标位置,然后倍增.<br>2096:单调队列搞一搞<br>2111:组合数搞一搞,需要Lucas<br>2117:同2051<br>2141:cdq分治<br>2151:堆+贪心<br>2154:莫比乌斯反演,有很多种公式化法,我的好像是比较傻逼的那种..<br>2157:LCT,随便打标记<br>2163:直接最小割过了,其实应该转对偶图然后最短路才对.<br>2186:考察线性的逆元求法.<br>2190:反演分析一下,最后却发现答案是个跟phi有关的表达式..<br>2213:DP乱搞一下.附核心代码</p>
+<p>for (int i=2;i&lt;=n;++i)   ch[i]=getchar(),maxn=max(maxn,ch[i]-‘a’);<br>    for (int i=1;i&lt;=n;++i)<br>    {<br>        int y=ch[i]-‘a’;<br>        for (int j=0;j&lt;=maxn;++j)<br>        {<br>            ++f[j][y];–f[y][j];<br>            if (!g[y][j])   g[y][j]=1;<br>            else    if (g[y][j]==2) –g[y][j],++f[y][j];<br>            if (f[y][j]&lt;0)   f[y][j]=-1,g[y][j]=2;<br>            if (g[y][j])    ans=max(ans,f[y][j]);<br>            if (g[j][y])    ans=max(ans,f[j][y]);<br>        }<br>    }<br>2216:显然权函数单调,满足四边形不等式,决策单调.<br>2222:似乎数据有问题还是什么?面向数据了一波.<br>2223:主席树<br>2229:GHTree<br>2241:暴力枚举答案然后检测,检测时候需要特技,感觉理论复杂度并不对但是过了<br>2243:链剖或者LCT,我写的链剖<br>2244:cdq分治做三维偏序的DP,答案实际上可能非常大会爆…但是出题人十分懒惰没管那样的数据,所以double就过了<br>2275:考虑斐波那契分解.有一个定理,然而并不会证明.<br>2280:倍增+最小圆覆盖,卡评测好题.<br>2288:线段树优化费用流,模拟费用的取反什么的.5倍经验.<br>2295:乱搞.附核心代码</p>
+<p>char ch[MAXN],tmp[20]={‘l’,’u’,’v’,’l’,’e’,’t’,’t’,’e’,’r’};<br>int main()<br>{<br>    for (scanf(“%d”,&amp;T),getchar();T;T–)<br>    {<br>        gets(ch+1);n=strlen(ch+1);ans=0;<br>        for (int i=1,j=0;i&lt;=n;i++)<br>        {<br>            j+=(ch[i]==tmp[j]);<br>            if (j&gt;=9)    j=0,ans++;<br>        }<br>        printf(“%d\n”,ans);<br>    }<br>}<br>2296:找到一个P=987654321*10^6,答案就是(P+n)-(P+n)mod n<br>2299:裴蜀定理<br>2300:平衡树维护凸包.因为求的是凸包周长,所以贡献不可累积,故不能分治.<br>2301:莫比乌斯反演.同POI2007Zap<br>2326:矩乘.<br>2336:模拟退火<br>2344:暴力找三元环.<br>2351:Hash<br>2377:同POI2012 A Horrible Poem<br>2378:PA2011Kangaroo kdtree 把序列[L,R]看成点(L,R) 然后查询的就是右下角的矩阵,打一些标记搞一搞.<br>2393:同SCOI2010幸运数字<br>2395:二维最小乘积生成树,裸.<br>2428:模拟退火<br>2433:计算几何.<br>2434:AC自动机+线段树.<br>2438:强连通分量.<br>2440:莫比乌斯函数的应用,实际上就是容斥.<br>2448:区间DP,线段树优化,卡普通线段树常数,需要zkw线段树.<br>2456:卡内存..乱搞<br>2458:分治,分治子结构内暴力+剪枝<br>2460:线性基<br>2461:乱DP一波<br>2462:同2351Hash<br>2463:根奇偶有关的博弈,一眼看出规律,证明可以考虑转化成骨牌铺满格子的问题.<br>2464:裸最短路<br>2467:矩阵树定理<br>2506:小范围直接记录答案,大范围暴力.<br>2514:同HNOI2010那个.<br>2527:整体二分.<br>2555: LCT维护SAM Parent树Right集合<br>2568:按位考虑的乱搞树状数组,大量逻辑混乱…<br>2588:找dfs序,树上建个主席树<br>2594:LCT<br>2595:斯坦纳树.<br>2600:贪心,找规律,中位数相关<br>2618:半平面交<br>2623:RGB识别系统的弱化.湖南当年请的教授出题真厉害..<br>2626:kdtree+堆<br>2631:LCT+双标记<br>2639:二维莫队.<br>2642:可以发现一次删一段连续的一定是最优的,所以二分一下删的长度,半平面交<br>2648:kdtree<br>2654:二分答案然后最小生成树<br>2656:Python题<br>2657:实际上就是让你找直径,没有三角剖分的姿势也没事<br>2659:直觉型数学题<br>2660:DP一下.<br>2661:费用流<br>2662:分层图最短路<br>2671:类似莫比乌斯反演,推一推式子就行了<br>2683:我写的cdq<br>2697:贪心<br>2705:莫比乌斯反演<br>2716:cdq分治<br>2717:奇怪的姿势枚举一发</p>
+<p>for (int i=1;i&lt;=(n&gt;&gt;1);i++)    for (int j=0;j&lt;n;j++)    printf(“%d %d %d\n”,j+1,(j+i)%n+1,(j+i+i)%n+1);<br>1<br>1<br>2718:同CTSC2008祭祀<br>2721:随便化一下式子<br>2724:分块<br>2729:组合数,需要Python<br>2732:二分答案半平面交判定<br>2733:平衡树启发式合并.<br>2738:整体二分,也可分块<br>2739:四边形不等式,然后发现决策单调,然后分治找决策点<br>2741:分块套可持久化trie<br>2751:根据题目找一个性质啥的..细节已忘<br>2753:本意是求最小树形图,实际上因为题目特殊所以可以BFS一遍然后做最小生成树<br>2754:AC自动机fail树+容斥,实际上暴力也过了.<br>2759:题目给的是个环套树,对LCT维护一个额外的father,然后扩欧求答案<br>2761:妈的智障..<br>2763:分层图最短路<br>2783:dfs时候维护一下set<br>2786:DP一下,需要Python<br>2789:还是考虑上个位置,然后树状数组乱搞一下<br>2795:hash,对一段数枚举约数然后判定<br>2796:记忆化搜索<br>2809:权值平衡树启发式合并,或者左偏树<br>2812:空数据,Python 2B<br>2813:斐波那契数性质的应用,线筛时候记录一下质因子,约数个数之类的<br>2814:人生写过最码农的题,可以LCT可以链剖,只不过都得维护30来个量<br>2815:支配树弱化版,倍增<br>2816:LCT<br>2818:同SDOI2012Longge的问题<br>2822:卡特兰数相关,需要Python<br>2823:最小圆覆盖<br>2824:好像是个A*,我面向数据了一波<br>2843:LCT<br>2850:kdtree<br>2851:灭绝树.<br>2862:二分limit,dp<br>2864:计算几何+最大流<br>2875:矩乘<br>2883:树套树,线段树套平衡树,但是我写的是线段树套权值线段树<br>2886:显然先从整个矩形的边界上走比较好,可以发现转一下就是杨辉三角,再然后就没别的了<br>2888:LCT维护树的重心,需要启发式合并<br>2890:同POI2012 A Horrible Poem<br>2896:同AHOI2005航线那题<br>2901:可以发现能用前缀和做..<br>2908:考虑建32位的信息维护,链剖或者LCT<br>2916:暴力<br>2936:灌水法,堆+爆搜<br>2937:写了个n^2暴力就能过<br>2946:SAM时刻记录匹配上的最大值<br>2957:线段树维护一段区间斜率<br>2961:圆的反演,然后就成了cdq分治做半平面交<br>2976:模拟一下得到一堆同余方程,扩欧找最小解<br>2986:把2440反过来,做法一样<br>2987:类欧裸题,然而还是不是很理解类欧<br>3038:记录区间最大值,如果还能开根,暴力下放,最多开根lglg次<br>3040:平板电视+Dij<br>3043:乱搞一发,附核心代码</p>
+<pre><code>in(n);for (int i=1;i&lt;=n;++i) in(a[i]);
+for (int i=n;i;--i) a[i]-=a[i-1],ans1+=(i&gt;1)*a[i]*(a[i]&gt;0),ans2+=(i&gt;1)*(-a[i])*(a[i]&lt;0);
+cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
+</code></pre><p>1<br>2<br>3<br>1<br>2<br>3<br>3051:平面图求域+点定位.<br>3052:莫队上树.<br>3053:高维kdtree<br>3064:线段树+标记+时间戳.<br>3069:LCT维护是否存在桥边,实际上可以并查集<br>3070:考虑固定指数,把底数慢慢往上调,比较难写,于是我当时面向数据了一发<br>3072:神DP.建议看Claris题解.<br>3073:线段树优化建图最短路<br>3084:扩展KMP.建议看Claris题解<br>3098:生日攻击.<br>3100:根前面那个什么 玩具 是一样的.<br>3103:跑一边马拉车,然后并查集缩点一下,就成了弦图染色问题.<br>3110:整体二分<br>3117:链表+堆搞了一下,看似不科学实际上飞快<br>3130:显然费用的分配是可以贪心的.然后二分.<br>3132:二维树状数组<br>3153:TopTree/ETT+LCT 然而出题人的做法不是这两个…<br>3155:树状数组乱搞一下<br>3170:链剖<br>3172:建出多串后缀自动机,直接搞<br>3176:显然要考虑逆序对什么的,然后还需要树状数组,附核心代码</p>
+<p> for (int i=1,last;i&lt;=n;i=last+1)<br>    {<br>        for (last=i+1;a[last-1]&gt;a[last]&amp;&amp;last&lt;=n;last++);last–;<br>        for (ans++,l=i,r=last;l&lt;r;swap(a[l++],a[r–]));<br>    }<br>    for (int i=n;i;i–) ans+=query(a[i]),add(a[i]);<br>    cout&lt;&lt;ans&lt;&lt;endl;<br>3178:循环构成了一个树形结构,然后就可以DP了<br>3180:单调栈乱搞 需要SPJ 但是我好像恰巧跟std策略相同,直接A了<br>3181:大质数暴力,小的二分乱搞一下<br>3196:树套树<br>3197:树Hash+乱搞<br>3198:容斥+组合<br>3199:显然图是个V图,半平面交弄出来,然后最短路<br>3203:计算几何,答案在凸壳上,三分一下<br>3209:数位DP+数论<br>3211:同 上帝造题七分钟2<br>3223:区间Splay裸题.<br>3224:权值平衡树<br>3226:把区间拆成两倍来处理开闭问题,然后线段树就行了,可以看成区间加减01,区间覆盖01的问题<br>3228:把整个坐标系旋转45°,然后就成了扫描线sb题,问题在于统计的不是面积而是格子…所以细节非常麻烦<br>3229:满足四边形不等式然后DP就好了<br>3231:矩乘<br>3236:莫队/树套树/cdq分治.<br>3237:我写的cdq分治,实际上也有别的做法<br>3238:后缀自动机Parent树上DP一下<br>3243:基于随机化的乱搞<br>3251:注意到fib数没多少项就爆int了,所以暴力<br>3252:dfs序,然后变成了rmq问题,写个线段树<br>3260:同2886<br>3262:cdq分治维护三维偏序<br>3267:同2288.<br>3268:ST表搞一搞.source里都给写了题解了..<br>3272:同3267<br>3277:SAM基本应用<br>3282:LCT<br>3283:BSGS.<br>3295:cdq分治.注意每次修改会产生更多额外的贡献要单独减去的<br>3309:莫比乌斯反演<br>3323:序列平衡树维护多项式<br>3329:把两问分别考虑,一个数位DP一个矩乘<br>3339:跟SDOI2008HH的项链方法差不多,也是离线然后考虑找到前驱后继线段树做<br>3350:同3103<br>3417:对一个环可以重复走多次每次长度都是+2的,所以第一次BFS看看路径长奇偶就行了.<br>3424:跟dfs序有关.有波兰人论文.<br>3439:建trie,对trie dfs一遍,同时建立主席树<br>3463:分块维护凸壳<br>3473:同3277<br>3482:SPFA预处理含x条边的情况然后做.建议看Claris题解.<br>3483:建trie,可以发现询问能跟trie的dfs序对应起来,所以再建一棵主席树.<br>3489:我写的3d kdtree<br>3493:同HNOI2010那个<br>3495:考虑2-SAT建图.安利Claris题解.<br>3498:枚举三元环,我拿度数倍数判的实际上应该是根号度数..<br>3500:OEIS有数列<br>3501:把3501加点数论特技,CRT什么的..<br>3502:同3272<br>3505:组合数一下<br>3514:LCT.记录下某条边被加入成环,主席树统计答案.<br>3522:树DP.可以O(n)特技.<br>3524:主席树<br>3527:FFT<br>3529:莫比乌斯反演+树状数组<br>3530:AC自动机+数位DP<br>3531:动态开点的LCT/链剖线段树<br>3532:退流科技.<br>3533:线段树维护凸包<br>3534:构建一个合理的矩阵然后矩阵树定理,这个矩阵的构建需要十分高超的概率姿势,建议看高大哥的题解<br>3543:有定理好像是这样的正方形不超过根号个还是什么来着..忘掉了.反正是结论题<br>3544:搞个set就好了<br>3545:本题不强制在线,标算为平衡树启发式合并<br>3551:对3545强制在线后,我们需要主席树+倍增搞一发<br>3555:hash<br>3566:树形概率DP<br>3571:最小乘积生成树+KM.<br>3572:虚树.<br>3573:考虑对树DFS,做一个对数的转化<br>3575:不靠谱的暴力做法..加上堆维护一下<br>3585:又是考虑离线记前驱后继然后线段树的题<br>3589:实际上是虚树.用链剖线段树随便打了打标记.然而标算应该是LCT做链的并吧.<br>3594:线段树优化DP<br>3603:分块高斯消元.<br>3605:分治FFT.<br>3606:平面图求域+点定位.<br>3607:最长路剖分一下,再轻重路剖分一下,安利Claris题解.<br>3613:贪心/找规律.<br>3616:kdtree+bitset<br>3622:厉害的组合数+DP.<br>3629:有一个什么分解定理来着…<br>3638:同3502<br>3643:爆搜<br>3647:hash一下,好像也是个双倍经验<br>3651:对ZJOI2012网络去掉权值的维护<br>3658:单调栈+树状数组<br>3659:矩阵树定理+BestTheorem<br>3667:MillerRabin+PollarRho<br>3668:按位贪心<br>3669:LCT<br>3672:点分治+斜率优化+cdq分治.<br>3673/3674:rope的应用.<br>3675:满足四边形不等式,有决策单调<br>3676:PAM裸题,但是我写的SAM+manacher<br>3680:模拟退火/多重爬山<br>3585:VEB树.<br>3687:bitset应用<br>3688:线段树优化DP<br>3709:贪心.肯定先打能回血的.<br>3710:构造神题.波兰人有论文.<br>3711:分治优化DP,分治过程中用线段树找决策点,决策点单调.<br>3712:树上倍增.<br>3713:暴力拆分.<br>3714:前缀和Prim.<br>3715:找找最大边界值,随便判定一下..<br>3716:最小割转最大流,然后贪心,需要一定坐标变换.<br>3717:高姿势的状压DP.<br>3718:只要能卡住就行了,树状数组.<br>3719:线段树套个vector扫描线扫一扫.<br>3721:随便贪心,考虑奇换偶偶换奇.<br>3722:树形DP.<br>3725:扫一遍,扫的时候记录出现位置,更新答案.<br>3726:悬线法.<br>3727:稍微推一推公式,然后就发现代价可以根据size什么的树形DP了.<br>3728:堆贪心.<br>3732:跟某NOIP货车运输一样.<br>3733:爆搜+信仰剪枝.安利潇爷(Time-Machine)题解<br>3735:堆搞一搞<br>3737:跟phi的反函数一个做法.<br>3743:显然可以直接树形DP.<br>3745:分治,前缀和,单调栈.<br>3754:很好的乱搞题.可以考虑看成是一堆点,然后中间有一条水平直线算代价.<br>3767:Python题.<br>3779:LCT+dfs序线段树<br>3791:可以比较容易的DP出来.<br>3802:预处理转移的DP.也可以直接手动分类讨论出来,只要你不嫌手累代码长难调.<br>3810:记忆化搜索<br>3811:这个期望和概率题好神啊..建议直接上网看题解<br>3812:状压DP,需要一些奇怪姿势.<br>3815:kdtree.<br>3816:空数据 Python 2B<br>3817:类欧题,类欧前需要很多变形.<br>3831:挺sb的一个DP.<br>3834:莫比乌斯反演.<br>3837:线筛处理一些东西,然后DP.<br>3838:看成线段树维护括号序列,然后就发现需要维护的东西特别多还不止一棵线段树.<br>3839:考虑从某个点开始向四个方向扩展的凸包,预处理,然后对询问用线段树扫描线一下.<br>3884:高姿势的数论题.<br>3895:dfs,过程中需要很多情况的讨论,建议看Po姐题解.<br>3915:矩形剖分.<br>3916:枚举删除的位置,Hash.<br>3917:考虑爆搜各种剪枝,每次范围都是之前的十分之一.<br>3922:搞一堆线段树分别对应不同公差,大公差暴力,小的线段树.<br>3926:trie上SAM扩展裸题.因为度数少,所以暴力合并.<br>3928:区间DP一下.<br>3944:杜教筛裸题.<br>3950:同3607.<br>3984:按时间分治,维护删除时间最大的基.<br>3990:操作序列的顺序并不影响答案,根据这个性质所以搜.<br>3991:虚树.<br>3993:二分费用最大流判定.<br>3994:比较厉害的莫比乌斯反演,需要一个性质.安利高大哥题解.<br>3995:线段树维护两排点,分类讨论.<br>3998:SAM的应用.<br>4001:找规律.实际上要靠生成函数来推..<br>4010:拓扑.<br>4020:手写编译器.<br>4025:LCT,或者cdq分治.<br>4027:贪心.<br>4029:模拟.<br>4031:矩阵树定理.<br>4032:前两问直接DP,后两问SAM上DP.<br>4033:看似n^3,实际上n^2的树DP.<br>4034:链剖,<br>4036:子集和变换.<br>4043:同3802.<br>4048:同3928.<br>4052:发现gcd最多有log个,单调栈一下.<br>4057:状压DP.<br>4059:奇怪的暴力.<br>4062:同3658.<br>4063:智障啊..<br>4066:卡掉离线算法差评不已.kdtree<br>4068:维护套着堆的线段树就行了,每次考虑用后来的任务替换一下前面的任务.<br>4084:Hash<br>4085:线段树维护矩乘.据说考场卡常?矩阵可以从3<em>3优化到2</em>2.<br>4086:组合数容斥.<br>4088:大模拟.<br>4106:WF签到题.<br>4127:数一直加的,已经没有负数的就不用管了,其他的可以暴力下放.<br>4128:矩阵BSGS,矩阵求逆或者不求逆的BSGS.<br>4130:kdtree.上面写过这个题了..<br>4140:因为强制在线了,所以要二进制分组<br>4143:乱搞,暴力,没技术含量.<br>4144:最短路+最小生成树.<br>4145:状压DP.<br>4146:写个计数器.sb题<br>4147:又一个根据很多情况来讨论的博弈.看Claris题解把<br>4148:构造.算基础构造题了.<br>4149:考虑单调栈搞一搞.<br>4151:一个非常厉害的.最短路?安利Claris题解<br>4152:把点排个序,构个图,最短路.<br>4154:可以kdtree,要是不只是子树的话,点分就好了.<br>4160:这题好神啊.安利Claris题解.<br>4180:构建出SAM,然后可以矩乘<br>4184:按时间分治线段树维护一下线性基<br>4194:k做一下前缀和就可以看成是凸壳,然后二分一下斜率什么的.<br>4195:并查集<br>4196:链剖<br>4198:Huffman树+贪心<br>4199:SAM Parent树上DP<br>4209:把PA的Bazarek用主席树来做动态的<br>4212:同3483,但是卡trie转移边内存.<br>4216:分块,也卡内存.<br>4229:同PA2011HardChoice<br>4236:随便统计一下三个字母数目更新下答案就行了.<br>4245:按位贪心<br>4247:背包变形<br>4250,4251前面都出现过了<br>4253:把AHOI那个密码箱找质因子的过程来弄成PollardRho<br>4260:trie正着一遍倒着一遍DP,但是我写的可持久化trie,差点T飞<br>4262:考虑询问离线,然后用线段树搞一搞,安利Claris题解.<br>4263:某TCSRM题改编,结论题,贪心一下.<br>4264:边集Hash.<br>4266:同 一个动态树好题<br>4269:线性基<br>4288:跟Baltic2014sequence一样<br>4289:转一下建图,差分建图,,然后最短路<br>4291:跟Bazarek一样<br>4292:按位暴力<br>4293:大小关系是始终不变的,所以排序后可以在线段树上二分.<br>4294:斐波那契数列模10^m有循环节,利用这个,然后搜<br>4296:好像是考虑贪心的删?忘了..<br>4297:神题.安利Claris题解.<br>4298:比较厉害的边集Hash.<br>4299:主席树.可以发现那个东西的一个性质.这个性质如果说出来就没意思了..<br>4300:builtin大法好啊..<br>4305:组合+容斥<br>4310:二分+后缀数组判定/hash判定<br>4311:按时间分治的线段树,答案在凸壳三分<br>4312:大型分类讨论<br>4316:仙人掌DP<br>4317:同2051<br>4318:同Easy那题<br>4319:简单的构造<br>4320:小范围记录答案,大范围暴力 的那种题目<br>4327:SAM直接跑<br>4337:树Hash<br>4347:比较厉害的DP.安利Claris题解.<br>4352:又是个双倍经验..同 A Huge Tower<br>4358:考虑kdtree,序列[L,R]当成(L,R)这样子<br>4364:线段树乱搞..乱更新一下<br>4367:搞出暴力DP之后,满足四边形不等式,所以决策单调,然后分治优化,主席树找决策<br>4373:对区间是否符合条件有一个有关gcd的判定,然后线段树就行了.也可以Hash区间和,区间平方和,立方和.<br>4378:特技差分然后树状数组.<br>4380:区间DP.<br>4401:枚举约数.<br>4403:组合数学.<br>4404:按位搜.<br>4407:莫比乌斯反演<br>4408:同FRBSUM<br>4414:利用一点斐波那契数列的性质做,可以找规律.<br>4415:线段树模拟<br>4418:线段树.<br>4419:暴力<br>4421:智障..<br>4423:考虑对偶图中两点连通性与原图中两点连通性关系,然后并查集维护对偶图的连通性.<br>4424:nlogn可以差分树剖或者LCT,O(n)就利用一些特技乱搞一下.<br>4425:搞个堆<br>4426:满足四边形不等式,分治优化下DP<br>4427:计算几何+二分图判定<br>4428:一点特殊的记忆化搜索姿势然后杜教筛<br>4429:二分图最大匹配<br>4430:树状数组找一下逆序对什么的<br>4432:链表大模拟<br>4434:坐标范围很小,考虑分成一小段一小段然后做<br>4435:割流转化,然后最小割树<br>4437:BFS预处理,然后对每个询问三分<br>4438:忘掉了QAQ<br>4439:最小割<br>4444:DP了一下.好像是n倍经验<br>4452:离线,并查集<br>4453:高端的姿势!请单独看我题解<br>4454:O(1)gcd黑科技<br>4455:一点状压<br>4456:分治+Dij<br>4458:超级钢琴上树<br>4465:第二类strling数变形<br>4471:矩乘+贪心模拟<br>4472:树形DP一下<br>4475:找规律<br>4488:同cerc2013 Magical Gcd<br>4490:同4471<br>4500:差分约束<br>4503:FFT<br>4505:考虑只找那个字符串的一半,暴力枚举星号状态,然后匹配<br>4513:数位DP<br>4514:费用流一直跑,跑到变负数<br>4515:李超线段树<br>4516:SAM裸题<br>4517:直接错排,但是建议写容斥<br>4518:斜率优化,实际上也可以直接四边形不等式然后分治<br>4519:GHtree<br>4520:kdtree,姿势同jzpfar<br>4521:数位DP一下<br>4522:按他的要求做就行了..写Pollardrho,然后扩欧什么的..<br>4523:可持久化trie,时刻维护单调栈匹配的最大长度<br>4524:打表+堆然后搜的..<br>4527:这题好神..但是也属于那种单调栈+线段树搞一搞的题目.安利Claris题解<br>4538:链剖线段树+kdtree<br>4540:同4262<br>4543:提供nlogn 点分治 O(n) 利用启发式思想的树形DP<br>4544:打表观察找到一个积性函数.<br>4545:SAM强行上trie..实际上还是2555<br>4548:同4062<br>4551:并查集<br>4552:二分答案,线段树<br>4553:发现成立条件跟a[i],minb[i],maxb[i]有关.实际上是个三维偏序,可以kdtree可以cdq分治.<br>4554:拆点,二分图最大匹配<br>4556:SAM+dfs序+主席树<br>4557:树形DP一下<br>4558:容斥.需要很多细节讨论<br>4562:拓扑<br>4263:直接上错排<br>4565:状压DP.<br>4566:建两个SAM,考虑下合并代价什么的就行了<br>4568:点分治/倍增+线性基(Claris的点分治模板就是快)<br>4569:ST表+并查集<br>4598:可以考虑nlogn的点分治,这是doc老师给的标算,同时还有一种O(n)的做法.基于以前的暴力LCA的DP,考虑使用上启发式思想,可以做出一个漂亮的O(n)DP,基本同 4543Hotel加强版 这个题一样.<br>4599:首先可以看出回文串的贡献都是可以单独考虑的,然后其他的串可以考虑行列拆点最小割.具体建图已忘.<br>4600:考虑按C分类,然后状压DP.<br>4601:比较重要的两个性质:1.路径只有两种可能,分别是两种绕法,因为我没法贴图片,所以留给大家自行思考.想到这两种绕法之后,还有一个性质,就是选出一行/列,考虑这一行/列的插头状况,发现只有一个插头是非空的(当然这并不意味着要让你写一个插头DP,只是这个性质是比较有用的.<br>有了这两个性质就可以独立考虑做法了.<br>4602:带权并查集,或者直接dfs(因为无向图DFS树只有返祖边没有横向边).为了解决分数特别大的问题,考虑记录质因子或者取log(会被卡精度).<br>4603:正四面体剖分,然后搞一搞.</p>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>BZOJ</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -935,9 +688,6 @@ cout&lt;&lt;max(ans1,ans2)&lt;&lt;endl&lt;&lt;abs(ans1-ans2)+1&lt;&lt;endl;
 <p>　　本文首先介绍了互联网界与机器学习大牛结合的趋势，以及使用机器学习的相关应用，接着以一个“等人故事”展开对机器学习的介绍。介绍中首先是机器学习的概念与定义，然后是机器学习的相关学科，机器学习中包含的各类学习算法，接着介绍机器学习与大数据的关系，机器学习的新子类深度学习，最后探讨了一下机器学习与人工智能发展的联系以及机器学习与潜意识的关联。经过本文的介绍，相信大家对机器学习技术有一定的了解，例如机器学习是什么，它的内核思想是什么(即统计和归纳)，通过了解机器学习与人类思考的近似联系可以知晓机器学习为什么具有智慧能力的原因等等。其次，本文漫谈了机器学习与外延学科的关系，机器学习与大数据相互促进相得益彰的联系，机器学习界最新的深度学习的迅猛发展，以及对于人类基于机器学习开发智能机器人的一种展望与思考，最后作者简单谈了一点关于让计算机拥有潜意识的设想。<br>　　机器学习是目前业界最为Amazing与火热的一项技术，从网上的每一次淘宝的购买东西，到自动驾驶汽车技术，以及网络攻击抵御系统等等，都有机器学习的因子在内，同时机器学习也是最有可能使人类完成AI dream的一项技术，各种人工智能目前的应用，如微软小冰聊天机器人，到计算机视觉技术的进步，都有机器学习努力的成分。作为一名当代的计算机领域的开发或管理人员，以及身处这个世界，使用者IT技术带来便利的人们，最好都应该了解一些机器学习的相关知识与概念，因为这可以帮你更好的理解为你带来莫大便利技术的背后原理，以及让你更好的理解当代科技的进程。<br><strong>10.后记</strong><br>　　这篇文档花了作者两个月的时间，终于在2014年的最后一天的前一天基本完成。通过这篇文章，作者希望对机器学习在国内的普及做一点贡献，同时也是作者本人自己对于所学机器学习知识的一个融汇贯通，整体归纳的提高过程。作者把这么多的知识经过自己的大脑思考，训练出了一个模型，形成了这篇文档，可以说这也是一种机器学习的过程吧(笑)。</p>
 <p>　　作者所在的行业会接触到大量的数据，因此对于数据的处理和分析是平常非常重要的工作，机器学习课程的思想和理念对于作者日常的工作指引作用极大，几乎导致了作者对于数据价值的重新认识。想想半年前，作者还对机器学习似懂非懂，如今也可以算是一个机器学习的Expert了(笑)。但作者始终认为，机器学习的真正应用不是通过概念或者思想的方式，而是通过实践。只有当把机器学习技术真正应用时，才可算是对机器学习的理解进入了一个层次。正所谓再“阳春白雪”的技术，也必须落到“下里巴人”的场景下运用。目前有一种风气，国内外研究机器学习的某些学者，有一种高贵的逼格，认为自己的研究是普通人无法理解的，但是这样的理念是根本错误的，没有在真正实际的地方发挥作用，凭什么证明你的研究有所价值呢？作者认为必须将高大上的技术用在改变普通人的生活上，才能发挥其根本的价值。一些简单的场景，恰恰是实践机器学习技术的最好地方。 </p>
 <p>*　　对EasyPR做下说明：EasyPR，一个开源的中文车牌识别系统，代码托管在github。其次，在前面的博客文章中，包含EasyPR至今的开发文档与介绍。在后续的文章中，作者会介绍EasyPR中基于机器学习技术SVM的应用即车牌判别模块的核心内容，欢迎继续阅读。</p>
-<blockquote>
-<p>参考资料<br><a href="http://www.cnblogs.com/subconscious/p/4107357.html" target="_blank" rel="noopener">从机器学习谈起</a></p>
-</blockquote>
 ]]></content>
       <categories>
         <category>note</category>
